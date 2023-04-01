@@ -4,7 +4,7 @@ W innej galaktyce podróże międzyplanetarne odbywają się poprzez skorzystani
 
 - Jest N psychotechników, każdy z nich losowo otrzymuje zgłoszenia pojawienia się losowej liczby pasażerów (max. M) albo kuriera.
  
-  - Podprzestrzeń naraz może pomieścić P osób, P >N, P < M*N
+- Podprzestrzeń naraz może pomieścić P osób, P >N, P < M*N
     
 - Kurier zajmuje tyle miejsca, co jedna osoba
 
