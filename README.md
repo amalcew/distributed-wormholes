@@ -15,3 +15,5 @@ W innej galaktyce podróże międzyplanetarne odbywają się poprzez skorzystani
 Należy zapewnić, by żaden rodzaj (np. kurierów) nie zmonopolizował podprzestrzeni, a więc by każde zgłoszenie do psychotechnika zostało ostatecznie obsłużone. Kurierzy zjawiają się rzadziej niż pasażerowie.
 
 ![](./concept.png) 
+
+Opis algorytmu, według którego został zrealizowany projekt, znajduje się w pliku algorytm.pdf
