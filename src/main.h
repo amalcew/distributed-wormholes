@@ -1,5 +1,6 @@
 #ifndef MAINH
 #define MAINH
+
 #include <mpi.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -54,7 +55,7 @@ extern pthread_mutex_t clockMut;
 #endif
 
 // makro println - to samo co debug, ale wyświetla się zawsze
-#define println(FORMAT,...) printf("%c[%d;%dm [%d, %d]: " FORMAT "%c[%d;%dm\n",  27, (1+(rank/7))%2, 31+(6+rank)%7, rank, lamportClock, ##__VA_ARGS__, 27,0,37);
+#define println(FORMAT, ...) printf("%c[%d;%dm [%d, %d]: " FORMAT "%c[%d;%dm\n",  27, (1+(rank/7))%2, 31+(6+rank)%7, rank, lamportClock, ##__VA_ARGS__, 27,0,37);
 
 
 #endif
