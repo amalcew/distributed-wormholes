@@ -10,17 +10,19 @@ void *startKomWatek(void *ptr) {
     /* Obrazuje pętlę odbierającą pakiety o różnych typach */
     while (stan != InFinish) { debug("czekam na recv");
         MPI_Recv(&pakiet, 1, MPI_PAKIET_T, MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &status);
-        pthread_mutex_lock(&clockMut);
-        if (pakiet.ts > lamportClock) {
-            lamportClock = pakiet.ts;
-        }
-        lamportClock++;
-        pthread_mutex_unlock(&clockMut);
         switch (status.MPI_TAG) {
             case REQUEST:debug("Ktoś coś prosi. A niech ma!")
                 sendPacket(0, status.MPI_SOURCE, ACK);
                 break;
             case ACK:debug("Dostałem ACK od %d, mam już %d", status.MPI_SOURCE, ackCount);
+                // zaktualizuj zegar, gdy dostaniesz ACK
+                pthread_mutex_lock(&clockMut);
+                if (pakiet.ts > lamportClock) {
+                    lamportClock = pakiet.ts;
+                }
+                lamportClock++;
+                pthread_mutex_unlock(&clockMut);
+
                 pthread_mutex_lock(&mut);
                 ackCount++; /* czy potrzeba tutaj muteksa? Będzie wyścig, czy nie będzie? Zastanówcie się. */
                 pthread_mutex_unlock(&mut);

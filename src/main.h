@@ -24,6 +24,13 @@ extern int rank;
 extern int size;
 extern int lamportClock;
 extern int ackCount;
+// -- zmienne psychotechników ------------------------------------------------------------------------------------------
+extern int maxCapacity;           // maksymalna dozwolona liczba osób przebywających w podprzestrzeni
+extern int tripSize;              // wylosowana wielkość aktualnej wycieczki
+extern int currentCount;          // aktualna ilość osób znajdujących się w podprzestrzeni
+extern int courierPercThreshold;  // próg szansy pojawienia się kuriera
+extern int payload;               // 1 - courier, 0 - trip, tryb przewozu, zwykła wycieczka czy uprzywilejowany kurier
+// ---------------------------------------------------------------------------------------------------------------------
 extern pthread_t threadKom;
 extern pthread_mutex_t clockMut;
 

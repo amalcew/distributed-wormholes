@@ -5,21 +5,47 @@ void mainLoop() {
     srandom(rank);
     int tag;
     int perc;
+    int courier;
 
     while (stan != InFinish) {
         switch (stan) {
             case InRun:
                 perc = random() % 100;
+                courier = random() % 100;
+
                 if (perc < 25) { debug("Perc: %d", perc);
                     println("Ubiegam się o sekcję krytyczną")debug("Zmieniam stan na wysyłanie");
                     packet_t *pkt = malloc(sizeof(packet_t));
-                    pkt->data = perc;
+
                     ackCount = 0;
-                    for (int i = 0; i <= size - 1; i++)
-                        if (i != rank)
-                            sendPacket(pkt, i, REQUEST);
-                    changeState(InWant);
-                    free(pkt);
+                    if (courier > courierPercThreshold) {
+                        // kurier
+                        println("Przybył do mnie kurier");
+                        payload = 1;  // ustaw payload na 'kuriera'
+                        tripSize = 1;  // ustaw
+                        /*
+                         * TODO: rozpisać algorytm obsługi kurierów
+                         */
+                    } else {
+                        // zwykła wycieczka
+                        println("Przygotowuję się do przyjęcia wycieczki");
+                        payload = 0;  // ustaw payload na 'zwykłą wycieczkę'
+                        tripSize = random() % (maxCapacity / 2);  // wylosuj wielkość wycieczki
+                        // zapisz dane do struktury pakietu
+                        pkt->tripSize = tripSize;
+                        pkt->payload = payload;
+                        currentCount = NULL;
+                        // sprawdź, czy możesz wsadzić wycieczkę do podprzestrzeni
+                        if (currentCount < maxCapacity - tripSize) {  // TODO: na razie nie działa, nie mamy current counta
+                            for (int i = 0; i <= size - 1; i++)
+                                if (i != rank)
+                                    sendPacket(pkt, i, REQUEST);
+                            changeState(InWant);
+                            free(pkt);
+                        } else {
+                            break;
+                        }
+                    }
                 }
                 debug("Skończyłem myśleć");
                 break;
@@ -28,11 +54,12 @@ void mainLoop() {
                 // tutaj zapewne jakiś semafor albo zmienna warunkowa
                 // bo aktywne czekanie jest BUE
                 if (ackCount == size - 1)
+                    // TODO: wykonać porównanie priorytetów procesów
                     changeState(InSection);
                 break;
             case InSection:
                 // tutaj zapewne jakiś muteks albo zmienna warunkowa
-                println("Jestem w sekcji krytycznej")
+                println("Przechodzę przez podprzestrzeń!")
                 sleep(5);
                 //if ( perc < 25 ) {
                 debug("Perc: %d", perc);

@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 int main() {
-    int rank = 1;
-    srandom(rank);
-    printf("%d\n", srandom(rank));
+    int rank = random() % 100;
+
+    printf("%d\n", rank);
     return 0;
 }
