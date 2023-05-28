@@ -68,20 +68,8 @@ int main(int argc, char **argv) {
     inicjuj_typ_pakietu(); // tworzy typ pakietu
     MPI_Comm_size(MPI_COMM_WORLD, &size);
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
-    /* startKomWatek w watek_komunikacyjny.c 
-     * w vi najedź kursorem na nazwę pliku i wciśnij klawisze gf
-     * powrót po wciśnięciu ctrl+6
-     * */
     pthread_create(&threadKom, NULL, startKomWatek, 0);
-
-    /* mainLoop w watek_glowny.c 
-     * w vi najedź kursorem na nazwę pliku i wciśnij klawisze gf
-     * powrót po wciśnięciu ctrl+6
-     * */
-    mainLoop(); // możesz także wcisnąć ctrl-] na nazwie funkcji
-    // działa, bo używamy ctags (zob Makefile)
-    // jak nie działa, wpisz set tags=./tags :)
-
+    mainLoop();
     finalizuj();
     return 0;
 }
