@@ -28,6 +28,9 @@ void mainLoop() {
                         tripSize = 1;  // ustaw
                         /*
                          * TODO: rozpisać algorytm obsługi kurierów
+                         * nope! my na kuriera nie reagujemy w specjalny sposób, zawsze dajemy mu ack na normalnych zasadach
+                         * jeśli to my jesteśmy kurierem, to przed wejściem do podprzestrzeni musimy sprawdzić, czy nie ma w niej
+                         * żadnej wycieczki (np. iterując się po tablicy trips?)
                          */
                     } else {
                         // zwykła wycieczka
@@ -58,7 +61,7 @@ void mainLoop() {
                 // bo aktywne czekanie jest BUE
                 if (ackCount == size - 1)
                     // TODO: wykonać porównanie priorytetów procesów
-//                   TODO: jakie porónanie procesów? hmmm tu chyba musielibyśmy po prostu poczekać, aż będziemy mieć wszystkie ack i tyle?
+//                   jakie porónanie procesów? hmmm tu chyba musielibyśmy po prostu poczekać, aż będziemy mieć wszystkie ack i tyle?
                     changeState(InSection);
                 break;
             case InSection:
@@ -67,15 +70,26 @@ void mainLoop() {
                 sleep(5);
                 //if ( perc < 25 ) {
                 debug("Perc: %d", perc);
-//                TODO: przeiterować się po tablicy trips i jeśli nie ma żadnego ze statusem ACK i wyższym priorytetem niż my, to możemy iść
-                println("Wychodzę z sekcji krytycznej")debug("Zmieniam stan na wysyłanie");
-                packet_t *pkt = malloc(sizeof(packet_t));
-                pkt->data = perc;
-                for (int i = 0; i <= size - 1; i++)
-                    if (i != rank)
-                        sendPacket(pkt, (rank + 1) % size, RELEASE);
-                changeState(InRun);
-                free(pkt);
+//              przeiterować się po tablicy trips i jeśli nie ma żadnego ze statusem ACK i wyższym priorytetem niż my, to możemy iść
+//              TODO: chciałabym po dostaniu RELEASE dawać trips[i] na null, ale nie mogę znaleźć obsługi odbioru release
+                bool canGo = true;
+                for (int i=0; i<sizeof(trips); i++){
+                    if (trips[i] != NULL && trips[i].ts > lamportClock){
+                        canGo = false;
+                        break;
+                    }
+                }
+                if (canGo == true) {
+                    println("Wychodzę z sekcji krytycznej")
+                    debug("Zmieniam stan na wysyłanie");
+                    packet_t *pkt = malloc(sizeof(packet_t));
+                    pkt->data = perc;
+                    for (int i = 0; i <= size - 1; i++)
+                        if (i != rank)
+                            sendPacket(pkt, (rank + 1) % size, RELEASE);
+                    changeState(InRun);
+                    free(pkt);
+                }
                 //}
                 break;
             default:
