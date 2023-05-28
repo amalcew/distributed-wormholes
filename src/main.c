@@ -16,6 +16,9 @@ int ackCount = 0;
 int lamportClock = 0;
 int maxCapacity = 100;
 int courierPercThreshold = 90;
+int currentCount = 0;
+int maxTripCount = 10;
+
 /* 
  * Każdy proces ma dwa wątki - główny i komunikacyjny
  * w plikach, odpowiednio, watek_glowny.c oraz (siurpryza) watek_komunikacyjny.c

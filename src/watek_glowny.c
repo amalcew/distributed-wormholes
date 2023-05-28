@@ -1,11 +1,14 @@
 #include "main.h"
 #include "watek_glowny.h"
+#include "util.h"
 
 void mainLoop() {
     srandom(rank);
     int tag;
     int perc;
     int courier;
+    packet_t trips[maxTripCount];
+
 
     while (stan != InFinish) {
         switch (stan) {
@@ -34,9 +37,9 @@ void mainLoop() {
                         // zapisz dane do struktury pakietu
                         pkt->tripSize = tripSize;
                         pkt->payload = payload;
-                        currentCount = NULL;
+//                        currentCount = NULL;
                         // sprawdź, czy możesz wsadzić wycieczkę do podprzestrzeni
-                        if (currentCount < maxCapacity - tripSize) {  // TODO: na razie nie działa, nie mamy current counta
+                        if (currentCount < maxCapacity - tripSize) {
                             for (int i = 0; i <= size - 1; i++)
                                 if (i != rank)
                                     sendPacket(pkt, i, REQUEST);
@@ -55,6 +58,7 @@ void mainLoop() {
                 // bo aktywne czekanie jest BUE
                 if (ackCount == size - 1)
                     // TODO: wykonać porównanie priorytetów procesów
+//                   TODO: jakie porónanie procesów? hmmm tu chyba musielibyśmy po prostu poczekać, aż będziemy mieć wszystkie ack i tyle?
                     changeState(InSection);
                 break;
             case InSection:
@@ -63,6 +67,7 @@ void mainLoop() {
                 sleep(5);
                 //if ( perc < 25 ) {
                 debug("Perc: %d", perc);
+//                TODO: przeiterować się po tablicy trips i jeśli nie ma żadnego ze statusem ACK i wyższym priorytetem niż my, to możemy iść
                 println("Wychodzę z sekcji krytycznej")debug("Zmieniam stan na wysyłanie");
                 packet_t *pkt = malloc(sizeof(packet_t));
                 pkt->data = perc;

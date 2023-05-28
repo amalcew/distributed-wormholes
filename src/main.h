@@ -24,6 +24,7 @@ extern int rank;
 extern int size;
 extern int lamportClock;
 extern int ackCount;
+extern int maxTripCount; //maksymalna liczba wycieczek (i kurierów rozumianych jako 1-osobowa wycieczka)
 // -- zmienne psychotechników ------------------------------------------------------------------------------------------
 extern int maxCapacity;           // maksymalna dozwolona liczba osób przebywających w podprzestrzeni
 extern int tripSize;              // wylosowana wielkość aktualnej wycieczki
