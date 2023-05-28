@@ -17,6 +17,7 @@
 #define STATE_CHANGE_PROB 10
 
 #define ROOT 0
+#define DEBUG
 
 /* tutaj TYLKO zapowiedzi - definicje w main.c */
 extern int rank;

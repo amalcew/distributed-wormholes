@@ -6,6 +6,7 @@ void *startKomWatek(void *ptr) {
     MPI_Status status;
     int is_message = FALSE;
     packet_t pakiet;
+    pthread_mutex_t mut = PTHREAD_MUTEX_INITIALIZER;
     /* Obrazuje pętlę odbierającą pakiety o różnych typach */
     while (stan != InFinish) { debug("czekam na recv");
         MPI_Recv(&pakiet, 1, MPI_PAKIET_T, MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &status);
@@ -20,7 +21,9 @@ void *startKomWatek(void *ptr) {
                 sendPacket(0, status.MPI_SOURCE, ACK);
                 break;
             case ACK:debug("Dostałem ACK od %d, mam już %d", status.MPI_SOURCE, ackCount);
+                pthread_mutex_lock(&mut);
                 ackCount++; /* czy potrzeba tutaj muteksa? Będzie wyścig, czy nie będzie? Zastanówcie się. */
+                pthread_mutex_unlock(&mut);
                 break;
             default:
                 break;
