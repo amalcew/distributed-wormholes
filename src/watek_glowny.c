@@ -7,7 +7,6 @@ void mainLoop() {
     int tag;
     int perc;
     int courier;
-    packet_t trips[maxTripCount];
 
 
     while (stan != InFinish) {
@@ -60,7 +59,6 @@ void mainLoop() {
                 // tutaj zapewne jakiś semafor albo zmienna warunkowa
                 // bo aktywne czekanie jest BUE
                 if (ackCount == size - 1)
-                    // TODO: wykonać porównanie priorytetów procesów
 //                   jakie porónanie procesów? hmmm tu chyba musielibyśmy po prostu poczekać, aż będziemy mieć wszystkie ack i tyle?
                     changeState(InSection);
                 break;
@@ -72,18 +70,18 @@ void mainLoop() {
                 debug("Perc: %d", perc);
 //              przeiterować się po tablicy trips i jeśli nie ma żadnego ze statusem ACK i wyższym priorytetem niż my, to możemy iść
 //              TODO: chciałabym po dostaniu RELEASE dawać trips[i] na null, ale nie mogę znaleźć obsługi odbioru release
-                bool canGo = true;
+                int canGo = 1;
                 for (int i=0; i<sizeof(trips); i++){
                     if (trips[i] != NULL && trips[i].ts > lamportClock){
-                        canGo = false;
+                        canGo = 0;
                         break;
                     }
                 }
-                if (canGo == true) {
+                if (canGo == 1) {
                     println("Wychodzę z sekcji krytycznej")
                     debug("Zmieniam stan na wysyłanie");
                     packet_t *pkt = malloc(sizeof(packet_t));
-                    pkt->data = perc;
+                    pkt->tripSize = tripSize;
                     for (int i = 0; i <= size - 1; i++)
                         if (i != rank)
                             sendPacket(pkt, (rank + 1) % size, RELEASE);

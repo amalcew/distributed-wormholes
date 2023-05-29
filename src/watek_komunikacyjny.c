@@ -35,7 +35,7 @@ void *startKomWatek(void *ptr) {
                 ackCount++; /* czy potrzeba tutaj muteksa? Będzie wyścig, czy nie będzie? Zastanówcie się. */
                 pthread_mutex_unlock(&mut);
                 break;
-            case: RELEASE:debug("Dostałem RELEASE, ktoś wyszedł z podprzestrzeni")
+            case RELEASE:debug("Dostałem RELEASE, ktoś wyszedł z podprzestrzeni")
                 currentCount = currentCount - pakiet.tripSize;
                 trips[pakiet.src] = NULL;
                 break;

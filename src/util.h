@@ -8,6 +8,7 @@ typedef struct {
     int ts;       /* timestamp (zegar lamporta */
     int src;
 
+    char
     int tripSize;     /* wielkość aktualnej wycieczki */
     int payload;      /* tryb przewozu, wycieczka albo kurier */
 } packet_t;
