@@ -17,7 +17,7 @@ int lamportClock = 0;
 int maxCapacity = 100;
 int courierPercThreshold = 90;
 int currentCount = 0;
-packet_t trips[6];
+//packet_t trips[6];
 
 /* 
  * Każdy proces ma dwa wątki - główny i komunikacyjny

@@ -6,12 +6,12 @@ void *startKomWatek(void *ptr) {
     MPI_Status status;
     int is_message = FALSE;
     packet_t pakiet;
-    pthread_mutex_t mut = PTHREAD_MUTEX_INITIALIZER;
+    pthread_mutex_t ackMut = PTHREAD_MUTEX_INITIALIZER;
     /* Obrazuje pętlę odbierającą pakiety o różnych typach */
     while (stan != InFinish) { debug("czekam na recv");
         MPI_Recv(&pakiet, 1, MPI_PAKIET_T, MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &status);
 
-        trips[pakiet.src] = pakiet;
+        //trips[pakiet.src] = pakiet;
 
         switch (status.MPI_TAG) {
             case REQUEST:debug("Ktoś coś prosi. A niech ma!")
@@ -19,7 +19,8 @@ void *startKomWatek(void *ptr) {
                 if (stan != InWant || pakiet.ts > lamportClock) {
                     sendPacket(0, status.MPI_SOURCE, ACK);
 //                    zwiększamy licznik osób w podprzestrzeni, kiedy zgadzamy się na wejście nowej wycieczki
-                    currentCount = currentCount + pakiet._tripSize;
+                    currentCount += pakiet._tripSize;
+                    debug("REQUEST: \n\tcurrentCount before: %d\n\tcurrentCount after: %d\n", currentCount - pakiet._tripSize, currentCount);
                 }
                 break;
             case ACK:debug("Dostałem ACK od %d, mam już %d", status.MPI_SOURCE, ackCount);
@@ -31,16 +32,17 @@ void *startKomWatek(void *ptr) {
                 lamportClock++;
                 pthread_mutex_unlock(&clockMut);
 
-                pthread_mutex_lock(&mut);
+                pthread_mutex_lock(&ackMut);
                 ackCount++; /* czy potrzeba tutaj muteksa? Będzie wyścig, czy nie będzie? Zastanówcie się. */
-                pthread_mutex_unlock(&mut);
+                pthread_mutex_unlock(&ackMut);
                 break;
             case RELEASE:debug("Dostałem RELEASE, ktoś wyszedł z podprzestrzeni")
-                currentCount = currentCount - pakiet._tripSize;
-                trips[pakiet.src].ts = -1;
-                trips[pakiet.src]._tripSize = -1;
-                trips[pakiet.src]._payload = -1;
-                trips[pakiet.src].src = -1;
+                currentCount -= pakiet._tripSize;
+                debug("RELEASE: \n\tcurrentCount before: %d\n\tcurrentCount after: %d\n", currentCount + pakiet._tripSize, currentCount);
+//                trips[pakiet.src].ts = -1;
+//                trips[pakiet.src]._tripSize = -1;
+//                trips[pakiet.src]._payload = -1;
+//                trips[pakiet.src].src = -1;
                 break;
             default:
                 break;

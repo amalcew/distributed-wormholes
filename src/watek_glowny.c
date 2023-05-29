@@ -7,6 +7,7 @@ void mainLoop() {
     int tag;
     int perc;
     int courier;
+    pthread_mutex_t ackMut = PTHREAD_MUTEX_INITIALIZER;
 
 
     while (stan != InFinish) {
@@ -16,7 +17,7 @@ void mainLoop() {
                 courier = random() % 100;
 
                 if (perc < 25) { debug("Perc: %d", perc);
-                    println("Ubiegam się o sekcję krytyczną")debug("Zmieniam stan na wysyłanie");
+                    println("Ubiegam się o dostęp do podprzestrzeni")debug("Zmieniam stan na wysyłanie");
                     packet_t *pkt = malloc(sizeof(packet_t));
 
                     ackCount = 0;
@@ -38,18 +39,21 @@ void mainLoop() {
                         println("Przygotowuję się do przyjęcia wycieczki");
                         payload = 0;  // ustaw payload na 'zwykłą wycieczkę'
                         tripSize = random() % (maxCapacity / 2);  // wylosuj wielkość wycieczki
+                        debug("tripSize: %d currentCount: %d", tripSize, currentCount);
                         // zapisz dane do struktury pakietu
                         pkt->_tripSize = tripSize;
                         pkt->_payload = payload;
 //                        currentCount = NULL;
                         // sprawdź, czy możesz wsadzić wycieczkę do podprzestrzeni
                         if (currentCount < maxCapacity - tripSize) {
+                            println("W podprzestrzeni jest miejsce, mogę przechodzić");
                             for (int i = 0; i <= size - 1; i++)
                                 if (i != rank)
                                     sendPacket(pkt, i, REQUEST);
                             changeState(InWant);
                             free(pkt);
                         } else {
+                            println("Nie ma miejsca, czekamy...");
                             break;
                         }
                     }
@@ -57,30 +61,32 @@ void mainLoop() {
                 debug("Skończyłem myśleć");
                 break;
             case InWant:
-                println("Czekam na wejście do sekcji krytycznej")
+                println("Czekam na wejście do podprzestrzeni")
                 // tutaj zapewne jakiś semafor albo zmienna warunkowa
                 // bo aktywne czekanie jest BUE
-                if (ackCount == size - 1)
+                if (ackCount == size - 1) {
+                    println("Mam zielone światło, lecimy!")
 //                   jakie porónanie procesów? hmmm tu chyba musielibyśmy po prostu poczekać, aż będziemy mieć wszystkie ack i tyle?
                     changeState(InSection);
+                } else {
+                    println("Nie mam wystarczającej liczby zgód, no nic...")
+                }
                 break;
             case InSection:
                 // tutaj zapewne jakiś muteks albo zmienna warunkowa
-                println("Przechodzę przez podprzestrzeń!")
+                println("Przechodzę przez podprzestrzeń...!")
                 sleep(5);
-                //if ( perc < 25 ) {
-                debug("Perc: %d", perc);
 //              przeiterować się po tablicy trips i jeśli nie ma żadnego ze statusem ACK i wyższym priorytetem niż my, to możemy iść
 //              TODO: chciałabym po dostaniu RELEASE dawać trips[i] na null, ale nie mogę znaleźć obsługi odbioru release
                 int canGo = 1;
-                for (int i=0; i<sizeof(trips); i++){
-                    if (trips[i].src != -1 && trips[i].ts > lamportClock){
-                        canGo = 0;
-                        break;
-                    }
-                }
+//                for (int i=0; i<sizeof(trips); i++){
+//                    if (trips[i].src != -1 && trips[i].ts > lamportClock){
+//                        canGo = 0;
+//                        break;
+//                    }
+//                }
                 if (canGo == 1) {
-                    println("Wychodzę z sekcji krytycznej")
+                    println("Wychodzę z podprzestrzeni")
                     debug("Zmieniam stan na wysyłanie");
                     packet_t *pkt = malloc(sizeof(packet_t));
                     pkt->_tripSize = tripSize;
@@ -90,7 +96,6 @@ void mainLoop() {
                     changeState(InRun);
                     free(pkt);
                 }
-                //}
                 break;
             default:
                 break;
