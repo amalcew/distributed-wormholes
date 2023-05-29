@@ -67,6 +67,7 @@ void mainLoop() {
                 if (ackCount == size - 1) {
                     println("Mam zielone światło, lecimy!")
 //                   jakie porónanie procesów? hmmm tu chyba musielibyśmy po prostu poczekać, aż będziemy mieć wszystkie ack i tyle?
+                    currentCount += tripSize;
                     changeState(InSection);
                 } else {
                     println("Nie mam wystarczającej liczby zgód, no nic...")
@@ -76,23 +77,29 @@ void mainLoop() {
                 // tutaj zapewne jakiś muteks albo zmienna warunkowa
                 println("Przechodzę przez podprzestrzeń...!")
                 sleep(5);
+                currentCount -= tripSize;
 //              przeiterować się po tablicy trips i jeśli nie ma żadnego ze statusem ACK i wyższym priorytetem niż my, to możemy iść
 //              TODO: chciałabym po dostaniu RELEASE dawać trips[i] na null, ale nie mogę znaleźć obsługi odbioru release
                 int canGo = 1;
-//                for (int i=0; i<sizeof(trips); i++){
-//                    if (trips[i].src != -1 && trips[i].ts > lamportClock){
-//                        canGo = 0;
-//                        break;
-//                    }
-//                }
+                for (int i=0; i<sizeof(trips); i++){
+                    if (trips[i].src != -1 && trips[i].ts > lamportClock){
+                        canGo = 0;
+                        break;
+                    }
+                }
                 if (canGo == 1) {
                     println("Wychodzę z podprzestrzeni")
                     debug("Zmieniam stan na wysyłanie");
                     packet_t *pkt = malloc(sizeof(packet_t));
                     pkt->_tripSize = tripSize;
-                    for (int i = 0; i <= size - 1; i++)
-                        if (i != rank)
+                    for (int i = 0; i <= size - 1; i++) {
+//                        if (i != rank)
+//                            sendPacket(pkt, (rank + 1) % size, RELEASE);
+                        if ((trips[i].src != -2) && (i != rank)) {
                             sendPacket(pkt, (rank + 1) % size, RELEASE);
+                        }
+                    }
+
                     changeState(InRun);
                     free(pkt);
                 }

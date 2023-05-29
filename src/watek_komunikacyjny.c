@@ -11,7 +11,7 @@ void *startKomWatek(void *ptr) {
     while (stan != InFinish) { debug("czekam na recv");
         MPI_Recv(&pakiet, 1, MPI_PAKIET_T, MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &status);
 
-        //trips[pakiet.src] = pakiet;
+        trips[pakiet.src] = pakiet;
 
         switch (status.MPI_TAG) {
             case REQUEST:debug("Ktoś coś prosi. A niech ma!")
@@ -39,10 +39,10 @@ void *startKomWatek(void *ptr) {
             case RELEASE:debug("Dostałem RELEASE, ktoś wyszedł z podprzestrzeni")
                 currentCount -= pakiet._tripSize;
                 debug("RELEASE: \n\tcurrentCount before: %d\n\tcurrentCount after: %d\n", currentCount + pakiet._tripSize, currentCount);
-//                trips[pakiet.src].ts = -1;
-//                trips[pakiet.src]._tripSize = -1;
-//                trips[pakiet.src]._payload = -1;
-//                trips[pakiet.src].src = -1;
+                trips[pakiet.src].ts = -1;
+                trips[pakiet.src]._tripSize = -1;
+                trips[pakiet.src]._payload = -1;
+                trips[pakiet.src].src = -1;
                 break;
             default:
                 break;

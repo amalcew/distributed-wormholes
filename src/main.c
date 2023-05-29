@@ -17,7 +17,7 @@ int lamportClock = 0;
 int maxCapacity = 100;
 int courierPercThreshold = 90;
 int currentCount = 0;
-//packet_t trips[6];
+packet_t trips[6];   // TODO: ustalić z Danileckim jak inicjalizować tą tablicę!!!
 
 /* 
  * Każdy proces ma dwa wątki - główny i komunikacyjny
@@ -64,6 +64,14 @@ void check_thread_support(int provided) {
 
 
 int main(int argc, char **argv) {
+    for (int i=0; i<6; i++) {
+        trips[i].src = -2;
+        trips[i]._payload = -2;
+        trips[i]._tripSize = -2;
+        trips[i].ts = -2;
+    }
+
+
     MPI_Status status;
     int provided;
     MPI_Init_thread(&argc, &argv, MPI_THREAD_MULTIPLE, &provided);
