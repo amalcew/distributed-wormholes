@@ -19,7 +19,7 @@ void *startKomWatek(void *ptr) {
                 if (stan != InWant || pakiet.ts > lamportClock) {
                     sendPacket(0, status.MPI_SOURCE, ACK);
 //                    zwiększamy licznik osób w podprzestrzeni, kiedy zgadzamy się na wejście nowej wycieczki
-                    currentCount = currentCount + pakiet.tripSize;
+                    currentCount = currentCount + pakiet._tripSize;
                 }
                 break;
             case ACK:debug("Dostałem ACK od %d, mam już %d", status.MPI_SOURCE, ackCount);
@@ -36,8 +36,11 @@ void *startKomWatek(void *ptr) {
                 pthread_mutex_unlock(&mut);
                 break;
             case RELEASE:debug("Dostałem RELEASE, ktoś wyszedł z podprzestrzeni")
-                currentCount = currentCount - pakiet.tripSize;
-                trips[pakiet.src] = NULL;
+                currentCount = currentCount - pakiet._tripSize;
+                trips[pakiet.src].ts = -1;
+                trips[pakiet.src]._tripSize = -1;
+                trips[pakiet.src]._payload = -1;
+                trips[pakiet.src].src = -1;
                 break;
             default:
                 break;

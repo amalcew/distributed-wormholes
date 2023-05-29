@@ -11,12 +11,13 @@
  * ale zob util.c oraz util.h - zmienną state_t state i funkcję changeState
  *
  */
-int rank, size;
+int rank, size, tripSize, payload;
 int ackCount = 0;
 int lamportClock = 0;
 int maxCapacity = 100;
 int courierPercThreshold = 90;
 int currentCount = 0;
+packet_t trips[6];
 
 /* 
  * Każdy proces ma dwa wątki - główny i komunikacyjny

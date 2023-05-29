@@ -47,8 +47,8 @@ void inicjuj_typ_pakietu() {
     MPI_Aint offsets[NITEMS];
     offsets[0] = offsetof(packet_t, ts);
     offsets[1] = offsetof(packet_t, src);
-    offsets[2] = offsetof(packet_t, tripSize);
-    offsets[3] = offsetof(packet_t, payload);
+    offsets[2] = offsetof(packet_t, _tripSize);
+    offsets[3] = offsetof(packet_t, _payload);
 
     MPI_Type_create_struct(NITEMS, blocklengths, offsets, typy, &MPI_PAKIET_T);
 

@@ -8,9 +8,8 @@ typedef struct {
     int ts;       /* timestamp (zegar lamporta */
     int src;
 
-    char
-    int tripSize;     /* wielkość aktualnej wycieczki */
-    int payload;      /* tryb przewozu, wycieczka albo kurier */
+    int _tripSize;     /* wielkość aktualnej wycieczki */
+    int _payload;      /* tryb przewozu, wycieczka albo kurier */
 } packet_t;
 /* packet_t ma trzy pola, więc NITEMS=3. Wykorzystane w inicjuj_typ_pakietu */
 #define NITEMS 3
