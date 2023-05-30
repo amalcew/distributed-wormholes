@@ -5,4 +5,4 @@ cd ./src
 make
 cd ../
 mv ./src/main ./out/main
-mpirun ./out/main
+mpirun --oversubscribe -np 4 ./out/main
