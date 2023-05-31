@@ -20,13 +20,17 @@ void *startKomWatek(void *ptr) {
         pthread_mutex_unlock(&clockMut);
         switch (status.MPI_TAG) {
             case REQUEST:
-                debug("Akceptuję wycieczkę o wielkości %d od procesu %d", pakiet.tripSize, status.MPI_SOURCE);
-                pthread_mutex_lock(&counterMut);
-                debug("CurrentCount przed: %d", currentCount);
-                currentCount += pakiet.tripSize;
-                debug("CurrentCount po: %d", currentCount);
-                pthread_mutex_unlock(&counterMut);
-                sendPacket(0, status.MPI_SOURCE, ACK);
+                if ((stan != InWant || lamportClock < pakiet.ts) || (lamportClock == pakiet.ts && rank < status.MPI_SOURCE)) {
+                    debug("Akceptuję wycieczkę o wielkości %d od procesu %d", pakiet.tripSize, status.MPI_SOURCE);
+                    pthread_mutex_lock(&counterMut);
+                    debug("CurrentCount przed: %d", currentCount);
+                    currentCount += pakiet.tripSize;
+                    debug("CurrentCount po: %d", currentCount);
+                    pthread_mutex_unlock(&counterMut);
+                    sendPacket(0, status.MPI_SOURCE, ACK);
+                } else {
+                    debug("Odrzucam prośbę od procesu %d", status.MPI_SOURCE);
+                }
                 break;
             case ACK:
                 debug("Dostałem ACK od %d, mam już %d", status.MPI_SOURCE, ackCount);
