@@ -1,0 +1,2679 @@
+mpicc main.c util.c watek_glowny.c watek_komunikacyjny.c -g -o main
+ctags -R .
+THREAD SUPPORT: chcemy 3. Co otrzymamy?
+Pełne wsparcie dla wątków
+THREAD SUPPORT: chcemy 3. Co otrzymamy?
+Pełne wsparcie dla wątków
+THREAD SUPPORT: chcemy 3. Co otrzymamy?
+Pełne wsparcie dla wątków
+[1;32m [2, 0]: Stan InRun: 0[0;37m
+[1;32m [2, 0]: Skończyłem myśleć[0;37m
+[1;32m [2, 0]: czekam na recv[0;37m
+THREAD SUPPORT: chcemy 3. Co otrzymamy?
+Pełne wsparcie dla wątków
+[0;33m [10, 0]: Stan InRun: 0[0;37m
+[0;33m [10, 0]: Skończyłem myśleć[0;37m
+THREAD SUPPORT: chcemy 3. Co otrzymamy?
+Pełne wsparcie dla wątków
+THREAD SUPPORT: chcemy 3. Co otrzymamy?
+Pełne wsparcie dla wątków
+[1;34m [4, 0]: Stan InRun: 0[0;37m
+[1;34m [4, 0]: tripSize: 4 currentCount: 0[0;37m
+[1;34m [4, 0]: Ubiegam się o wejsćie do podprzestrzeni[0;37m
+THREAD SUPPORT: chcemy 3. Co otrzymamy?
+Pełne wsparcie dla wątków
+[1;36m [6, 0]: Stan InRun: 0[0;37m
+[1;36m [6, 0]: Skończyłem myśleć[0;37m
+[1;36m [6, 0]: czekam na recv[0;37m
+[1;32m [2, 3]: Akceptuję wycieczkę o wielkości 15 od procesu 11[0;37m
+[1;32m [2, 3]: CurrentCount przed: 0[0;37m
+[1;32m [2, 3]: CurrentCount po: 15[0;37m
+[1;32m [2, 4]: Wysyłam potwierdzenie do 11
+[0;37m
+[1;32m [2, 4]: czekam na recv[0;37m
+[1;32m [2, 5]: Akceptuję wycieczkę o wielkości 4 od procesu 4[0;37m
+[1;32m [2, 5]: CurrentCount przed: 15[0;37m
+THREAD SUPPORT: chcemy 3. Co otrzymamy?
+Pełne wsparcie dla wątków
+[1;37m [0, 0]: Stan InRun: 0[0;37m
+[1;37m [0, 0]: Skończyłem myśleć[0;37m
+[1;37m [0, 0]: czekam na recv[0;37m
+[1;33m [3, 0]: Stan InRun: 0[0;37m
+[1;33m [3, 0]: Skończyłem myśleć[0;37m
+[1;33m [3, 0]: czekam na recv[0;37m
+[1;33m [3, 4]: Akceptuję wycieczkę o wielkości 15 od procesu 11[0;37m
+[1;33m [3, 4]: CurrentCount przed: 0[0;37m
+[1;33m [3, 4]: CurrentCount po: 15[0;37m
+[1;33m [3, 5]: Wysyłam potwierdzenie do 11
+[0;37m
+[1;33m [3, 5]: czekam na recv[0;37m
+THREAD SUPPORT: chcemy 3. Co otrzymamy?
+Pełne wsparcie dla wątków
+[1;34m [4, 0]: W podprzestrzeni jest 0 osób[0;37m
+[1;34m [4, 0]: Jest miejsce w podprzestrzeni, wysyłam pytania o zgody[0;37m
+[1;34m [4, 1]: Wysyłam prośbę o sekcję krytyczną do 0
+[0;37m
+[1;34m [4, 2]: Wysyłam prośbę o sekcję krytyczną do 1
+[0;37m
+[1;34m [4, 3]: Wysyłam prośbę o sekcję krytyczną do 2
+[0;37m
+[1;34m [4, 4]: Wysyłam prośbę o sekcję krytyczną do 3
+[0;37m
+[1;34m [4, 5]: Wysyłam prośbę o sekcję krytyczną do 4
+[0;37m
+[1;34m [4, 6]: Wysyłam prośbę o sekcję krytyczną do 5
+[0;37m
+[1;34m [4, 7]: Wysyłam prośbę o sekcję krytyczną do 6
+[0;37m
+[1;34m [4, 8]: Wysyłam prośbę o sekcję krytyczną do 7
+[0;37m
+THREAD SUPPORT: chcemy 3. Co otrzymamy?
+Pełne wsparcie dla wątków
+[0;37m [7, 0]: Stan InRun: 0[0;37m
+[0;37m [7, 0]: Skończyłem myśleć[0;37m
+THREAD SUPPORT: chcemy 3. Co otrzymamy?
+Pełne wsparcie dla wątków
+[0;31m [8, 0]: Stan InRun: 0[0;37m
+THREAD SUPPORT: chcemy 3. Co otrzymamy?
+Pełne wsparcie dla wątków
+[0;32m [9, 0]: Stan InRun: 0[0;37m
+[0;32m [9, 0]: tripSize: 15 currentCount: 0[0;37m
+[0;32m [9, 0]: Ubiegam się o wejsćie do podprzestrzeni[0;37m
+[0;34m [11, 0]: Stan InRun: 0[0;37m
+[0;34m [11, 0]: tripSize: 15 currentCount: 0[0;37m
+[0;34m [11, 0]: Ubiegam się o wejsćie do podprzestrzeni[0;37m
+[0;34m [11, 0]: W podprzestrzeni jest 0 osób[0;37m
+[0;34m [11, 0]: Jest miejsce w podprzestrzeni, wysyłam pytania o zgody[0;37m
+[0;34m [11, 1]: Wysyłam prośbę o sekcję krytyczną do 0
+[0;37m
+[0;34m [11, 2]: Wysyłam prośbę o sekcję krytyczną do 1
+[0;37m
+[0;34m [11, 3]: Wysyłam prośbę o sekcję krytyczną do 2
+[0;37m
+[0;34m [11, 4]: Wysyłam prośbę o sekcję krytyczną do 3
+[0;37m
+[0;34m [11, 5]: Wysyłam prośbę o sekcję krytyczną do 4
+[0;37m
+[0;34m [11, 6]: Wysyłam prośbę o sekcję krytyczną do 5
+[0;37m
+[0;34m [11, 7]: Wysyłam prośbę o sekcję krytyczną do 6
+[0;37m
+[0;34m [11, 8]: Wysyłam prośbę o sekcję krytyczną do 7
+[0;37m
+[0;34m [11, 9]: Wysyłam prośbę o sekcję krytyczną do 8
+[0;37m
+[0;34m [11, 10]: Wysyłam prośbę o sekcję krytyczną do 9
+[0;37m
+[0;34m [11, 11]: Wysyłam prośbę o sekcję krytyczną do 10
+[0;37m
+[0;34m [11, 12]: Wysyłam prośbę o sekcję krytyczną do 11
+[0;37m
+[0;34m [11, 12]: Skończyłem myśleć[0;37m
+[0;34m [11, 12]: czekam na recv[0;37m
+[1;36m [6, 7]: Akceptuję wycieczkę o wielkości 15 od procesu 11[0;37m
+[1;36m [6, 7]: CurrentCount przed: 0[0;37m
+[1;36m [6, 7]: CurrentCount po: 15[0;37m
+[1;36m [6, 8]: Wysyłam potwierdzenie do 11
+[0;37m
+[1;36m [6, 8]: czekam na recv[0;37m
+[1;36m [6, 9]: Akceptuję wycieczkę o wielkości 4 od procesu 4[0;37m
+[1;36m [6, 9]: CurrentCount przed: 15[0;37m
+[1;36m [6, 9]: CurrentCount po: 19[0;37m
+[1;36m [6, 10]: Wysyłam potwierdzenie do 4
+[0;37m
+[1;36m [6, 10]: czekam na recv[0;37m
+[1;32m [2, 5]: CurrentCount po: 19[0;37m
+[1;32m [2, 6]: Wysyłam potwierdzenie do 4
+[0;37m
+[1;32m [2, 6]: czekam na recv[0;37m
+[1;31m [1, 0]: Stan InRun: 0[0;37m
+[1;31m [1, 0]: Skończyłem myśleć[0;37m
+[0;33m [10, 0]: czekam na recv[0;37m
+[1;37m [0, 1]: Akceptuję wycieczkę o wielkości 15 od procesu 11[0;37m
+[1;37m [0, 1]: CurrentCount przed: 0[0;37m
+[1;37m [0, 1]: CurrentCount po: 15[0;37m
+[1;37m [0, 2]: Wysyłam potwierdzenie do 11
+[0;37m
+[1;37m [0, 2]: czekam na recv[0;37m
+[1;37m [0, 3]: Akceptuję wycieczkę o wielkości 4 od procesu 4[0;37m
+[1;37m [0, 3]: CurrentCount przed: 15[0;37m
+[1;37m [0, 3]: CurrentCount po: 19[0;37m
+[1;37m [0, 4]: Wysyłam potwierdzenie do 4
+[0;37m
+[1;37m [0, 4]: czekam na recv[0;37m
+[1;33m [3, 6]: Akceptuję wycieczkę o wielkości 4 od procesu 4[0;37m
+[1;33m [3, 6]: CurrentCount przed: 15[0;37m
+[1;33m [3, 6]: CurrentCount po: 19[0;37m
+[1;33m [3, 7]: Wysyłam potwierdzenie do 4
+[0;37m
+[1;33m [3, 7]: czekam na recv[0;37m
+[1;33m [3, 8]: Akceptuję wycieczkę o wielkości 15 od procesu 9[0;37m
+[1;34m [4, 9]: Wysyłam prośbę o sekcję krytyczną do 8
+[0;37m
+[1;34m [4, 10]: Wysyłam prośbę o sekcję krytyczną do 9
+[0;37m
+[1;34m [4, 11]: Wysyłam prośbę o sekcję krytyczną do 10
+[0;37m
+[1;34m [4, 12]: Wysyłam prośbę o sekcję krytyczną do 11
+[0;37m
+[1;34m [4, 12]: Skończyłem myśleć[0;37m
+[1;34m [4, 12]: czekam na recv[0;37m
+[1;34m [4, 13]: Akceptuję wycieczkę o wielkości 4 od procesu 4[0;37m
+[1;34m [4, 13]: CurrentCount przed: 0[0;37m
+[1;34m [4, 13]: CurrentCount po: 4[0;37m
+[0;31m [8, 0]: Skończyłem myśleć[0;37m
+[0;31m [8, 0]: czekam na recv[0;37m
+[0;31m [8, 9]: Akceptuję wycieczkę o wielkości 15 od procesu 11[0;37m
+[0;31m [8, 9]: CurrentCount przed: 0[0;37m
+[0;32m [9, 0]: W podprzestrzeni jest 0 osób[0;37m
+[0;32m [9, 0]: Jest miejsce w podprzestrzeni, wysyłam pytania o zgody[0;37m
+[0;32m [9, 1]: Wysyłam prośbę o sekcję krytyczną do 0
+[0;37m
+[0;32m [9, 2]: Wysyłam prośbę o sekcję krytyczną do 1
+[0;37m
+[0;32m [9, 3]: Wysyłam prośbę o sekcję krytyczną do 2
+[0;37m
+[0;32m [9, 4]: Wysyłam prośbę o sekcję krytyczną do 3
+[0;37m
+[1;32m [2, 7]: Akceptuję wycieczkę o wielkości 15 od procesu 9[0;37m
+[1;32m [2, 7]: CurrentCount przed: 19[0;37m
+[1;32m [2, 7]: CurrentCount po: 34[0;37m
+[1;32m [2, 8]: Wysyłam potwierdzenie do 9
+[0;37m
+[1;32m [2, 8]: czekam na recv[0;37m
+[0;33m [10, 11]: Akceptuję wycieczkę o wielkości 15 od procesu 11[0;37m
+[0;33m [10, 11]: CurrentCount przed: 0[0;37m
+[0;33m [10, 11]: CurrentCount po: 15[0;37m
+[0;33m [10, 12]: Wysyłam potwierdzenie do 11
+[0;37m
+[0;33m [10, 12]: czekam na recv[0;37m
+[0;33m [10, 13]: Akceptuję wycieczkę o wielkości 4 od procesu 4[0;37m
+[0;33m [10, 13]: CurrentCount przed: 15[0;37m
+[0;33m [10, 13]: CurrentCount po: 19[0;37m
+[0;33m [10, 14]: Wysyłam potwierdzenie do 4
+[0;37m
+[1;37m [0, 5]: Akceptuję wycieczkę o wielkości 15 od procesu 9[0;37m
+[1;37m [0, 5]: CurrentCount przed: 19[0;37m
+[1;37m [0, 5]: CurrentCount po: 34[0;37m
+[1;37m [0, 6]: Wysyłam potwierdzenie do 9
+[0;37m
+[1;37m [0, 6]: czekam na recv[0;37m
+[1;35m [5, 0]: Stan InRun: 0[0;37m
+[1;35m [5, 0]: Skończyłem myśleć[0;37m
+[1;33m [3, 8]: CurrentCount przed: 19[0;37m
+[1;33m [3, 8]: CurrentCount po: 34[0;37m
+[1;33m [3, 9]: Wysyłam potwierdzenie do 9
+[0;37m
+[1;33m [3, 9]: czekam na recv[0;37m
+[0;37m [7, 0]: czekam na recv[0;37m
+[0;37m [7, 8]: Akceptuję wycieczkę o wielkości 15 od procesu 11[0;37m
+[0;37m [7, 8]: CurrentCount przed: 0[0;37m
+[0;37m [7, 8]: CurrentCount po: 15[0;37m
+[0;37m [7, 9]: Wysyłam potwierdzenie do 11
+[0;37m
+[0;37m [7, 9]: czekam na recv[0;37m
+[1;34m [4, 14]: Wysyłam potwierdzenie do 4
+[0;37m
+[1;34m [4, 14]: czekam na recv[0;37m
+[1;34m [4, 15]: Dostałem ACK od 4, mam już 0[0;37m
+[1;34m [4, 15]: czekam na recv[0;37m
+[1;34m [4, 16]: Akceptuję wycieczkę o wielkości 15 od procesu 11[0;37m
+[1;34m [4, 16]: CurrentCount przed: 4[0;37m
+[1;34m [4, 16]: CurrentCount po: 19[0;37m
+[0;31m [8, 9]: CurrentCount po: 15[0;37m
+[0;31m [8, 10]: Wysyłam potwierdzenie do 11
+[0;37m
+[0;31m [8, 10]: czekam na recv[0;37m
+[0;31m [8, 11]: Akceptuję wycieczkę o wielkości 4 od procesu 4[0;37m
+[0;31m [8, 11]: CurrentCount przed: 15[0;37m
+[0;31m [8, 11]: CurrentCount po: 19[0;37m
+[0;31m [8, 12]: Wysyłam potwierdzenie do 4
+[0;37m
+[0;31m [8, 12]: czekam na recv[0;37m
+[0;34m [11, 13]: Akceptuję wycieczkę o wielkości 15 od procesu 11[0;37m
+[0;34m [11, 13]: CurrentCount przed: 0[0;37m
+[0;34m [11, 13]: CurrentCount po: 15[0;37m
+[0;34m [11, 14]: Wysyłam potwierdzenie do 11
+[0;37m
+[0;34m [11, 14]: czekam na recv[0;37m
+[0;34m [11, 15]: Dostałem ACK od 11, mam już 0[0;37m
+[0;34m [11, 15]: czekam na recv[0;37m
+[0;34m [11, 16]: Dostałem ACK od 2, mam już 1[0;37m
+[0;34m [11, 16]: czekam na recv[0;37m
+[0;34m [11, 17]: Dostałem ACK od 3, mam już 2[0;37m
+[0;34m [11, 17]: czekam na recv[0;37m
+[0;34m [11, 18]: Dostałem ACK od 6, mam już 3[0;37m
+[0;34m [11, 18]: czekam na recv[0;37m
+[0;37m [7, 10]: Akceptuję wycieczkę o wielkości 4 od procesu 4[0;37m
+[0;37m [7, 10]: CurrentCount przed: 15[0;37m
+[0;37m [7, 10]: CurrentCount po: 19[0;37m
+[0;37m [7, 11]: Wysyłam potwierdzenie do 4
+[0;37m
+[0;37m [7, 11]: czekam na recv[0;37m
+[1;34m [4, 17]: Wysyłam potwierdzenie do 11
+[0;37m
+[1;34m [4, 17]: czekam na recv[0;37m
+[1;34m [4, 18]: Dostałem ACK od 2, mam już 1[0;37m
+[1;34m [4, 18]: czekam na recv[0;37m
+[1;34m [4, 19]: Dostałem ACK od 3, mam już 2[0;37m
+[1;34m [4, 19]: czekam na recv[0;37m
+[1;34m [4, 20]: Dostałem ACK od 6, mam już 3[0;37m
+[1;34m [4, 20]: czekam na recv[0;37m
+[1;34m [4, 21]: Dostałem ACK od 0, mam już 4[0;37m
+[1;34m [4, 21]: czekam na recv[0;37m
+[0;34m [11, 19]: Dostałem ACK od 0, mam już 4[0;37m
+[0;34m [11, 19]: czekam na recv[0;37m
+[0;34m [11, 20]: Akceptuję wycieczkę o wielkości 4 od procesu 4[0;37m
+[0;34m [11, 20]: CurrentCount przed: 15[0;37m
+[0;34m [11, 20]: CurrentCount po: 19[0;37m
+[0;34m [11, 21]: Wysyłam potwierdzenie do 4
+[0;37m
+[0;34m [11, 21]: czekam na recv[0;37m
+[0;32m [9, 2]: czekam na recv[0;37m
+[1;31m [1, 0]: czekam na recv[0;37m
+[1;31m [1, 2]: Akceptuję wycieczkę o wielkości 15 od procesu 11[0;37m
+[1;31m [1, 2]: CurrentCount przed: 0[0;37m
+[1;31m [1, 2]: CurrentCount po: 15[0;37m
+[0;33m [10, 14]: czekam na recv[0;37m
+[0;34m [11, 22]: Dostałem ACK od 8, mam już 5[0;37m
+[0;34m [11, 22]: czekam na recv[0;37m
+[0;34m [11, 23]: Dostałem ACK od 10, mam już 6[0;37m
+[0;34m [11, 23]: czekam na recv[0;37m
+[0;34m [11, 24]: Dostałem ACK od 7, mam już 7[0;37m
+[0;34m [11, 24]: czekam na recv[0;37m
+[0;34m [11, 25]: Dostałem ACK od 4, mam już 8[0;37m
+[0;34m [11, 25]: czekam na recv[0;37m
+[0;32m [9, 5]: Wysyłam prośbę o sekcję krytyczną do 4
+[0;37m
+[0;32m [9, 10]: Akceptuję wycieczkę o wielkości 15 od procesu 11[0;37m
+[0;32m [9, 11]: CurrentCount przed: 0[0;37m
+[0;32m [9, 11]: CurrentCount po: 15[0;37m
+[0;32m [9, 12]: Wysyłam potwierdzenie do 11
+[0;37m
+[1;31m [1, 3]: Wysyłam potwierdzenie do 11
+[0;37m
+[1;31m [1, 3]: czekam na recv[0;37m
+[1;31m [1, 4]: Akceptuję wycieczkę o wielkości 4 od procesu 4[0;37m
+[1;31m [1, 4]: CurrentCount przed: 15[0;37m
+[1;31m [1, 4]: CurrentCount po: 19[0;37m
+[1;31m [1, 5]: Wysyłam potwierdzenie do 4
+[0;37m
+[1;31m [1, 5]: czekam na recv[0;37m
+[1;34m [4, 22]: Dostałem ACK od 8, mam już 5[0;37m
+[1;34m [4, 22]: czekam na recv[0;37m
+[1;34m [4, 23]: Dostałem ACK od 10, mam już 6[0;37m
+[1;34m [4, 23]: czekam na recv[0;37m
+[1;34m [4, 24]: Dostałem ACK od 7, mam już 7[0;37m
+[1;34m [4, 24]: czekam na recv[0;37m
+[1;34m [4, 25]: Akceptuję wycieczkę o wielkości 15 od procesu 9[0;37m
+[1;34m [4, 25]: CurrentCount przed: 19[0;37m
+[1;34m [4, 25]: CurrentCount po: 34[0;37m
+[1;34m [4, 26]: Wysyłam potwierdzenie do 9
+[0;37m
+[1;34m [4, 26]: czekam na recv[0;37m
+[1;31m [1, 6]: Akceptuję wycieczkę o wielkości 15 od procesu 9[0;37m
+[1;31m [1, 6]: CurrentCount przed: 19[0;37m
+[1;31m [1, 6]: CurrentCount po: 34[0;37m
+[1;31m [1, 7]: Wysyłam potwierdzenie do 9
+[0;37m
+[1;31m [1, 7]: czekam na recv[0;37m
+[1;34m [4, 27]: Dostałem ACK od 11, mam już 8[0;37m
+[1;34m [4, 27]: czekam na recv[0;37m
+[1;34m [4, 28]: Dostałem ACK od 1, mam już 9[0;37m
+[1;34m [4, 28]: czekam na recv[0;37m
+[1;34m [4, 29]: Dostałem ACK od 9, mam już 10[0;37m
+[1;34m [4, 29]: czekam na recv[0;37m
+[0;34m [11, 26]: Dostałem ACK od 1, mam już 9[0;37m
+[0;34m [11, 26]: czekam na recv[0;37m
+[0;34m [11, 27]: Dostałem ACK od 9, mam już 10[0;37m
+[0;34m [11, 27]: czekam na recv[0;37m
+[0;32m [9, 12]: czekam na recv[0;37m
+[0;32m [9, 13]: Akceptuję wycieczkę o wielkości 4 od procesu 4[0;37m
+[0;32m [9, 13]: CurrentCount przed: 15[0;37m
+[0;32m [9, 13]: CurrentCount po: 19[0;37m
+[0;32m [9, 14]: Wysyłam potwierdzenie do 4
+[0;37m
+[0;32m [9, 14]: czekam na recv[0;37m
+[0;32m [9, 15]: Dostałem ACK od 2, mam już 0[0;37m
+[0;32m [9, 15]: czekam na recv[0;37m
+[0;32m [9, 16]: Dostałem ACK od 3, mam już 1[0;37m
+[0;32m [9, 16]: czekam na recv[0;37m
+[0;32m [9, 11]: Wysyłam prośbę o sekcję krytyczną do 5
+[0;37m
+[0;32m [9, 17]: Dostałem ACK od 0, mam już 2[0;37m
+[0;32m [9, 18]: czekam na recv[0;37m
+[1;36m [6, 18]: Akceptuję wycieczkę o wielkości 15 od procesu 9[0;37m
+[1;36m [6, 18]: CurrentCount przed: 19[0;37m
+[1;36m [6, 18]: CurrentCount po: 34[0;37m
+[1;36m [6, 19]: Wysyłam potwierdzenie do 9
+[0;37m
+[1;36m [6, 19]: czekam na recv[0;37m
+[0;32m [9, 18]: Wysyłam prośbę o sekcję krytyczną do 6
+[0;37m
+[0;32m [9, 26]: Dostałem ACK od 4, mam już 3[0;37m
+[0;32m [9, 27]: czekam na recv[0;37m
+[0;32m [9, 27]: Wysyłam prośbę o sekcję krytyczną do 7
+[0;37m
+[0;32m [9, 29]: Wysyłam prośbę o sekcję krytyczną do 8
+[0;37m
+[0;32m [9, 30]: Wysyłam prośbę o sekcję krytyczną do 9
+[0;37m
+[0;32m [9, 31]: Wysyłam prośbę o sekcję krytyczną do 10
+[0;37m
+[0;32m [9, 32]: Wysyłam prośbę o sekcję krytyczną do 11
+[0;37m
+[0;37m [7, 27]: Akceptuję wycieczkę o wielkości 15 od procesu 9[0;37m
+[0;37m [7, 27]: CurrentCount przed: 19[0;37m
+[0;37m [7, 27]: CurrentCount po: 34[0;37m
+[0;37m [7, 28]: Wysyłam potwierdzenie do 9
+[0;37m
+[0;37m [7, 28]: czekam na recv[0;37m
+[0;32m [9, 32]: Skończyłem myśleć[0;37m
+[0;32m [9, 28]: Dostałem ACK od 1, mam już 4[0;37m
+[0;32m [9, 32]: czekam na recv[0;37m
+[0;32m [9, 33]: Akceptuję wycieczkę o wielkości 15 od procesu 9[0;37m
+[0;32m [9, 33]: CurrentCount przed: 19[0;37m
+[0;32m [9, 33]: CurrentCount po: 34[0;37m
+[0;31m [8, 29]: Akceptuję wycieczkę o wielkości 15 od procesu 9[0;37m
+[0;31m [8, 29]: CurrentCount przed: 19[0;37m
+[0;31m [8, 29]: CurrentCount po: 34[0;37m
+[0;31m [8, 30]: Wysyłam potwierdzenie do 9
+[0;37m
+[0;31m [8, 30]: czekam na recv[0;37m
+[0;33m [10, 31]: Akceptuję wycieczkę o wielkości 15 od procesu 9[0;37m
+[0;33m [10, 31]: CurrentCount przed: 19[0;37m
+[0;33m [10, 31]: CurrentCount po: 34[0;37m
+[0;33m [10, 32]: Wysyłam potwierdzenie do 9
+[0;37m
+[0;33m [10, 32]: czekam na recv[0;37m
+[0;34m [11, 32]: Akceptuję wycieczkę o wielkości 15 od procesu 9[0;37m
+[0;34m [11, 32]: CurrentCount przed: 19[0;37m
+[0;34m [11, 32]: CurrentCount po: 34[0;37m
+[0;34m [11, 33]: Wysyłam potwierdzenie do 9
+[0;37m
+[0;34m [11, 33]: czekam na recv[0;37m
+[0;32m [9, 34]: Wysyłam potwierdzenie do 9
+[0;37m
+[0;32m [9, 34]: czekam na recv[0;37m
+[0;32m [9, 35]: Dostałem ACK od 9, mam już 5[0;37m
+[0;32m [9, 35]: czekam na recv[0;37m
+[0;32m [9, 36]: Dostałem ACK od 6, mam już 6[0;37m
+[0;32m [9, 36]: czekam na recv[0;37m
+[0;32m [9, 37]: Dostałem ACK od 7, mam już 7[0;37m
+[0;32m [9, 37]: czekam na recv[0;37m
+[0;32m [9, 38]: Dostałem ACK od 11, mam już 8[0;37m
+[0;32m [9, 38]: czekam na recv[0;37m
+[0;32m [9, 39]: Dostałem ACK od 10, mam już 9[0;37m
+[0;32m [9, 39]: czekam na recv[0;37m
+[0;32m [9, 40]: Dostałem ACK od 8, mam już 10[0;37m
+[0;32m [9, 40]: czekam na recv[0;37m
+[1;35m [5, 0]: czekam na recv[0;37m
+[1;35m [5, 6]: Akceptuję wycieczkę o wielkości 15 od procesu 11[0;37m
+[1;35m [5, 6]: CurrentCount przed: 0[0;37m
+[1;35m [5, 6]: CurrentCount po: 15[0;37m
+[1;35m [5, 7]: Wysyłam potwierdzenie do 11
+[0;37m
+[0;34m [11, 34]: Dostałem ACK od 5, mam już 11[0;37m
+[0;34m [11, 34]: czekam na recv[0;37m
+[1;35m [5, 7]: czekam na recv[0;37m
+[1;35m [5, 8]: Akceptuję wycieczkę o wielkości 4 od procesu 4[0;37m
+[1;35m [5, 8]: CurrentCount przed: 15[0;37m
+[1;35m [5, 8]: CurrentCount po: 19[0;37m
+[1;35m [5, 9]: Wysyłam potwierdzenie do 4
+[0;37m
+[1;34m [4, 30]: Dostałem ACK od 5, mam już 11[0;37m
+[1;34m [4, 30]: czekam na recv[0;37m
+[1;35m [5, 9]: czekam na recv[0;37m
+[1;35m [5, 10]: Akceptuję wycieczkę o wielkości 15 od procesu 9[0;37m
+[1;35m [5, 10]: CurrentCount przed: 19[0;37m
+[1;35m [5, 10]: CurrentCount po: 34[0;37m
+[0;32m [9, 41]: Dostałem ACK od 5, mam już 11[0;37m
+[0;32m [9, 41]: czekam na recv[0;37m
+[1;35m [5, 11]: Wysyłam potwierdzenie do 9
+[0;37m
+[1;35m [5, 11]: czekam na recv[0;37m
+[1;32m [2, 8]: Stan InRun: 0[0;37m
+[1;32m [2, 8]: tripSize: 9 currentCount: 34[0;37m
+[1;32m [2, 8]: Ubiegam się o wejsćie do podprzestrzeni[0;37m
+[1;32m [2, 8]: W podprzestrzeni jest 34 osób[0;37m
+[1;32m [2, 8]: Jest miejsce w podprzestrzeni, wysyłam pytania o zgody[0;37m
+[0;33m [10, 32]: Stan InRun: 0[0;37m
+[0;33m [10, 32]: tripSize: 19 currentCount: 34[0;37m
+[0;33m [10, 32]: Ubiegam się o wejsćie do podprzestrzeni[0;37m
+[0;33m [10, 32]: W podprzestrzeni jest 34 osób[0;37m
+[0;33m [10, 32]: Jest miejsce w podprzestrzeni, wysyłam pytania o zgody[0;37m
+[0;33m [10, 33]: Wysyłam prośbę o sekcję krytyczną do 0
+[0;37m
+[1;36m [6, 19]: Stan InRun: 0[0;37m
+[1;36m [6, 19]: Skończyłem myśleć[0;37m
+[1;37m [0, 6]: Stan InRun: 0[0;37m
+[1;37m [0, 6]: Skończyłem myśleć[0;37m
+[1;33m [3, 9]: Stan InRun: 0[0;37m
+[1;33m [3, 9]: Skończyłem myśleć[0;37m
+[0;33m [10, 34]: Wysyłam prośbę o sekcję krytyczną do 1
+[0;37m
+[0;33m [10, 35]: Wysyłam prośbę o sekcję krytyczną do 2
+[0;37m
+[0;33m [10, 36]: Wysyłam prośbę o sekcję krytyczną do 3
+[0;37m
+[1;36m [6, 39]: Akceptuję wycieczkę o wielkości 19 od procesu 10[0;37m
+[1;37m [0, 33]: Akceptuję wycieczkę o wielkości 19 od procesu 10[0;37m
+[1;37m [0, 33]: CurrentCount przed: 34[0;37m
+[1;37m [0, 33]: CurrentCount po: 53[0;37m
+[1;37m [0, 34]: Wysyłam potwierdzenie do 10
+[0;37m
+[1;37m [0, 34]: czekam na recv[0;37m
+[1;31m [1, 34]: Akceptuję wycieczkę o wielkości 19 od procesu 10[0;37m
+[1;31m [1, 34]: CurrentCount przed: 34[0;37m
+[1;31m [1, 34]: CurrentCount po: 53[0;37m
+[1;31m [1, 35]: Wysyłam potwierdzenie do 10
+[0;37m
+[1;31m [1, 35]: czekam na recv[0;37m
+[1;31m [1, 35]: Stan InRun: 0[0;37m
+[1;31m [1, 35]: Skończyłem myśleć[0;37m
+[0;37m [7, 40]: Akceptuję wycieczkę o wielkości 19 od procesu 10[0;37m
+[0;37m [7, 40]: CurrentCount przed: 34[0;37m
+[0;37m [7, 40]: CurrentCount po: 53[0;37m
+[0;37m [7, 41]: Wysyłam potwierdzenie do 10
+[0;37m
+[0;33m [10, 37]: Wysyłam prośbę o sekcję krytyczną do 4
+[0;37m
+[0;33m [10, 38]: Wysyłam prośbę o sekcję krytyczną do 5
+[0;37m
+[0;33m [10, 39]: Wysyłam prośbę o sekcję krytyczną do 6
+[0;37m
+[0;33m [10, 40]: Wysyłam prośbę o sekcję krytyczną do 7
+[0;37m
+[0;33m [10, 41]: Wysyłam prośbę o sekcję krytyczną do 8
+[0;37m
+[0;33m [10, 42]: Wysyłam prośbę o sekcję krytyczną do 9
+[0;37m
+[0;33m [10, 43]: Wysyłam prośbę o sekcję krytyczną do 10
+[0;37m
+[0;33m [10, 44]: Wysyłam prośbę o sekcję krytyczną do 11
+[0;37m
+[0;33m [10, 44]: Skończyłem myśleć[0;37m
+[1;33m [3, 36]: Akceptuję wycieczkę o wielkości 19 od procesu 10[0;37m
+[1;33m [3, 36]: CurrentCount przed: 34[0;37m
+[1;33m [3, 36]: CurrentCount po: 53[0;37m
+[1;33m [3, 37]: Wysyłam potwierdzenie do 10
+[0;37m
+[1;33m [3, 37]: czekam na recv[0;37m
+[1;34m [4, 37]: Akceptuję wycieczkę o wielkości 19 od procesu 10[0;37m
+[1;34m [4, 37]: CurrentCount przed: 34[0;37m
+[1;34m [4, 37]: CurrentCount po: 53[0;37m
+[1;34m [4, 38]: Wysyłam potwierdzenie do 10
+[0;37m
+[1;34m [4, 38]: czekam na recv[0;37m
+[1;34m [4, 38]: Stan InWant: 2[0;37m
+[1;34m [4, 38]: Czekam na wejście do podprzestrzeni[0;37m
+[1;34m [4, 38]: Mam niezbędne zgody, wchodzę![0;37m
+[1;32m [2, 35]: Akceptuję wycieczkę o wielkości 19 od procesu 10[0;37m
+[1;32m [2, 35]: CurrentCount przed: 34[0;37m
+[1;32m [2, 35]: CurrentCount po: 53[0;37m
+[1;32m [2, 36]: Wysyłam potwierdzenie do 10
+[0;37m
+[1;32m [2, 36]: czekam na recv[0;37m
+[1;32m [2, 37]: Wysyłam prośbę o sekcję krytyczną do 0
+[0;37m
+[0;37m [7, 41]: Stan InRun: 0[0;37m
+[0;37m [7, 41]: Skończyłem myśleć[0;37m
+[0;37m [7, 41]: czekam na recv[0;37m
+[0;37m [7, 47]: Akceptuję wycieczkę o wielkości 9 od procesu 2[0;37m
+[0;37m [7, 47]: CurrentCount przed: 53[0;37m
+[0;37m [7, 47]: CurrentCount po: 62[0;37m
+[0;37m [7, 48]: Wysyłam potwierdzenie do 2
+[0;37m
+[0;37m [7, 48]: czekam na recv[0;37m
+[0;32m [9, 42]: Akceptuję wycieczkę o wielkości 19 od procesu 10[0;37m
+[0;32m [9, 42]: CurrentCount przed: 34[0;37m
+[0;32m [9, 42]: CurrentCount po: 53[0;37m
+[0;32m [9, 43]: Wysyłam potwierdzenie do 10
+[0;37m
+[0;32m [9, 43]: czekam na recv[0;37m
+[0;32m [9, 49]: Akceptuję wycieczkę o wielkości 9 od procesu 2[0;37m
+[0;32m [9, 49]: CurrentCount przed: 53[0;37m
+[0;32m [9, 49]: CurrentCount po: 62[0;37m
+[0;32m [9, 50]: Wysyłam potwierdzenie do 2
+[0;37m
+[0;32m [9, 50]: czekam na recv[0;37m
+[1;36m [6, 39]: CurrentCount przed: 34[0;37m
+[1;36m [6, 39]: CurrentCount po: 53[0;37m
+[1;36m [6, 40]: Wysyłam potwierdzenie do 10
+[0;37m
+[1;36m [6, 40]: czekam na recv[0;37m
+[1;36m [6, 46]: Akceptuję wycieczkę o wielkości 9 od procesu 2[0;37m
+[1;36m [6, 46]: CurrentCount przed: 53[0;37m
+[1;36m [6, 46]: CurrentCount po: 62[0;37m
+[1;36m [6, 47]: Wysyłam potwierdzenie do 2
+[0;37m
+[1;36m [6, 47]: czekam na recv[0;37m
+[1;37m [0, 35]: Akceptuję wycieczkę o wielkości 9 od procesu 2[0;37m
+[1;37m [0, 35]: CurrentCount przed: 53[0;37m
+[1;37m [0, 35]: CurrentCount po: 62[0;37m
+[1;37m [0, 36]: Wysyłam potwierdzenie do 2
+[0;37m
+[1;37m [0, 36]: czekam na recv[0;37m
+[1;31m [1, 38]: Akceptuję wycieczkę o wielkości 9 od procesu 2[0;37m
+[1;31m [1, 38]: CurrentCount przed: 53[0;37m
+[1;31m [1, 38]: CurrentCount po: 62[0;37m
+[1;31m [1, 39]: Wysyłam potwierdzenie do 2
+[0;37m
+[1;31m [1, 39]: czekam na recv[0;37m
+[1;32m [2, 38]: Wysyłam prośbę o sekcję krytyczną do 1
+[0;37m
+[1;32m [2, 39]: Wysyłam prośbę o sekcję krytyczną do 2
+[0;37m
+[1;32m [2, 41]: Wysyłam prośbę o sekcję krytyczną do 3
+[0;37m
+[1;32m [2, 40]: Akceptuję wycieczkę o wielkości 9 od procesu 2[0;37m
+[1;32m [2, 42]: CurrentCount przed: 53[0;37m
+[1;32m [2, 42]: CurrentCount po: 62[0;37m
+[1;32m [2, 43]: Wysyłam potwierdzenie do 2
+[0;37m
+[1;32m [2, 43]: czekam na recv[0;37m
+[1;32m [2, 42]: Wysyłam prośbę o sekcję krytyczną do 4
+[0;37m
+[1;32m [2, 45]: Wysyłam prośbę o sekcję krytyczną do 5
+[0;37m
+[1;32m [2, 44]: Dostałem ACK od 2, mam już 0[0;37m
+[1;32m [2, 46]: Wysyłam prośbę o sekcję krytyczną do 6
+[0;37m
+[1;32m [2, 47]: Wysyłam prośbę o sekcję krytyczną do 7
+[0;37m
+[1;32m [2, 48]: Wysyłam prośbę o sekcję krytyczną do 8
+[0;37m
+[1;32m [2, 49]: Wysyłam prośbę o sekcję krytyczną do 9
+[0;37m
+[1;32m [2, 50]: Wysyłam prośbę o sekcję krytyczną do 10
+[0;37m
+[1;32m [2, 51]: Wysyłam prośbę o sekcję krytyczną do 11
+[0;37m
+[1;32m [2, 51]: Skończyłem myśleć[0;37m
+[0;34m [11, 34]: Stan InWant: 2[0;37m
+[0;34m [11, 34]: Czekam na wejście do podprzestrzeni[0;37m
+[0;34m [11, 34]: Mam niezbędne zgody, wchodzę![0;37m
+[0;34m [11, 44]: Akceptuję wycieczkę o wielkości 19 od procesu 10[0;37m
+[0;34m [11, 44]: CurrentCount przed: 34[0;37m
+[0;34m [11, 44]: CurrentCount po: 53[0;37m
+[0;34m [11, 45]: Wysyłam potwierdzenie do 10
+[0;37m
+[0;34m [11, 45]: czekam na recv[0;37m
+[0;34m [11, 51]: Akceptuję wycieczkę o wielkości 9 od procesu 2[0;37m
+[0;34m [11, 51]: CurrentCount przed: 53[0;37m
+[0;34m [11, 51]: CurrentCount po: 62[0;37m
+[0;34m [11, 52]: Wysyłam potwierdzenie do 2
+[0;37m
+[0;34m [11, 52]: czekam na recv[0;37m
+[0;33m [10, 45]: Akceptuję wycieczkę o wielkości 19 od procesu 10[0;37m
+[0;33m [10, 45]: CurrentCount przed: 34[0;37m
+[0;33m [10, 45]: CurrentCount po: 53[0;37m
+[0;33m [10, 46]: Wysyłam potwierdzenie do 10
+[0;37m
+[0;33m [10, 46]: czekam na recv[0;37m
+[0;33m [10, 47]: Dostałem ACK od 10, mam już 0[0;37m
+[0;33m [10, 47]: czekam na recv[0;37m
+[0;33m [10, 48]: Dostałem ACK od 2, mam już 1[0;37m
+[0;33m [10, 48]: czekam na recv[0;37m
+[0;33m [10, 49]: Dostałem ACK od 0, mam już 2[0;37m
+[0;33m [10, 49]: czekam na recv[0;37m
+[0;33m [10, 50]: Dostałem ACK od 1, mam już 3[0;37m
+[0;33m [10, 50]: czekam na recv[0;37m
+[0;31m [8, 30]: Stan InRun: 0[0;37m
+[0;31m [8, 30]: Skończyłem myśleć[0;37m
+[0;31m [8, 41]: Akceptuję wycieczkę o wielkości 19 od procesu 10[0;37m
+[0;31m [8, 41]: CurrentCount przed: 34[0;37m
+[0;31m [8, 41]: CurrentCount po: 53[0;37m
+[0;31m [8, 42]: Wysyłam potwierdzenie do 10
+[0;37m
+[0;31m [8, 42]: czekam na recv[0;37m
+[0;31m [8, 48]: Akceptuję wycieczkę o wielkości 9 od procesu 2[0;37m
+[0;31m [8, 48]: CurrentCount przed: 53[0;37m
+[0;31m [8, 48]: CurrentCount po: 62[0;37m
+[0;31m [8, 49]: Wysyłam potwierdzenie do 2
+[0;37m
+[0;31m [8, 49]: czekam na recv[0;37m
+[1;33m [3, 41]: Akceptuję wycieczkę o wielkości 9 od procesu 2[0;37m
+[1;33m [3, 41]: CurrentCount przed: 53[0;37m
+[1;33m [3, 41]: CurrentCount po: 62[0;37m
+[1;33m [3, 42]: Wysyłam potwierdzenie do 2
+[0;37m
+[1;33m [3, 42]: czekam na recv[0;37m
+[1;35m [5, 38]: Akceptuję wycieczkę o wielkości 19 od procesu 10[0;37m
+[1;35m [5, 38]: CurrentCount przed: 34[0;37m
+[1;35m [5, 38]: CurrentCount po: 53[0;37m
+[1;35m [5, 38]: Stan InRun: 0[0;37m
+[1;35m [5, 39]: Skończyłem myśleć[0;37m
+[1;35m [5, 39]: Wysyłam potwierdzenie do 10
+[0;37m
+[1;35m [5, 39]: czekam na recv[0;37m
+[1;35m [5, 45]: Akceptuję wycieczkę o wielkości 9 od procesu 2[0;37m
+[1;35m [5, 45]: CurrentCount przed: 53[0;37m
+[1;35m [5, 45]: CurrentCount po: 62[0;37m
+[1;35m [5, 46]: Wysyłam potwierdzenie do 2
+[0;37m
+[1;35m [5, 46]: czekam na recv[0;37m
+[1;34m [4, 42]: Akceptuję wycieczkę o wielkości 9 od procesu 2[0;37m
+[1;34m [4, 42]: CurrentCount przed: 53[0;37m
+[1;34m [4, 42]: CurrentCount po: 62[0;37m
+[1;34m [4, 43]: Wysyłam potwierdzenie do 2
+[0;37m
+[1;34m [4, 43]: czekam na recv[0;37m
+[0;33m [10, 51]: Dostałem ACK od 3, mam już 4[0;37m
+[0;33m [10, 51]: czekam na recv[0;37m
+[0;33m [10, 52]: Dostałem ACK od 4, mam już 5[0;37m
+[0;33m [10, 52]: czekam na recv[0;37m
+[0;33m [10, 53]: Dostałem ACK od 7, mam już 6[0;37m
+[0;33m [10, 53]: czekam na recv[0;37m
+[0;33m [10, 54]: Dostałem ACK od 8, mam już 7[0;37m
+[0;33m [10, 54]: czekam na recv[0;37m
+[0;33m [10, 55]: Dostałem ACK od 11, mam już 8[0;37m
+[0;33m [10, 55]: czekam na recv[0;37m
+[0;33m [10, 56]: Dostałem ACK od 9, mam już 9[0;37m
+[0;33m [10, 56]: czekam na recv[0;37m
+[0;33m [10, 57]: Dostałem ACK od 5, mam już 10[0;37m
+[0;33m [10, 57]: czekam na recv[0;37m
+[0;33m [10, 58]: Dostałem ACK od 6, mam już 11[0;37m
+[0;33m [10, 58]: czekam na recv[0;37m
+[0;33m [10, 59]: Akceptuję wycieczkę o wielkości 9 od procesu 2[0;37m
+[0;33m [10, 59]: CurrentCount przed: 53[0;37m
+[0;33m [10, 59]: CurrentCount po: 62[0;37m
+[0;33m [10, 60]: Wysyłam potwierdzenie do 2
+[0;37m
+[0;33m [10, 60]: czekam na recv[0;37m
+[1;32m [2, 46]: czekam na recv[0;37m
+[1;32m [2, 52]: Dostałem ACK od 0, mam już 1[0;37m
+[1;32m [2, 52]: czekam na recv[0;37m
+[1;32m [2, 53]: Dostałem ACK od 1, mam już 2[0;37m
+[1;32m [2, 53]: czekam na recv[0;37m
+[1;32m [2, 54]: Dostałem ACK od 3, mam już 3[0;37m
+[1;32m [2, 54]: czekam na recv[0;37m
+[1;32m [2, 55]: Dostałem ACK od 4, mam już 4[0;37m
+[1;32m [2, 55]: czekam na recv[0;37m
+[0;32m [9, 50]: Stan InWant: 2[0;37m
+[0;32m [9, 50]: Czekam na wejście do podprzestrzeni[0;37m
+[0;32m [9, 50]: Mam niezbędne zgody, wchodzę![0;37m
+[1;32m [2, 56]: Dostałem ACK od 6, mam już 5[0;37m
+[1;32m [2, 56]: czekam na recv[0;37m
+[1;32m [2, 57]: Dostałem ACK od 5, mam już 6[0;37m
+[1;32m [2, 57]: czekam na recv[0;37m
+[1;32m [2, 58]: Dostałem ACK od 8, mam już 7[0;37m
+[1;32m [2, 58]: czekam na recv[0;37m
+[1;32m [2, 59]: Dostałem ACK od 9, mam już 8[0;37m
+[1;32m [2, 59]: czekam na recv[0;37m
+[1;32m [2, 60]: Dostałem ACK od 7, mam już 9[0;37m
+[1;32m [2, 60]: czekam na recv[0;37m
+[1;32m [2, 61]: Dostałem ACK od 11, mam już 10[0;37m
+[1;32m [2, 61]: czekam na recv[0;37m
+[1;32m [2, 62]: Dostałem ACK od 10, mam już 11[0;37m
+[1;32m [2, 62]: czekam na recv[0;37m
+[1;37m [0, 36]: Stan InRun: 0[0;37m
+[1;37m [0, 36]: Skończyłem myśleć[0;37m
+[1;33m [3, 42]: Stan InRun: 0[0;37m
+[1;33m [3, 42]: Skończyłem myśleć[0;37m
+[1;36m [6, 47]: Stan InRun: 0[0;37m
+[1;36m [6, 47]: tripSize: 6 currentCount: 62[0;37m
+[1;36m [6, 47]: Ubiegam się o wejsćie do podprzestrzeni[0;37m
+[1;36m [6, 47]: W podprzestrzeni jest 62 osób[0;37m
+[1;36m [6, 47]: Jest miejsce w podprzestrzeni, wysyłam pytania o zgody[0;37m
+[1;36m [6, 48]: Wysyłam prośbę o sekcję krytyczną do 0
+[0;37m
+[1;36m [6, 49]: Wysyłam prośbę o sekcję krytyczną do 1
+[0;37m
+[1;36m [6, 50]: Wysyłam prośbę o sekcję krytyczną do 2
+[0;37m
+[1;37m [0, 48]: Akceptuję wycieczkę o wielkości 6 od procesu 6[0;37m
+[1;32m [2, 63]: Akceptuję wycieczkę o wielkości 6 od procesu 6[0;37m
+[1;32m [2, 63]: CurrentCount przed: 62[0;37m
+[1;32m [2, 63]: CurrentCount po: 68[0;37m
+[1;32m [2, 64]: Wysyłam potwierdzenie do 6
+[0;37m
+[1;32m [2, 64]: czekam na recv[0;37m
+[1;37m [0, 48]: CurrentCount przed: 62[0;37m
+[1;37m [0, 48]: CurrentCount po: 68[0;37m
+[1;37m [0, 49]: Wysyłam potwierdzenie do 6
+[0;37m
+[1;37m [0, 49]: czekam na recv[0;37m
+[0;33m [10, 60]: Stan InWant: 2[0;37m
+[0;33m [10, 60]: Czekam na wejście do podprzestrzeni[0;37m
+[0;33m [10, 60]: Mam niezbędne zgody, wchodzę![0;37m
+[0;34m [11, 52]: Stan InSection: 3[0;37m
+[0;34m [11, 52]: Przechodzę przez podprzestrzeń![0;37m
+[0;31m [8, 49]: Stan InRun: 0[0;37m
+[0;31m [8, 49]: Skończyłem myśleć[0;37m
+[0;31m [8, 57]: Akceptuję wycieczkę o wielkości 6 od procesu 6[0;37m
+[0;31m [8, 57]: CurrentCount przed: 62[0;37m
+[0;31m [8, 57]: CurrentCount po: 68[0;37m
+[0;31m [8, 58]: Wysyłam potwierdzenie do 6
+[0;37m
+[1;36m [6, 51]: Wysyłam prośbę o sekcję krytyczną do 3
+[0;37m
+[1;36m [6, 52]: Wysyłam prośbę o sekcję krytyczną do 4
+[0;37m
+[1;36m [6, 53]: Wysyłam prośbę o sekcję krytyczną do 5
+[0;37m
+[1;36m [6, 54]: Wysyłam prośbę o sekcję krytyczną do 6
+[0;37m
+[1;36m [6, 56]: Wysyłam prośbę o sekcję krytyczną do 7
+[0;37m
+[1;36m [6, 57]: Wysyłam prośbę o sekcję krytyczną do 8
+[0;37m
+[1;36m [6, 58]: Wysyłam prośbę o sekcję krytyczną do 9
+[0;37m
+[1;35m [5, 53]: Akceptuję wycieczkę o wielkości 6 od procesu 6[0;37m
+[1;35m [5, 53]: CurrentCount przed: 62[0;37m
+[1;31m [1, 39]: Stan InRun: 0[0;37m
+[1;31m [1, 39]: Skończyłem myśleć[0;37m
+[1;31m [1, 49]: Akceptuję wycieczkę o wielkości 6 od procesu 6[0;37m
+[1;31m [1, 49]: CurrentCount przed: 62[0;37m
+[1;31m [1, 49]: CurrentCount po: 68[0;37m
+[1;31m [1, 50]: Wysyłam potwierdzenie do 6
+[0;37m
+[1;31m [1, 50]: czekam na recv[0;37m
+[0;37m [7, 48]: Stan InRun: 0[0;37m
+[0;37m [7, 48]: Skończyłem myśleć[0;37m
+[0;37m [7, 56]: Akceptuję wycieczkę o wielkości 6 od procesu 6[0;37m
+[0;37m [7, 56]: CurrentCount przed: 62[0;37m
+[0;37m [7, 56]: CurrentCount po: 68[0;37m
+[0;32m [9, 58]: Akceptuję wycieczkę o wielkości 6 od procesu 6[0;37m
+[0;32m [9, 58]: CurrentCount przed: 62[0;37m
+[0;32m [9, 58]: CurrentCount po: 68[0;37m
+[0;32m [9, 59]: Wysyłam potwierdzenie do 6
+[0;37m
+[0;32m [9, 59]: czekam na recv[0;37m
+[1;33m [3, 51]: Akceptuję wycieczkę o wielkości 6 od procesu 6[0;37m
+[1;33m [3, 51]: CurrentCount przed: 62[0;37m
+[1;33m [3, 51]: CurrentCount po: 68[0;37m
+[1;33m [3, 52]: Wysyłam potwierdzenie do 6
+[0;37m
+[1;33m [3, 52]: czekam na recv[0;37m
+[0;31m [8, 58]: czekam na recv[0;37m
+[0;37m [7, 57]: Wysyłam potwierdzenie do 6
+[0;37m
+[0;37m [7, 57]: czekam na recv[0;37m
+[0;33m [10, 61]: Akceptuję wycieczkę o wielkości 6 od procesu 6[0;37m
+[0;33m [10, 61]: CurrentCount przed: 62[0;37m
+[0;33m [10, 61]: CurrentCount po: 68[0;37m
+[1;36m [6, 55]: Akceptuję wycieczkę o wielkości 6 od procesu 6[0;37m
+[1;36m [6, 59]: CurrentCount przed: 62[0;37m
+[1;36m [6, 59]: CurrentCount po: 68[0;37m
+[1;36m [6, 60]: Wysyłam potwierdzenie do 6
+[0;37m
+[1;36m [6, 60]: czekam na recv[0;37m
+[1;36m [6, 61]: Dostałem ACK od 6, mam już 0[0;37m
+[1;35m [5, 53]: CurrentCount po: 68[0;37m
+[1;35m [5, 53]: Stan InRun: 0[0;37m
+[1;35m [5, 53]: tripSize: 13 currentCount: 68[0;37m
+[1;35m [5, 53]: Ubiegam się o wejsćie do podprzestrzeni[0;37m
+[1;35m [5, 53]: W podprzestrzeni jest 68 osób[0;37m
+[1;35m [5, 53]: Jest miejsce w podprzestrzeni, wysyłam pytania o zgody[0;37m
+[1;32m [2, 64]: Stan InWant: 2[0;37m
+[1;32m [2, 64]: Czekam na wejście do podprzestrzeni[0;37m
+[1;32m [2, 64]: Mam niezbędne zgody, wchodzę![0;37m
+[1;35m [5, 54]: Wysyłam prośbę o sekcję krytyczną do 0
+[0;37m
+[1;35m [5, 55]: Wysyłam prośbę o sekcję krytyczną do 1
+[0;37m
+[1;35m [5, 56]: Wysyłam prośbę o sekcję krytyczną do 2
+[0;37m
+[1;35m [5, 57]: Wysyłam prośbę o sekcję krytyczną do 3
+[0;37m
+[1;35m [5, 58]: Wysyłam prośbę o sekcję krytyczną do 4
+[0;37m
+[1;35m [5, 59]: Wysyłam prośbę o sekcję krytyczną do 5
+[0;37m
+[1;35m [5, 60]: Wysyłam prośbę o sekcję krytyczną do 6
+[0;37m
+[1;35m [5, 61]: Wysyłam prośbę o sekcję krytyczną do 7
+[0;37m
+[1;35m [5, 62]: Wysyłam prośbę o sekcję krytyczną do 8
+[0;37m
+[1;35m [5, 63]: Wysyłam prośbę o sekcję krytyczną do 9
+[0;37m
+[1;32m [2, 65]: Akceptuję wycieczkę o wielkości 13 od procesu 5[0;37m
+[1;32m [2, 65]: CurrentCount przed: 68[0;37m
+[1;32m [2, 65]: CurrentCount po: 81[0;37m
+[1;32m [2, 66]: Wysyłam potwierdzenie do 5
+[0;37m
+[1;32m [2, 66]: czekam na recv[0;37m
+[1;37m [0, 54]: Akceptuję wycieczkę o wielkości 13 od procesu 5[0;37m
+[1;37m [0, 54]: CurrentCount przed: 68[0;37m
+[1;37m [0, 54]: CurrentCount po: 81[0;37m
+[1;37m [0, 55]: Wysyłam potwierdzenie do 5
+[0;37m
+[1;37m [0, 55]: czekam na recv[0;37m
+[1;34m [4, 43]: Stan InSection: 3[0;37m
+[1;34m [4, 43]: Przechodzę przez podprzestrzeń![0;37m
+[1;34m [4, 52]: Akceptuję wycieczkę o wielkości 6 od procesu 6[0;37m
+[0;34m [11, 62]: Akceptuję wycieczkę o wielkości 6 od procesu 6[0;37m
+[0;34m [11, 62]: CurrentCount przed: 62[0;37m
+[0;34m [11, 62]: CurrentCount po: 68[0;37m
+[0;34m [11, 63]: Wysyłam potwierdzenie do 6
+[0;37m
+[0;34m [11, 63]: czekam na recv[0;37m
+[1;33m [3, 57]: Akceptuję wycieczkę o wielkości 13 od procesu 5[0;37m
+[1;33m [3, 57]: CurrentCount przed: 68[0;37m
+[0;33m [10, 62]: Wysyłam potwierdzenie do 6
+[0;37m
+[0;33m [10, 62]: czekam na recv[0;37m
+[0;33m [10, 64]: Akceptuję wycieczkę o wielkości 13 od procesu 5[0;37m
+[0;33m [10, 64]: CurrentCount przed: 68[0;37m
+[0;33m [10, 64]: CurrentCount po: 81[0;37m
+[1;36m [6, 59]: Wysyłam prośbę o sekcję krytyczną do 10
+[0;37m
+[1;36m [6, 62]: Wysyłam prośbę o sekcję krytyczną do 11
+[0;37m
+[1;36m [6, 62]: Skończyłem myśleć[0;37m
+[1;36m [6, 61]: czekam na recv[0;37m
+[1;36m [6, 64]: Dostałem ACK od 2, mam już 1[0;37m
+[1;36m [6, 64]: czekam na recv[0;37m
+[1;36m [6, 65]: Dostałem ACK od 3, mam już 2[0;37m
+[1;36m [6, 65]: czekam na recv[0;37m
+[1;36m [6, 66]: Dostałem ACK od 0, mam już 3[0;37m
+[1;31m [1, 55]: Akceptuję wycieczkę o wielkości 13 od procesu 5[0;37m
+[1;31m [1, 55]: CurrentCount przed: 68[0;37m
+[1;31m [1, 55]: CurrentCount po: 81[0;37m
+[1;31m [1, 56]: Wysyłam potwierdzenie do 5
+[0;37m
+[1;31m [1, 56]: czekam na recv[0;37m
+[1;36m [6, 66]: czekam na recv[0;37m
+[1;36m [6, 67]: Dostałem ACK od 1, mam już 4[0;37m
+[1;36m [6, 67]: czekam na recv[0;37m
+[1;36m [6, 68]: Dostałem ACK od 9, mam już 5[0;37m
+[1;36m [6, 68]: czekam na recv[0;37m
+[0;31m [8, 62]: Akceptuję wycieczkę o wielkości 13 od procesu 5[0;37m
+[0;31m [8, 62]: CurrentCount przed: 68[0;37m
+[0;31m [8, 62]: CurrentCount po: 81[0;37m
+[0;31m [8, 63]: Wysyłam potwierdzenie do 5
+[0;37m
+[0;31m [8, 63]: czekam na recv[0;37m
+[0;32m [9, 63]: Akceptuję wycieczkę o wielkości 13 od procesu 5[0;37m
+[0;32m [9, 63]: CurrentCount przed: 68[0;37m
+[0;32m [9, 63]: CurrentCount po: 81[0;37m
+[0;32m [9, 64]: Wysyłam potwierdzenie do 5
+[0;37m
+[0;32m [9, 64]: czekam na recv[0;37m
+[1;35m [5, 64]: Wysyłam prośbę o sekcję krytyczną do 10
+[0;37m
+[1;35m [5, 65]: Wysyłam prośbę o sekcję krytyczną do 11
+[0;37m
+[1;35m [5, 65]: Skończyłem myśleć[0;37m
+[1;35m [5, 66]: Wysyłam potwierdzenie do 6
+[0;37m
+[1;35m [5, 66]: czekam na recv[0;37m
+[1;35m [5, 67]: Akceptuję wycieczkę o wielkości 13 od procesu 5[0;37m
+[1;35m [5, 67]: CurrentCount przed: 68[0;37m
+[1;35m [5, 67]: CurrentCount po: 81[0;37m
+[1;35m [5, 68]: Wysyłam potwierdzenie do 5
+[0;37m
+[0;37m [7, 61]: Akceptuję wycieczkę o wielkości 13 od procesu 5[0;37m
+[0;37m [7, 61]: CurrentCount przed: 68[0;37m
+[0;37m [7, 61]: CurrentCount po: 81[0;37m
+[0;37m [7, 62]: Wysyłam potwierdzenie do 5
+[0;37m
+[0;37m [7, 62]: czekam na recv[0;37m
+[1;34m [4, 52]: CurrentCount przed: 62[0;37m
+[1;34m [4, 52]: CurrentCount po: 68[0;37m
+[1;34m [4, 53]: Wysyłam potwierdzenie do 6
+[0;37m
+[1;34m [4, 53]: czekam na recv[0;37m
+[1;34m [4, 58]: Akceptuję wycieczkę o wielkości 13 od procesu 5[0;37m
+[1;34m [4, 58]: CurrentCount przed: 68[0;37m
+[1;34m [4, 58]: CurrentCount po: 81[0;37m
+[1;34m [4, 59]: Wysyłam potwierdzenie do 5
+[0;37m
+[1;34m [4, 59]: czekam na recv[0;37m
+[0;34m [11, 65]: Akceptuję wycieczkę o wielkości 13 od procesu 5[0;37m
+[0;34m [11, 65]: CurrentCount przed: 68[0;37m
+[0;34m [11, 65]: CurrentCount po: 81[0;37m
+[0;34m [11, 66]: Wysyłam potwierdzenie do 5
+[0;37m
+[0;34m [11, 66]: czekam na recv[0;37m
+[0;33m [10, 65]: Wysyłam potwierdzenie do 5
+[0;37m
+[0;33m [10, 65]: czekam na recv[0;37m
+[1;36m [6, 69]: Dostałem ACK od 8, mam już 6[0;37m
+[1;36m [6, 69]: czekam na recv[0;37m
+[1;35m [5, 68]: czekam na recv[0;37m
+[1;35m [5, 69]: Dostałem ACK od 5, mam już 0[0;37m
+[1;35m [5, 69]: czekam na recv[0;37m
+[1;35m [5, 70]: Dostałem ACK od 2, mam już 1[0;37m
+[1;35m [5, 70]: czekam na recv[0;37m
+[1;35m [5, 71]: Dostałem ACK od 0, mam już 2[0;37m
+[1;35m [5, 71]: czekam na recv[0;37m
+[1;35m [5, 72]: Dostałem ACK od 1, mam już 3[0;37m
+[1;35m [5, 72]: czekam na recv[0;37m
+[1;35m [5, 73]: Dostałem ACK od 8, mam już 4[0;37m
+[1;36m [6, 70]: Dostałem ACK od 7, mam już 7[0;37m
+[1;36m [6, 70]: czekam na recv[0;37m
+[1;36m [6, 71]: Dostałem ACK od 10, mam już 8[0;37m
+[1;36m [6, 71]: czekam na recv[0;37m
+[1;35m [5, 73]: czekam na recv[0;37m
+[1;35m [5, 74]: Dostałem ACK od 10, mam już 5[0;37m
+[1;36m [6, 72]: Dostałem ACK od 11, mam już 9[0;37m
+[1;36m [6, 72]: czekam na recv[0;37m
+[1;36m [6, 73]: Akceptuję wycieczkę o wielkości 13 od procesu 5[0;37m
+[1;36m [6, 73]: CurrentCount przed: 68[0;37m
+[0;32m [9, 64]: Stan InSection: 3[0;37m
+[0;32m [9, 64]: Przechodzę przez podprzestrzeń![0;37m
+[1;36m [6, 73]: CurrentCount po: 81[0;37m
+[1;36m [6, 74]: Wysyłam potwierdzenie do 5
+[0;37m
+[1;36m [6, 74]: czekam na recv[0;37m
+[1;35m [5, 74]: czekam na recv[0;37m
+[1;35m [5, 75]: Dostałem ACK od 9, mam już 6[0;37m
+[1;35m [5, 75]: czekam na recv[0;37m
+[1;35m [5, 76]: Dostałem ACK od 11, mam już 7[0;37m
+[1;35m [5, 76]: czekam na recv[0;37m
+[1;35m [5, 77]: Dostałem ACK od 7, mam już 8[0;37m
+[1;36m [6, 75]: Dostałem ACK od 5, mam już 10[0;37m
+[1;36m [6, 75]: czekam na recv[0;37m
+[1;36m [6, 76]: Dostałem ACK od 4, mam już 11[0;37m
+[1;36m [6, 76]: czekam na recv[0;37m
+[1;35m [5, 77]: czekam na recv[0;37m
+[1;35m [5, 78]: Dostałem ACK od 4, mam już 9[0;37m
+[1;35m [5, 78]: czekam na recv[0;37m
+[1;35m [5, 79]: Dostałem ACK od 6, mam już 10[0;37m
+[1;35m [5, 79]: czekam na recv[0;37m
+[1;33m [3, 57]: CurrentCount po: 81[0;37m
+[1;35m [5, 80]: Dostałem ACK od 3, mam już 11[0;37m
+[1;35m [5, 80]: czekam na recv[0;37m
+[1;33m [3, 58]: Wysyłam potwierdzenie do 5
+[0;37m
+[1;33m [3, 58]: czekam na recv[0;37m
+[1;33m [3, 58]: Stan InRun: 0[0;37m
+[1;33m [3, 58]: Skończyłem myśleć[0;37m
+[1;37m [0, 55]: Stan InRun: 0[0;37m
+[1;37m [0, 55]: tripSize: 14 currentCount: 81[0;37m
+[1;37m [0, 55]: Ubiegam się o wejsćie do podprzestrzeni[0;37m
+[1;37m [0, 55]: W podprzestrzeni jest 81 osób[0;37m
+[1;37m [0, 55]: Jest miejsce w podprzestrzeni, wysyłam pytania o zgody[0;37m
+[1;37m [0, 56]: Wysyłam prośbę o sekcję krytyczną do 0
+[0;37m
+[1;37m [0, 57]: Wysyłam prośbę o sekcję krytyczną do 1
+[0;37m
+[1;37m [0, 58]: Wysyłam prośbę o sekcję krytyczną do 2
+[0;37m
+[1;31m [1, 57]: Akceptuję wycieczkę o wielkości 14 od procesu 0[0;37m
+[1;31m [1, 57]: CurrentCount przed: 81[0;37m
+[1;31m [1, 57]: CurrentCount po: 95[0;37m
+[1;31m [1, 58]: Wysyłam potwierdzenie do 0
+[0;37m
+[1;31m [1, 58]: czekam na recv[0;37m
+[0;33m [10, 65]: Stan InSection: 3[0;37m
+[0;33m [10, 65]: Przechodzę przez podprzestrzeń![0;37m
+[0;31m [8, 63]: Stan InRun: 0[0;37m
+[0;31m [8, 63]: Skończyłem myśleć[0;37m
+[1;37m [0, 59]: Wysyłam prośbę o sekcję krytyczną do 3
+[0;37m
+[1;37m [0, 60]: Wysyłam prośbę o sekcję krytyczną do 4
+[0;37m
+[1;37m [0, 61]: Wysyłam prośbę o sekcję krytyczną do 5
+[0;37m
+[1;37m [0, 62]: Wysyłam prośbę o sekcję krytyczną do 6
+[0;37m
+[1;37m [0, 63]: Wysyłam prośbę o sekcję krytyczną do 7
+[0;37m
+[1;37m [0, 64]: Wysyłam prośbę o sekcję krytyczną do 8
+[0;37m
+[1;37m [0, 65]: Wysyłam prośbę o sekcję krytyczną do 9
+[0;37m
+[1;32m [2, 67]: Akceptuję wycieczkę o wielkości 14 od procesu 0[0;37m
+[1;32m [2, 67]: CurrentCount przed: 81[0;37m
+[1;32m [2, 67]: CurrentCount po: 95[0;37m
+[1;32m [2, 68]: Wysyłam potwierdzenie do 0
+[0;37m
+[1;32m [2, 68]: czekam na recv[0;37m
+[1;31m [1, 58]: Stan InRun: 0[0;37m
+[1;31m [1, 58]: tripSize: 14 currentCount: 95[0;37m
+[1;31m [1, 58]: Ubiegam się o wejsćie do podprzestrzeni[0;37m
+[1;31m [1, 58]: W podprzestrzeni jest 95 osób[0;37m
+[1;31m [1, 58]: Nie ma miejsca, czekamy[0;37m
+[0;33m [10, 66]: Akceptuję wycieczkę o wielkości 14 od procesu 0[0;37m
+[0;33m [10, 66]: CurrentCount przed: 81[0;37m
+[0;33m [10, 66]: CurrentCount po: 95[0;37m
+[0;33m [10, 67]: Wysyłam potwierdzenie do 0
+[0;37m
+[0;33m [10, 67]: czekam na recv[0;37m
+[0;32m [9, 65]: Akceptuję wycieczkę o wielkości 14 od procesu 0[0;37m
+[0;32m [9, 65]: CurrentCount przed: 81[0;37m
+[0;32m [9, 65]: CurrentCount po: 95[0;37m
+[0;32m [9, 66]: Wysyłam potwierdzenie do 0
+[0;37m
+[0;32m [9, 66]: czekam na recv[0;37m
+[1;37m [0, 66]: Wysyłam prośbę o sekcję krytyczną do 10
+[0;37m
+[1;37m [0, 67]: Wysyłam prośbę o sekcję krytyczną do 11
+[0;37m
+[1;37m [0, 67]: Skończyłem myśleć[0;37m
+[1;37m [0, 68]: Akceptuję wycieczkę o wielkości 14 od procesu 0[0;37m
+[1;37m [0, 68]: CurrentCount przed: 81[0;37m
+[1;37m [0, 68]: CurrentCount po: 95[0;37m
+[1;37m [0, 69]: Wysyłam potwierdzenie do 0
+[0;37m
+[1;37m [0, 69]: czekam na recv[0;37m
+[1;37m [0, 70]: Dostałem ACK od 0, mam już 0[0;37m
+[1;37m [0, 70]: czekam na recv[0;37m
+[1;37m [0, 71]: Dostałem ACK od 2, mam już 1[0;37m
+[1;37m [0, 71]: czekam na recv[0;37m
+[1;36m [6, 77]: Akceptuję wycieczkę o wielkości 14 od procesu 0[0;37m
+[1;36m [6, 77]: CurrentCount przed: 81[0;37m
+[1;36m [6, 77]: CurrentCount po: 95[0;37m
+[1;36m [6, 78]: Wysyłam potwierdzenie do 0
+[0;37m
+[1;36m [6, 78]: czekam na recv[0;37m
+[1;34m [4, 60]: Akceptuję wycieczkę o wielkości 14 od procesu 0[0;37m
+[1;34m [4, 60]: CurrentCount przed: 81[0;37m
+[1;34m [4, 60]: CurrentCount po: 95[0;37m
+[1;34m [4, 61]: Wysyłam potwierdzenie do 0
+[0;37m
+[1;34m [4, 61]: czekam na recv[0;37m
+[1;35m [5, 81]: Akceptuję wycieczkę o wielkości 14 od procesu 0[0;37m
+[1;35m [5, 81]: CurrentCount przed: 81[0;37m
+[1;35m [5, 81]: CurrentCount po: 95[0;37m
+[1;35m [5, 82]: Wysyłam potwierdzenie do 0
+[0;37m
+[1;35m [5, 82]: czekam na recv[0;37m
+[0;34m [11, 67]: Akceptuję wycieczkę o wielkości 14 od procesu 0[0;37m
+[0;34m [11, 67]: CurrentCount przed: 81[0;37m
+[0;34m [11, 67]: CurrentCount po: 95[0;37m
+[0;34m [11, 68]: Wysyłam potwierdzenie do 0
+[0;37m
+[0;34m [11, 68]: czekam na recv[0;37m
+[0;31m [8, 64]: Akceptuję wycieczkę o wielkości 14 od procesu 0[0;37m
+[0;31m [8, 64]: CurrentCount przed: 81[0;37m
+[0;31m [8, 64]: CurrentCount po: 95[0;37m
+[0;31m [8, 65]: Wysyłam potwierdzenie do 0
+[0;37m
+[0;31m [8, 65]: czekam na recv[0;37m
+[1;37m [0, 72]: Dostałem ACK od 1, mam już 2[0;37m
+[1;37m [0, 72]: czekam na recv[0;37m
+[1;37m [0, 73]: Dostałem ACK od 4, mam już 3[0;37m
+[1;37m [0, 73]: czekam na recv[0;37m
+[1;32m [2, 68]: Stan InSection: 3[0;37m
+[1;32m [2, 68]: Przechodzę przez podprzestrzeń![0;37m
+[1;36m [6, 78]: Stan InWant: 2[0;37m
+[1;36m [6, 78]: Czekam na wejście do podprzestrzeni[0;37m
+[1;36m [6, 78]: Mam niezbędne zgody, wchodzę![0;37m
+[1;37m [0, 82]: Dostałem ACK od 5, mam już 4[0;37m
+[1;37m [0, 82]: czekam na recv[0;37m
+[1;37m [0, 83]: Dostałem ACK od 6, mam już 5[0;37m
+[1;37m [0, 83]: czekam na recv[0;37m
+[1;37m [0, 84]: Dostałem ACK od 8, mam już 6[0;37m
+[1;37m [0, 84]: czekam na recv[0;37m
+[1;37m [0, 85]: Dostałem ACK od 10, mam już 7[0;37m
+[1;37m [0, 85]: czekam na recv[0;37m
+[1;37m [0, 86]: Dostałem ACK od 11, mam już 8[0;37m
+[1;37m [0, 86]: czekam na recv[0;37m
+[1;35m [5, 82]: Stan InWant: 2[0;37m
+[1;35m [5, 82]: Czekam na wejście do podprzestrzeni[0;37m
+[1;35m [5, 82]: Mam niezbędne zgody, wchodzę![0;37m
+[1;37m [0, 87]: Dostałem ACK od 9, mam już 9[0;37m
+[1;37m [0, 87]: czekam na recv[0;37m
+[1;33m [3, 59]: Akceptuję wycieczkę o wielkości 14 od procesu 0[0;37m
+[1;33m [3, 59]: CurrentCount przed: 81[0;37m
+[1;33m [3, 59]: CurrentCount po: 95[0;37m
+[1;37m [0, 88]: Dostałem ACK od 3, mam już 10[0;37m
+[1;37m [0, 88]: czekam na recv[0;37m
+[1;33m [3, 60]: Wysyłam potwierdzenie do 0
+[0;37m
+[1;33m [3, 60]: czekam na recv[0;37m
+[0;37m [7, 62]: Stan InRun: 0[0;37m
+[0;37m [7, 62]: Skończyłem myśleć[0;37m
+[0;37m [7, 63]: Akceptuję wycieczkę o wielkości 14 od procesu 0[0;37m
+[0;37m [7, 63]: CurrentCount przed: 81[0;37m
+[0;37m [7, 63]: CurrentCount po: 95[0;37m
+[0;37m [7, 64]: Wysyłam potwierdzenie do 0
+[0;37m
+[1;37m [0, 89]: Dostałem ACK od 7, mam już 11[0;37m
+[1;37m [0, 89]: czekam na recv[0;37m
+[0;37m [7, 64]: czekam na recv[0;37m
+[1;33m [3, 60]: Stan InRun: 0[0;37m
+[1;33m [3, 60]: Skończyłem myśleć[0;37m
+[0;31m [8, 65]: Stan InRun: 0[0;37m
+[0;31m [8, 65]: tripSize: 14 currentCount: 95[0;37m
+[0;31m [8, 65]: Ubiegam się o wejsćie do podprzestrzeni[0;37m
+[0;31m [8, 65]: W podprzestrzeni jest 95 osób[0;37m
+[0;31m [8, 65]: Nie ma miejsca, czekamy[0;37m
+[1;31m [1, 58]: Nie ma miejsca, czekamy[0;37m
+[1;37m [0, 89]: Stan InWant: 2[0;37m
+[1;37m [0, 89]: Czekam na wejście do podprzestrzeni[0;37m
+[1;37m [0, 89]: Mam niezbędne zgody, wchodzę![0;37m
+[1;36m [6, 78]: Stan InSection: 3[0;37m
+[1;36m [6, 78]: Przechodzę przez podprzestrzeń![0;37m
+[1;35m [5, 82]: Stan InSection: 3[0;37m
+[1;35m [5, 82]: Przechodzę przez podprzestrzeń![0;37m
+[0;37m [7, 64]: Stan InRun: 0[0;37m
+[0;37m [7, 64]: Skończyłem myśleć[0;37m
+[1;33m [3, 60]: Stan InRun: 0[0;37m
+[1;33m [3, 60]: Skończyłem myśleć[0;37m
+[1;37m [0, 89]: Stan InSection: 3[0;37m
+[1;37m [0, 89]: Przechodzę przez podprzestrzeń![0;37m
+[0;31m [8, 65]: Nie ma miejsca, czekamy[0;37m
+[1;31m [1, 58]: Nie ma miejsca, czekamy[0;37m
+[0;37m [7, 64]: Stan InRun: 0[0;37m
+[0;37m [7, 64]: Skończyłem myśleć[0;37m
+[1;33m [3, 60]: Stan InRun: 0[0;37m
+[1;33m [3, 60]: Skończyłem myśleć[0;37m
+[1;31m [1, 58]: Nie ma miejsca, czekamy[0;37m
+[0;31m [8, 65]: Nie ma miejsca, czekamy[0;37m
+[0;37m [7, 64]: Stan InRun: 0[0;37m
+[0;37m [7, 64]: Skończyłem myśleć[0;37m
+[0;34m [11, 68]: Wychodzę z podprzestrzeni[0;37m
+[0;34m [11, 68]: Zmieniam stan na wysyłanie[0;37m
+[0;34m [11, 69]: Wysyłam zwolnienie sekcji krytycznej do 0
+[0;37m
+[0;34m [11, 70]: Wysyłam zwolnienie sekcji krytycznej do 1
+[0;37m
+[0;34m [11, 71]: Wysyłam zwolnienie sekcji krytycznej do 2
+[0;37m
+[0;34m [11, 72]: Wysyłam zwolnienie sekcji krytycznej do 3
+[0;37m
+[0;34m [11, 73]: Wysyłam zwolnienie sekcji krytycznej do 4
+[0;37m
+[0;34m [11, 74]: Wysyłam zwolnienie sekcji krytycznej do 5
+[0;37m
+[0;34m [11, 75]: Wysyłam zwolnienie sekcji krytycznej do 6
+[0;37m
+[0;34m [11, 76]: Wysyłam zwolnienie sekcji krytycznej do 7
+[0;37m
+[0;34m [11, 77]: Wysyłam zwolnienie sekcji krytycznej do 8
+[0;37m
+[0;34m [11, 78]: Wysyłam zwolnienie sekcji krytycznej do 9
+[0;37m
+[0;34m [11, 79]: Wysyłam zwolnienie sekcji krytycznej do 10
+[0;37m
+[1;37m [0, 90]: Dostałem RELEASE od 11, wycieczka miała rozmiar 15[0;37m
+[1;37m [0, 90]: CurrentCount przed: 95[0;37m
+[1;37m [0, 90]: CurrentCount po: 80[0;37m
+[1;37m [0, 90]: czekam na recv[0;37m
+[0;32m [9, 78]: Dostałem RELEASE od 11, wycieczka miała rozmiar 15[0;37m
+[0;32m [9, 78]: CurrentCount przed: 95[0;37m
+[0;32m [9, 78]: CurrentCount po: 80[0;37m
+[0;32m [9, 78]: czekam na recv[0;37m
+[1;33m [3, 72]: Dostałem RELEASE od 11, wycieczka miała rozmiar 15[0;37m
+[1;33m [3, 72]: CurrentCount przed: 95[0;37m
+[1;33m [3, 72]: CurrentCount po: 80[0;37m
+[1;33m [3, 72]: czekam na recv[0;37m
+[1;31m [1, 70]: Dostałem RELEASE od 11, wycieczka miała rozmiar 15[0;37m
+[1;31m [1, 70]: CurrentCount przed: 95[0;37m
+[1;31m [1, 70]: CurrentCount po: 80[0;37m
+[1;31m [1, 70]: czekam na recv[0;37m
+[1;35m [5, 83]: Dostałem RELEASE od 11, wycieczka miała rozmiar 15[0;37m
+[1;35m [5, 83]: CurrentCount przed: 95[0;37m
+[1;35m [5, 83]: CurrentCount po: 80[0;37m
+[1;35m [5, 83]: czekam na recv[0;37m
+[1;32m [2, 71]: Dostałem RELEASE od 11, wycieczka miała rozmiar 15[0;37m
+[1;32m [2, 71]: CurrentCount przed: 95[0;37m
+[1;32m [2, 71]: CurrentCount po: 80[0;37m
+[1;32m [2, 71]: czekam na recv[0;37m
+[1;34m [4, 73]: Dostałem RELEASE od 11, wycieczka miała rozmiar 15[0;37m
+[1;34m [4, 73]: CurrentCount przed: 95[0;37m
+[1;34m [4, 73]: CurrentCount po: 80[0;37m
+[1;34m [4, 73]: czekam na recv[0;37m
+[0;37m [7, 76]: Dostałem RELEASE od 11, wycieczka miała rozmiar 15[0;37m
+[0;37m [7, 76]: CurrentCount przed: 95[0;37m
+[0;37m [7, 76]: CurrentCount po: 80[0;37m
+[0;37m [7, 76]: czekam na recv[0;37m
+[0;34m [11, 80]: Wysyłam zwolnienie sekcji krytycznej do 11
+[0;37m
+[0;34m [11, 81]: Dostałem RELEASE od 11, wycieczka miała rozmiar 15[0;37m
+[0;34m [11, 81]: CurrentCount przed: 95[0;37m
+[0;34m [11, 81]: CurrentCount po: 80[0;37m
+[0;34m [11, 81]: czekam na recv[0;37m
+[0;33m [10, 79]: Dostałem RELEASE od 11, wycieczka miała rozmiar 15[0;37m
+[0;33m [10, 79]: CurrentCount przed: 95[0;37m
+[0;33m [10, 79]: CurrentCount po: 80[0;37m
+[0;33m [10, 79]: czekam na recv[0;37m
+[1;37m [0, 91]: Dostałem RELEASE od 4, wycieczka miała rozmiar 4[0;37m
+[1;37m [0, 91]: CurrentCount przed: 80[0;37m
+[1;37m [0, 91]: CurrentCount po: 76[0;37m
+[1;37m [0, 91]: czekam na recv[0;37m
+[1;31m [1, 75]: Dostałem RELEASE od 4, wycieczka miała rozmiar 4[0;37m
+[1;32m [2, 76]: Dostałem RELEASE od 4, wycieczka miała rozmiar 4[0;37m
+[1;32m [2, 76]: CurrentCount przed: 80[0;37m
+[1;32m [2, 76]: CurrentCount po: 76[0;37m
+[1;32m [2, 76]: czekam na recv[0;37m
+[1;34m [4, 73]: Wychodzę z podprzestrzeni[0;37m
+[1;34m [4, 73]: Zmieniam stan na wysyłanie[0;37m
+[1;34m [4, 74]: Wysyłam zwolnienie sekcji krytycznej do 0
+[0;37m
+[1;34m [4, 75]: Wysyłam zwolnienie sekcji krytycznej do 1
+[0;37m
+[1;34m [4, 76]: Wysyłam zwolnienie sekcji krytycznej do 2
+[0;37m
+[1;34m [4, 77]: Wysyłam zwolnienie sekcji krytycznej do 3
+[0;37m
+[1;34m [4, 78]: Wysyłam zwolnienie sekcji krytycznej do 4
+[0;37m
+[1;34m [4, 79]: Wysyłam zwolnienie sekcji krytycznej do 5
+[0;37m
+[1;34m [4, 80]: Wysyłam zwolnienie sekcji krytycznej do 6
+[0;37m
+[1;34m [4, 81]: Wysyłam zwolnienie sekcji krytycznej do 7
+[0;37m
+[1;34m [4, 82]: Wysyłam zwolnienie sekcji krytycznej do 8
+[0;37m
+[1;31m [1, 75]: CurrentCount przed: 80[0;37m
+[1;31m [1, 75]: CurrentCount po: 76[0;37m
+[1;31m [1, 75]: czekam na recv[0;37m
+[0;37m [7, 81]: Dostałem RELEASE od 4, wycieczka miała rozmiar 4[0;37m
+[0;37m [7, 81]: CurrentCount przed: 80[0;37m
+[0;37m [7, 81]: CurrentCount po: 76[0;37m
+[0;37m [7, 81]: czekam na recv[0;37m
+[1;34m [4, 83]: Wysyłam zwolnienie sekcji krytycznej do 9
+[0;37m
+[1;34m [4, 84]: Wysyłam zwolnienie sekcji krytycznej do 10
+[0;37m
+[1;34m [4, 85]: Wysyłam zwolnienie sekcji krytycznej do 11
+[0;37m
+[1;34m [4, 86]: Dostałem RELEASE od 4, wycieczka miała rozmiar 4[0;37m
+[1;34m [4, 86]: CurrentCount przed: 80[0;37m
+[1;34m [4, 86]: CurrentCount po: 76[0;37m
+[1;34m [4, 86]: czekam na recv[0;37m
+[0;33m [10, 84]: Dostałem RELEASE od 4, wycieczka miała rozmiar 4[0;37m
+[0;33m [10, 84]: CurrentCount przed: 80[0;37m
+[0;33m [10, 84]: CurrentCount po: 76[0;37m
+[0;33m [10, 84]: czekam na recv[0;37m
+[0;32m [9, 83]: Dostałem RELEASE od 4, wycieczka miała rozmiar 4[0;37m
+[0;32m [9, 83]: CurrentCount przed: 80[0;37m
+[0;32m [9, 83]: CurrentCount po: 76[0;37m
+[0;32m [9, 83]: czekam na recv[0;37m
+[1;33m [3, 77]: Dostałem RELEASE od 4, wycieczka miała rozmiar 4[0;37m
+[1;33m [3, 77]: CurrentCount przed: 80[0;37m
+[1;33m [3, 77]: CurrentCount po: 76[0;37m
+[1;33m [3, 77]: czekam na recv[0;37m
+[1;33m [3, 77]: Stan InRun: 0[0;37m
+[1;33m [3, 77]: Skończyłem myśleć[0;37m
+[0;31m [8, 77]: Dostałem RELEASE od 11, wycieczka miała rozmiar 15[0;37m
+[0;31m [8, 77]: CurrentCount przed: 95[0;37m
+[0;31m [8, 77]: CurrentCount po: 80[0;37m
+[0;31m [8, 77]: czekam na recv[0;37m
+[0;31m [8, 82]: Dostałem RELEASE od 4, wycieczka miała rozmiar 4[0;37m
+[0;31m [8, 82]: CurrentCount przed: 80[0;37m
+[0;31m [8, 82]: CurrentCount po: 76[0;37m
+[0;34m [11, 85]: Dostałem RELEASE od 4, wycieczka miała rozmiar 4[0;37m
+[0;34m [11, 85]: CurrentCount przed: 80[0;37m
+[0;34m [11, 85]: CurrentCount po: 76[0;37m
+[0;34m [11, 85]: czekam na recv[0;37m
+[0;31m [8, 82]: czekam na recv[0;37m
+[0;31m [8, 92]: Dostałem RELEASE od 9, wycieczka miała rozmiar 15[0;37m
+[0;31m [8, 92]: CurrentCount przed: 76[0;37m
+[0;32m [9, 83]: Wychodzę z podprzestrzeni[0;37m
+[0;32m [9, 83]: Zmieniam stan na wysyłanie[0;37m
+[0;32m [9, 84]: Wysyłam zwolnienie sekcji krytycznej do 0
+[0;37m
+[0;32m [9, 85]: Wysyłam zwolnienie sekcji krytycznej do 1
+[0;37m
+[0;32m [9, 86]: Wysyłam zwolnienie sekcji krytycznej do 2
+[0;37m
+[0;32m [9, 87]: Wysyłam zwolnienie sekcji krytycznej do 3
+[0;37m
+[0;32m [9, 88]: Wysyłam zwolnienie sekcji krytycznej do 4
+[0;37m
+[0;32m [9, 89]: Wysyłam zwolnienie sekcji krytycznej do 5
+[0;37m
+[0;32m [9, 90]: Wysyłam zwolnienie sekcji krytycznej do 6
+[0;37m
+[0;32m [9, 91]: Wysyłam zwolnienie sekcji krytycznej do 7
+[0;37m
+[0;32m [9, 92]: Wysyłam zwolnienie sekcji krytycznej do 8
+[0;37m
+[0;32m [9, 93]: Wysyłam zwolnienie sekcji krytycznej do 9
+[0;37m
+[1;37m [0, 92]: Dostałem RELEASE od 9, wycieczka miała rozmiar 15[0;37m
+[1;37m [0, 92]: CurrentCount przed: 76[0;37m
+[1;37m [0, 92]: CurrentCount po: 61[0;37m
+[1;37m [0, 92]: czekam na recv[0;37m
+[1;35m [5, 84]: Dostałem RELEASE od 4, wycieczka miała rozmiar 4[0;37m
+[1;35m [5, 84]: CurrentCount przed: 80[0;37m
+[1;35m [5, 84]: CurrentCount po: 76[0;37m
+[1;32m [2, 86]: Dostałem RELEASE od 9, wycieczka miała rozmiar 15[0;37m
+[1;32m [2, 86]: CurrentCount przed: 76[0;37m
+[1;32m [2, 86]: CurrentCount po: 61[0;37m
+[1;32m [2, 86]: czekam na recv[0;37m
+[1;33m [3, 87]: Dostałem RELEASE od 9, wycieczka miała rozmiar 15[0;37m
+[1;33m [3, 87]: CurrentCount przed: 76[0;37m
+[1;33m [3, 87]: CurrentCount po: 61[0;37m
+[1;33m [3, 87]: czekam na recv[0;37m
+[1;31m [1, 85]: Dostałem RELEASE od 9, wycieczka miała rozmiar 15[0;37m
+[1;31m [1, 85]: CurrentCount przed: 76[0;37m
+[1;31m [1, 85]: CurrentCount po: 61[0;37m
+[1;31m [1, 85]: czekam na recv[0;37m
+[0;34m [11, 96]: Dostałem RELEASE od 9, wycieczka miała rozmiar 15[0;37m
+[0;34m [11, 96]: CurrentCount przed: 76[0;37m
+[0;34m [11, 96]: CurrentCount po: 61[0;37m
+[0;34m [11, 96]: czekam na recv[0;37m
+[1;31m [1, 85]: Jest miejsce w podprzestrzeni, wysyłam pytania o zgody[0;37m
+[1;31m [1, 86]: Wysyłam prośbę o sekcję krytyczną do 0
+[0;37m
+[1;31m [1, 87]: Wysyłam prośbę o sekcję krytyczną do 1
+[0;37m
+[1;31m [1, 89]: Wysyłam prośbę o sekcję krytyczną do 2
+[0;37m
+[1;34m [4, 88]: Dostałem RELEASE od 9, wycieczka miała rozmiar 15[0;37m
+[1;34m [4, 88]: CurrentCount przed: 76[0;37m
+[1;34m [4, 88]: CurrentCount po: 61[0;37m
+[1;34m [4, 88]: czekam na recv[0;37m
+[0;33m [10, 95]: Dostałem RELEASE od 9, wycieczka miała rozmiar 15[0;37m
+[0;33m [10, 95]: CurrentCount przed: 76[0;37m
+[0;33m [10, 95]: CurrentCount po: 61[0;37m
+[0;33m [10, 95]: czekam na recv[0;37m
+[0;31m [8, 92]: CurrentCount po: 61[0;37m
+[0;31m [8, 92]: Jest miejsce w podprzestrzeni, wysyłam pytania o zgody[0;37m
+[0;32m [9, 95]: Wysyłam zwolnienie sekcji krytycznej do 10
+[0;37m
+[0;32m [9, 96]: Wysyłam zwolnienie sekcji krytycznej do 11
+[0;37m
+[1;37m [0, 93]: Akceptuję wycieczkę o wielkości 14 od procesu 1[0;37m
+[1;37m [0, 93]: CurrentCount przed: 61[0;37m
+[1;37m [0, 93]: CurrentCount po: 75[0;37m
+[1;37m [0, 94]: Wysyłam potwierdzenie do 1
+[0;37m
+[0;37m [7, 91]: Dostałem RELEASE od 9, wycieczka miała rozmiar 15[0;37m
+[0;37m [7, 91]: CurrentCount przed: 76[0;37m
+[0;37m [7, 91]: CurrentCount po: 61[0;37m
+[0;37m [7, 91]: czekam na recv[0;37m
+[1;32m [2, 89]: Akceptuję wycieczkę o wielkości 14 od procesu 1[0;37m
+[1;32m [2, 89]: CurrentCount przed: 61[0;37m
+[1;32m [2, 89]: CurrentCount po: 75[0;37m
+[1;32m [2, 90]: Wysyłam potwierdzenie do 1
+[0;37m
+[1;32m [2, 90]: czekam na recv[0;37m
+[1;32m [2, 97]: Akceptuję wycieczkę o wielkości 14 od procesu 8[0;37m
+[1;32m [2, 97]: CurrentCount przed: 75[0;37m
+[1;32m [2, 97]: CurrentCount po: 89[0;37m
+[1;32m [2, 98]: Wysyłam potwierdzenie do 8
+[0;37m
+[1;32m [2, 98]: czekam na recv[0;37m
+[0;37m [7, 94]: Akceptuję wycieczkę o wielkości 14 od procesu 1[0;37m
+[0;37m [7, 94]: CurrentCount przed: 61[0;37m
+[0;37m [7, 94]: CurrentCount po: 75[0;37m
+[0;37m [7, 95]: Wysyłam potwierdzenie do 1
+[0;37m
+[0;37m [7, 95]: czekam na recv[0;37m
+[1;31m [1, 88]: Akceptuję wycieczkę o wielkości 14 od procesu 1[0;37m
+[1;31m [1, 89]: CurrentCount przed: 61[0;37m
+[1;31m [1, 89]: CurrentCount po: 75[0;37m
+[1;31m [1, 90]: Wysyłam prośbę o sekcję krytyczną do 3
+[0;37m
+[1;31m [1, 91]: Wysyłam prośbę o sekcję krytyczną do 4
+[0;37m
+[1;31m [1, 92]: Wysyłam prośbę o sekcję krytyczną do 5
+[0;37m
+[1;31m [1, 93]: Wysyłam prośbę o sekcję krytyczną do 6
+[0;37m
+[1;31m [1, 94]: Wysyłam prośbę o sekcję krytyczną do 7
+[0;37m
+[1;31m [1, 95]: Wysyłam prośbę o sekcję krytyczną do 8
+[0;37m
+[1;31m [1, 96]: Wysyłam prośbę o sekcję krytyczną do 9
+[0;37m
+[1;31m [1, 97]: Wysyłam prośbę o sekcję krytyczną do 10
+[0;37m
+[1;31m [1, 98]: Wysyłam prośbę o sekcję krytyczną do 11
+[0;37m
+[1;31m [1, 98]: Skończyłem myśleć[0;37m
+[1;31m [1, 99]: Wysyłam potwierdzenie do 1
+[0;37m
+[1;31m [1, 99]: czekam na recv[0;37m
+[1;34m [4, 91]: Akceptuję wycieczkę o wielkości 14 od procesu 1[0;37m
+[1;34m [4, 91]: CurrentCount przed: 61[0;37m
+[1;34m [4, 91]: CurrentCount po: 75[0;37m
+[1;34m [4, 92]: Wysyłam potwierdzenie do 1
+[0;37m
+[0;31m [8, 93]: Wysyłam prośbę o sekcję krytyczną do 0
+[0;37m
+[0;31m [8, 93]: czekam na recv[0;37m
+[0;31m [8, 94]: Wysyłam prośbę o sekcję krytyczną do 1
+[0;37m
+[0;31m [8, 97]: Wysyłam prośbę o sekcję krytyczną do 2
+[0;37m
+[0;31m [8, 96]: Dostałem ACK od 0, mam już 0[0;37m
+[0;32m [9, 94]: Dostałem RELEASE od 9, wycieczka miała rozmiar 15[0;37m
+[0;32m [9, 96]: CurrentCount przed: 76[0;37m
+[0;32m [9, 96]: CurrentCount po: 61[0;37m
+[0;32m [9, 96]: czekam na recv[0;37m
+[0;32m [9, 97]: Akceptuję wycieczkę o wielkości 14 od procesu 1[0;37m
+[0;32m [9, 97]: CurrentCount przed: 61[0;37m
+[0;32m [9, 97]: CurrentCount po: 75[0;37m
+[0;32m [9, 98]: Wysyłam potwierdzenie do 1
+[0;37m
+[0;32m [9, 98]: czekam na recv[0;37m
+[1;37m [0, 94]: czekam na recv[0;37m
+[1;37m [0, 95]: Akceptuję wycieczkę o wielkości 14 od procesu 8[0;37m
+[1;37m [0, 95]: CurrentCount przed: 75[0;37m
+[1;37m [0, 95]: CurrentCount po: 89[0;37m
+[1;37m [0, 96]: Wysyłam potwierdzenie do 8
+[0;37m
+[1;37m [0, 96]: czekam na recv[0;37m
+[1;35m [5, 84]: czekam na recv[0;37m
+[1;35m [5, 89]: Dostałem RELEASE od 9, wycieczka miała rozmiar 15[0;37m
+[1;35m [5, 89]: CurrentCount przed: 76[0;37m
+[1;35m [5, 89]: CurrentCount po: 61[0;37m
+[1;35m [5, 89]: czekam na recv[0;37m
+[1;35m [5, 92]: Akceptuję wycieczkę o wielkości 14 od procesu 1[0;37m
+[1;35m [5, 92]: CurrentCount przed: 61[0;37m
+[1;35m [5, 92]: CurrentCount po: 75[0;37m
+[1;35m [5, 93]: Wysyłam potwierdzenie do 1
+[0;37m
+[1;35m [5, 93]: czekam na recv[0;37m
+[1;35m [5, 100]: Akceptuję wycieczkę o wielkości 14 od procesu 8[0;37m
+[1;35m [5, 100]: CurrentCount przed: 75[0;37m
+[1;35m [5, 100]: CurrentCount po: 89[0;37m
+[1;35m [5, 101]: Wysyłam potwierdzenie do 8
+[0;37m
+[1;35m [5, 101]: czekam na recv[0;37m
+[1;33m [3, 90]: Akceptuję wycieczkę o wielkości 14 od procesu 1[0;37m
+[1;33m [3, 90]: CurrentCount przed: 61[0;37m
+[1;33m [3, 90]: CurrentCount po: 75[0;37m
+[1;33m [3, 91]: Wysyłam potwierdzenie do 1
+[0;37m
+[1;33m [3, 91]: czekam na recv[0;37m
+[1;33m [3, 98]: Akceptuję wycieczkę o wielkości 14 od procesu 8[0;37m
+[1;33m [3, 98]: CurrentCount przed: 75[0;37m
+[1;33m [3, 98]: CurrentCount po: 89[0;37m
+[1;33m [3, 99]: Wysyłam potwierdzenie do 8
+[0;37m
+[1;33m [3, 99]: czekam na recv[0;37m
+[0;34m [11, 98]: Akceptuję wycieczkę o wielkości 14 od procesu 1[0;37m
+[0;34m [11, 98]: CurrentCount przed: 61[0;37m
+[0;34m [11, 98]: CurrentCount po: 75[0;37m
+[0;34m [11, 99]: Wysyłam potwierdzenie do 1
+[0;37m
+[0;34m [11, 99]: czekam na recv[0;37m
+[1;31m [1, 100]: Dostałem ACK od 1, mam już 0[0;37m
+[1;31m [1, 100]: czekam na recv[0;37m
+[1;31m [1, 101]: Dostałem ACK od 0, mam już 1[0;37m
+[1;31m [1, 101]: czekam na recv[0;37m
+[1;31m [1, 102]: Dostałem ACK od 2, mam już 2[0;37m
+[1;31m [1, 102]: czekam na recv[0;37m
+[1;31m [1, 103]: Akceptuję wycieczkę o wielkości 14 od procesu 8[0;37m
+[1;31m [1, 103]: CurrentCount przed: 75[0;37m
+[1;31m [1, 103]: CurrentCount po: 89[0;37m
+[1;31m [1, 104]: Wysyłam potwierdzenie do 8
+[0;37m
+[1;31m [1, 104]: czekam na recv[0;37m
+[1;31m [1, 105]: Dostałem ACK od 4, mam już 3[0;37m
+[1;31m [1, 105]: czekam na recv[0;37m
+[1;31m [1, 106]: Dostałem ACK od 9, mam już 4[0;37m
+[1;31m [1, 106]: czekam na recv[0;37m
+[0;33m [10, 97]: Akceptuję wycieczkę o wielkości 14 od procesu 1[0;37m
+[0;33m [10, 97]: CurrentCount przed: 61[0;37m
+[0;33m [10, 97]: CurrentCount po: 75[0;37m
+[0;33m [10, 98]: Wysyłam potwierdzenie do 1
+[0;37m
+[0;33m [10, 98]: czekam na recv[0;37m
+[0;31m [8, 98]: Wysyłam prośbę o sekcję krytyczną do 3
+[0;37m
+[0;31m [8, 99]: Wysyłam prośbę o sekcję krytyczną do 4
+[0;37m
+[0;31m [8, 100]: Wysyłam prośbę o sekcję krytyczną do 5
+[0;37m
+[0;31m [8, 101]: Wysyłam prośbę o sekcję krytyczną do 6
+[0;37m
+[0;31m [8, 102]: Wysyłam prośbę o sekcję krytyczną do 7
+[0;37m
+[0;31m [8, 103]: Wysyłam prośbę o sekcję krytyczną do 8
+[0;37m
+[0;37m [7, 102]: Akceptuję wycieczkę o wielkości 14 od procesu 8[0;37m
+[0;37m [7, 102]: CurrentCount przed: 75[0;37m
+[0;37m [7, 102]: CurrentCount po: 89[0;37m
+[0;37m [7, 103]: Wysyłam potwierdzenie do 8
+[0;37m
+[0;37m [7, 103]: czekam na recv[0;37m
+[1;31m [1, 107]: Dostałem ACK od 7, mam już 5[0;37m
+[1;31m [1, 107]: czekam na recv[0;37m
+[1;31m [1, 108]: Dostałem ACK od 10, mam już 6[0;37m
+[1;31m [1, 108]: czekam na recv[0;37m
+[1;31m [1, 109]: Dostałem ACK od 3, mam już 7[0;37m
+[1;31m [1, 109]: czekam na recv[0;37m
+[1;31m [1, 110]: Dostałem ACK od 11, mam już 8[0;37m
+[1;31m [1, 110]: czekam na recv[0;37m
+[1;31m [1, 111]: Dostałem ACK od 5, mam już 9[0;37m
+[1;31m [1, 111]: czekam na recv[0;37m
+[0;31m [8, 104]: Wysyłam prośbę o sekcję krytyczną do 9
+[0;37m
+[0;31m [8, 105]: Wysyłam prośbę o sekcję krytyczną do 10
+[0;37m
+[0;33m [10, 105]: Akceptuję wycieczkę o wielkości 14 od procesu 8[0;37m
+[0;33m [10, 105]: CurrentCount przed: 75[0;37m
+[0;33m [10, 105]: CurrentCount po: 89[0;37m
+[0;32m [9, 104]: Akceptuję wycieczkę o wielkości 14 od procesu 8[0;37m
+[0;32m [9, 104]: CurrentCount przed: 75[0;37m
+[0;32m [9, 104]: CurrentCount po: 89[0;37m
+[0;32m [9, 105]: Wysyłam potwierdzenie do 8
+[0;37m
+[0;32m [9, 105]: czekam na recv[0;37m
+[0;34m [11, 106]: Akceptuję wycieczkę o wielkości 14 od procesu 8[0;37m
+[0;34m [11, 106]: CurrentCount przed: 75[0;37m
+[0;34m [11, 106]: CurrentCount po: 89[0;37m
+[0;31m [8, 106]: Wysyłam prośbę o sekcję krytyczną do 11
+[0;37m
+[0;33m [10, 106]: Wysyłam potwierdzenie do 8
+[0;37m
+[0;33m [10, 106]: czekam na recv[0;37m
+[0;34m [11, 107]: Wysyłam potwierdzenie do 8
+[0;37m
+[0;34m [11, 107]: czekam na recv[0;37m
+[0;31m [8, 106]: Skończyłem myśleć[0;37m
+[0;31m [8, 106]: czekam na recv[0;37m
+[0;31m [8, 107]: Akceptuję wycieczkę o wielkości 14 od procesu 8[0;37m
+[0;31m [8, 107]: CurrentCount przed: 61[0;37m
+[0;31m [8, 107]: CurrentCount po: 75[0;37m
+[0;31m [8, 108]: Wysyłam potwierdzenie do 8
+[0;37m
+[0;31m [8, 108]: czekam na recv[0;37m
+[0;31m [8, 109]: Dostałem ACK od 8, mam już 1[0;37m
+[0;31m [8, 109]: czekam na recv[0;37m
+[0;31m [8, 110]: Akceptuję wycieczkę o wielkości 14 od procesu 1[0;37m
+[0;31m [8, 110]: CurrentCount przed: 75[0;37m
+[0;31m [8, 110]: CurrentCount po: 89[0;37m
+[0;31m [8, 111]: Wysyłam potwierdzenie do 1
+[0;37m
+[0;31m [8, 111]: czekam na recv[0;37m
+[0;31m [8, 112]: Dostałem ACK od 2, mam już 2[0;37m
+[1;31m [1, 112]: Dostałem ACK od 8, mam już 10[0;37m
+[1;31m [1, 112]: czekam na recv[0;37m
+[0;31m [8, 112]: czekam na recv[0;37m
+[0;31m [8, 113]: Dostałem ACK od 3, mam już 3[0;37m
+[0;31m [8, 113]: czekam na recv[0;37m
+[0;31m [8, 114]: Dostałem ACK od 1, mam już 4[0;37m
+[0;31m [8, 114]: czekam na recv[0;37m
+[0;31m [8, 115]: Dostałem ACK od 5, mam już 5[0;37m
+[0;31m [8, 115]: czekam na recv[0;37m
+[0;31m [8, 116]: Dostałem ACK od 7, mam już 6[0;37m
+[0;31m [8, 116]: czekam na recv[0;37m
+[0;31m [8, 117]: Dostałem ACK od 9, mam już 7[0;37m
+[0;31m [8, 117]: czekam na recv[0;37m
+[0;31m [8, 118]: Dostałem ACK od 10, mam już 8[0;37m
+[0;31m [8, 118]: czekam na recv[0;37m
+[0;31m [8, 119]: Dostałem ACK od 11, mam już 9[0;37m
+[0;31m [8, 119]: czekam na recv[0;37m
+[1;34m [4, 92]: czekam na recv[0;37m
+[1;34m [4, 99]: Akceptuję wycieczkę o wielkości 14 od procesu 8[0;37m
+[1;34m [4, 99]: CurrentCount przed: 75[0;37m
+[1;34m [4, 99]: CurrentCount po: 89[0;37m
+[1;34m [4, 100]: Wysyłam potwierdzenie do 8
+[0;37m
+[1;34m [4, 100]: czekam na recv[0;37m
+[0;31m [8, 120]: Dostałem ACK od 4, mam już 10[0;37m
+[0;31m [8, 120]: czekam na recv[0;37m
+[0;37m [7, 103]: Stan InRun: 0[0;37m
+[0;37m [7, 103]: Skończyłem myśleć[0;37m
+[1;36m [6, 79]: Dostałem RELEASE od 11, wycieczka miała rozmiar 15[0;37m
+[1;36m [6, 79]: CurrentCount przed: 95[0;37m
+[1;36m [6, 79]: CurrentCount po: 80[0;37m
+[1;36m [6, 79]: czekam na recv[0;37m
+[1;36m [6, 80]: Dostałem RELEASE od 4, wycieczka miała rozmiar 4[0;37m
+[1;36m [6, 80]: CurrentCount przed: 80[0;37m
+[1;36m [6, 80]: CurrentCount po: 76[0;37m
+[1;36m [6, 80]: czekam na recv[0;37m
+[1;36m [6, 90]: Dostałem RELEASE od 9, wycieczka miała rozmiar 15[0;37m
+[1;36m [6, 90]: CurrentCount przed: 76[0;37m
+[1;36m [6, 90]: CurrentCount po: 61[0;37m
+[1;36m [6, 90]: czekam na recv[0;37m
+[1;36m [6, 93]: Akceptuję wycieczkę o wielkości 14 od procesu 1[0;37m
+[1;36m [6, 93]: CurrentCount przed: 61[0;37m
+[1;36m [6, 93]: CurrentCount po: 75[0;37m
+[1;36m [6, 94]: Wysyłam potwierdzenie do 1
+[0;37m
+[1;36m [6, 94]: czekam na recv[0;37m
+[1;36m [6, 101]: Akceptuję wycieczkę o wielkości 14 od procesu 8[0;37m
+[1;36m [6, 101]: CurrentCount przed: 75[0;37m
+[1;36m [6, 101]: CurrentCount po: 89[0;37m
+[1;36m [6, 102]: Wysyłam potwierdzenie do 8
+[0;37m
+[1;36m [6, 102]: czekam na recv[0;37m
+[1;31m [1, 113]: Dostałem ACK od 6, mam już 11[0;37m
+[1;31m [1, 113]: czekam na recv[0;37m
+[0;31m [8, 121]: Dostałem ACK od 6, mam już 11[0;37m
+[0;31m [8, 121]: czekam na recv[0;37m
+[0;33m [10, 106]: Wychodzę z podprzestrzeni[0;37m
+[0;33m [10, 106]: Zmieniam stan na wysyłanie[0;37m
+[0;33m [10, 107]: Wysyłam zwolnienie sekcji krytycznej do 0
+[0;37m
+[0;33m [10, 108]: Wysyłam zwolnienie sekcji krytycznej do 1
+[0;37m
+[0;33m [10, 109]: Wysyłam zwolnienie sekcji krytycznej do 2
+[0;37m
+[0;33m [10, 110]: Wysyłam zwolnienie sekcji krytycznej do 3
+[0;37m
+[0;33m [10, 111]: Wysyłam zwolnienie sekcji krytycznej do 4
+[0;37m
+[0;33m [10, 112]: Wysyłam zwolnienie sekcji krytycznej do 5
+[0;37m
+[0;33m [10, 113]: Wysyłam zwolnienie sekcji krytycznej do 6
+[0;37m
+[0;33m [10, 114]: Wysyłam zwolnienie sekcji krytycznej do 7
+[0;37m
+[0;33m [10, 115]: Wysyłam zwolnienie sekcji krytycznej do 8
+[0;37m
+[0;33m [10, 116]: Wysyłam zwolnienie sekcji krytycznej do 9
+[0;37m
+[0;33m [10, 117]: Wysyłam zwolnienie sekcji krytycznej do 10
+[0;37m
+[0;33m [10, 118]: Wysyłam zwolnienie sekcji krytycznej do 11
+[0;37m
+[1;37m [0, 107]: Dostałem RELEASE od 10, wycieczka miała rozmiar 19[0;37m
+[1;37m [0, 107]: CurrentCount przed: 89[0;37m
+[1;37m [0, 107]: CurrentCount po: 70[0;37m
+[1;37m [0, 107]: czekam na recv[0;37m
+[1;32m [2, 109]: Dostałem RELEASE od 10, wycieczka miała rozmiar 19[0;37m
+[1;32m [2, 109]: CurrentCount przed: 89[0;37m
+[1;32m [2, 109]: CurrentCount po: 70[0;37m
+[1;32m [2, 109]: czekam na recv[0;37m
+[1;35m [5, 112]: Dostałem RELEASE od 10, wycieczka miała rozmiar 19[0;37m
+[1;35m [5, 112]: CurrentCount przed: 89[0;37m
+[1;35m [5, 112]: CurrentCount po: 70[0;37m
+[1;35m [5, 112]: czekam na recv[0;37m
+[1;33m [3, 110]: Dostałem RELEASE od 10, wycieczka miała rozmiar 19[0;37m
+[1;33m [3, 110]: CurrentCount przed: 89[0;37m
+[1;33m [3, 110]: CurrentCount po: 70[0;37m
+[1;33m [3, 110]: czekam na recv[0;37m
+[1;31m [1, 114]: Dostałem RELEASE od 10, wycieczka miała rozmiar 19[0;37m
+[1;31m [1, 114]: CurrentCount przed: 89[0;37m
+[1;31m [1, 114]: CurrentCount po: 70[0;37m
+[1;31m [1, 114]: czekam na recv[0;37m
+[1;34m [4, 111]: Dostałem RELEASE od 10, wycieczka miała rozmiar 19[0;37m
+[1;34m [4, 111]: CurrentCount przed: 89[0;37m
+[1;34m [4, 111]: CurrentCount po: 70[0;37m
+[1;34m [4, 111]: czekam na recv[0;37m
+[1;36m [6, 113]: Dostałem RELEASE od 10, wycieczka miała rozmiar 19[0;37m
+[1;36m [6, 113]: CurrentCount przed: 89[0;37m
+[1;36m [6, 113]: CurrentCount po: 70[0;37m
+[1;36m [6, 113]: czekam na recv[0;37m
+[0;32m [9, 116]: Dostałem RELEASE od 10, wycieczka miała rozmiar 19[0;37m
+[0;32m [9, 116]: CurrentCount przed: 89[0;37m
+[0;32m [9, 116]: CurrentCount po: 70[0;37m
+[0;32m [9, 116]: czekam na recv[0;37m
+[0;34m [11, 118]: Dostałem RELEASE od 10, wycieczka miała rozmiar 19[0;37m
+[0;34m [11, 118]: CurrentCount przed: 89[0;37m
+[0;34m [11, 118]: Stan InRun: 0[0;37m
+[0;37m [7, 114]: Dostałem RELEASE od 10, wycieczka miała rozmiar 19[0;37m
+[0;37m [7, 114]: CurrentCount przed: 89[0;37m
+[0;37m [7, 114]: CurrentCount po: 70[0;37m
+[0;37m [7, 114]: czekam na recv[0;37m
+[1;32m [2, 109]: Wychodzę z podprzestrzeni[0;37m
+[1;32m [2, 109]: Zmieniam stan na wysyłanie[0;37m
+[1;32m [2, 110]: Wysyłam zwolnienie sekcji krytycznej do 0
+[0;37m
+[1;32m [2, 111]: Wysyłam zwolnienie sekcji krytycznej do 1
+[0;37m
+[1;32m [2, 112]: Wysyłam zwolnienie sekcji krytycznej do 2
+[0;37m
+[1;32m [2, 114]: Wysyłam zwolnienie sekcji krytycznej do 3
+[0;37m
+[1;32m [2, 115]: Wysyłam zwolnienie sekcji krytycznej do 4
+[0;37m
+[1;32m [2, 116]: Wysyłam zwolnienie sekcji krytycznej do 5
+[0;37m
+[1;32m [2, 117]: Wysyłam zwolnienie sekcji krytycznej do 6
+[0;37m
+[1;32m [2, 118]: Wysyłam zwolnienie sekcji krytycznej do 7
+[0;37m
+[1;32m [2, 119]: Wysyłam zwolnienie sekcji krytycznej do 8
+[0;37m
+[1;32m [2, 120]: Wysyłam zwolnienie sekcji krytycznej do 9
+[0;37m
+[1;32m [2, 121]: Wysyłam zwolnienie sekcji krytycznej do 10
+[0;37m
+[1;32m [2, 122]: Wysyłam zwolnienie sekcji krytycznej do 11
+[0;37m
+[1;34m [4, 115]: Dostałem RELEASE od 2, wycieczka miała rozmiar 9[0;37m
+[1;34m [4, 115]: CurrentCount przed: 70[0;37m
+[1;34m [4, 115]: CurrentCount po: 61[0;37m
+[1;34m [4, 115]: czekam na recv[0;37m
+[1;36m [6, 117]: Dostałem RELEASE od 2, wycieczka miała rozmiar 9[0;37m
+[1;36m [6, 117]: CurrentCount przed: 70[0;37m
+[1;36m [6, 117]: CurrentCount po: 61[0;37m
+[1;36m [6, 117]: czekam na recv[0;37m
+[1;33m [3, 114]: Dostałem RELEASE od 2, wycieczka miała rozmiar 9[0;37m
+[1;33m [3, 114]: CurrentCount przed: 70[0;37m
+[1;33m [3, 114]: CurrentCount po: 61[0;37m
+[1;33m [3, 114]: czekam na recv[0;37m
+[1;31m [1, 115]: Dostałem RELEASE od 2, wycieczka miała rozmiar 9[0;37m
+[1;31m [1, 115]: CurrentCount przed: 70[0;37m
+[1;31m [1, 115]: CurrentCount po: 61[0;37m
+[1;31m [1, 115]: czekam na recv[0;37m
+[0;31m [8, 122]: Dostałem RELEASE od 10, wycieczka miała rozmiar 19[0;37m
+[0;31m [8, 122]: CurrentCount przed: 89[0;37m
+[0;31m [8, 122]: CurrentCount po: 70[0;37m
+[0;31m [8, 122]: czekam na recv[0;37m
+[0;31m [8, 123]: Dostałem RELEASE od 2, wycieczka miała rozmiar 9[0;37m
+[0;31m [8, 123]: CurrentCount przed: 70[0;37m
+[0;31m [8, 123]: CurrentCount po: 61[0;37m
+[0;32m [9, 120]: Dostałem RELEASE od 2, wycieczka miała rozmiar 9[0;37m
+[0;32m [9, 120]: CurrentCount przed: 70[0;37m
+[0;32m [9, 120]: CurrentCount po: 61[0;37m
+[0;32m [9, 120]: czekam na recv[0;37m
+[0;34m [11, 118]: Skończyłem myśleć[0;37m
+[0;34m [11, 118]: CurrentCount po: 70[0;37m
+[0;34m [11, 118]: czekam na recv[0;37m
+[0;34m [11, 122]: Dostałem RELEASE od 2, wycieczka miała rozmiar 9[0;37m
+[0;34m [11, 122]: CurrentCount przed: 70[0;37m
+[0;34m [11, 122]: CurrentCount po: 61[0;37m
+[1;37m [0, 110]: Dostałem RELEASE od 2, wycieczka miała rozmiar 9[0;37m
+[1;37m [0, 110]: CurrentCount przed: 70[0;37m
+[1;37m [0, 110]: CurrentCount po: 61[0;37m
+[1;37m [0, 110]: czekam na recv[0;37m
+[0;37m [7, 118]: Dostałem RELEASE od 2, wycieczka miała rozmiar 9[0;37m
+[0;37m [7, 118]: CurrentCount przed: 70[0;37m
+[0;37m [7, 118]: CurrentCount po: 61[0;37m
+[0;37m [7, 118]: czekam na recv[0;37m
+[1;35m [5, 116]: Dostałem RELEASE od 2, wycieczka miała rozmiar 9[0;37m
+[1;35m [5, 116]: CurrentCount przed: 70[0;37m
+[1;35m [5, 116]: CurrentCount po: 61[0;37m
+[1;35m [5, 116]: czekam na recv[0;37m
+[0;34m [11, 122]: czekam na recv[0;37m
+[1;32m [2, 113]: Dostałem RELEASE od 2, wycieczka miała rozmiar 9[0;37m
+[1;32m [2, 122]: CurrentCount przed: 70[0;37m
+[1;32m [2, 122]: CurrentCount po: 61[0;37m
+[1;32m [2, 122]: czekam na recv[0;37m
+[1;34m [4, 115]: Stan InRun: 0[0;37m
+[1;34m [4, 115]: Skończyłem myśleć[0;37m
+[0;31m [8, 123]: czekam na recv[0;37m
+[1;33m [3, 114]: Stan InRun: 0[0;37m
+[1;33m [3, 114]: tripSize: 5 currentCount: 61[0;37m
+[1;33m [3, 114]: Ubiegam się o wejsćie do podprzestrzeni[0;37m
+[1;33m [3, 114]: W podprzestrzeni jest 61 osób[0;37m
+[1;33m [3, 114]: Jest miejsce w podprzestrzeni, wysyłam pytania o zgody[0;37m
+[1;33m [3, 115]: Wysyłam prośbę o sekcję krytyczną do 0
+[0;37m
+[1;33m [3, 116]: Wysyłam prośbę o sekcję krytyczną do 1
+[0;37m
+[1;33m [3, 117]: Wysyłam prośbę o sekcję krytyczną do 2
+[0;37m
+[1;33m [3, 118]: Wysyłam prośbę o sekcję krytyczną do 3
+[0;37m
+[1;33m [3, 119]: Wysyłam prośbę o sekcję krytyczną do 4
+[0;37m
+[1;33m [3, 120]: Wysyłam prośbę o sekcję krytyczną do 5
+[0;37m
+[1;33m [3, 121]: Wysyłam prośbę o sekcję krytyczną do 6
+[0;37m
+[1;33m [3, 122]: Wysyłam prośbę o sekcję krytyczną do 7
+[0;37m
+[1;33m [3, 123]: Wysyłam prośbę o sekcję krytyczną do 8
+[0;37m
+[1;33m [3, 124]: Wysyłam prośbę o sekcję krytyczną do 9
+[0;37m
+[1;33m [3, 125]: Wysyłam prośbę o sekcję krytyczną do 10
+[0;37m
+[1;33m [3, 126]: Wysyłam prośbę o sekcję krytyczną do 11
+[0;37m
+[1;33m [3, 126]: Skończyłem myśleć[0;37m
+[1;33m [3, 127]: Akceptuję wycieczkę o wielkości 5 od procesu 3[0;37m
+[1;33m [3, 127]: CurrentCount przed: 61[0;37m
+[1;33m [3, 127]: CurrentCount po: 66[0;37m
+[1;33m [3, 128]: Wysyłam potwierdzenie do 3
+[0;37m
+[1;33m [3, 128]: czekam na recv[0;37m
+[1;33m [3, 129]: Dostałem ACK od 3, mam już 0[0;37m
+[1;33m [3, 129]: czekam na recv[0;37m
+[1;33m [3, 130]: Dostałem ACK od 0, mam już 1[0;37m
+[1;31m [1, 116]: Akceptuję wycieczkę o wielkości 5 od procesu 3[0;37m
+[1;31m [1, 116]: CurrentCount przed: 61[0;37m
+[1;31m [1, 116]: CurrentCount po: 66[0;37m
+[1;31m [1, 117]: Wysyłam potwierdzenie do 3
+[0;37m
+[1;31m [1, 117]: czekam na recv[0;37m
+[1;34m [4, 119]: Akceptuję wycieczkę o wielkości 5 od procesu 3[0;37m
+[1;34m [4, 119]: CurrentCount przed: 61[0;37m
+[1;34m [4, 119]: CurrentCount po: 66[0;37m
+[1;34m [4, 120]: Wysyłam potwierdzenie do 3
+[0;37m
+[1;34m [4, 120]: czekam na recv[0;37m
+[0;32m [9, 124]: Akceptuję wycieczkę o wielkości 5 od procesu 3[0;37m
+[0;32m [9, 124]: CurrentCount przed: 61[0;37m
+[0;32m [9, 124]: CurrentCount po: 66[0;37m
+[0;32m [9, 125]: Wysyłam potwierdzenie do 3
+[0;37m
+[0;32m [9, 125]: czekam na recv[0;37m
+[0;32m [9, 125]: Stan InRun: 0[0;37m
+[0;32m [9, 125]: Skończyłem myśleć[0;37m
+[1;35m [5, 120]: Akceptuję wycieczkę o wielkości 5 od procesu 3[0;37m
+[1;35m [5, 120]: CurrentCount przed: 61[0;37m
+[1;35m [5, 120]: CurrentCount po: 66[0;37m
+[1;35m [5, 121]: Wysyłam potwierdzenie do 3
+[0;37m
+[1;35m [5, 121]: czekam na recv[0;37m
+[1;37m [0, 115]: Akceptuję wycieczkę o wielkości 5 od procesu 3[0;37m
+[1;37m [0, 115]: CurrentCount przed: 61[0;37m
+[1;37m [0, 115]: CurrentCount po: 66[0;37m
+[1;37m [0, 116]: Wysyłam potwierdzenie do 3
+[0;37m
+[1;37m [0, 116]: czekam na recv[0;37m
+[0;37m [7, 122]: Akceptuję wycieczkę o wielkości 5 od procesu 3[0;37m
+[0;37m [7, 122]: CurrentCount przed: 61[0;37m
+[0;37m [7, 122]: CurrentCount po: 66[0;37m
+[0;37m [7, 123]: Wysyłam potwierdzenie do 3
+[0;37m
+[0;37m [7, 123]: czekam na recv[0;37m
+[0;31m [8, 124]: Akceptuję wycieczkę o wielkości 5 od procesu 3[0;37m
+[0;31m [8, 124]: CurrentCount przed: 61[0;37m
+[0;31m [8, 124]: CurrentCount po: 66[0;37m
+[0;31m [8, 125]: Wysyłam potwierdzenie do 3
+[0;37m
+[0;31m [8, 125]: czekam na recv[0;37m
+[1;33m [3, 130]: czekam na recv[0;37m
+[1;33m [3, 131]: Dostałem ACK od 2, mam już 2[0;37m
+[1;33m [3, 131]: czekam na recv[0;37m
+[1;33m [3, 132]: Dostałem ACK od 1, mam już 3[0;37m
+[1;33m [3, 132]: czekam na recv[0;37m
+[1;33m [3, 133]: Dostałem ACK od 4, mam już 4[0;37m
+[1;33m [3, 133]: czekam na recv[0;37m
+[1;33m [3, 134]: Dostałem ACK od 6, mam już 5[0;37m
+[0;34m [11, 126]: Akceptuję wycieczkę o wielkości 5 od procesu 3[0;37m
+[0;34m [11, 126]: CurrentCount przed: 61[0;37m
+[0;34m [11, 126]: CurrentCount po: 66[0;37m
+[0;34m [11, 127]: Wysyłam potwierdzenie do 3
+[0;37m
+[0;34m [11, 127]: czekam na recv[0;37m
+[1;32m [2, 123]: Akceptuję wycieczkę o wielkości 5 od procesu 3[0;37m
+[1;32m [2, 123]: CurrentCount przed: 61[0;37m
+[1;32m [2, 123]: CurrentCount po: 66[0;37m
+[1;32m [2, 124]: Wysyłam potwierdzenie do 3
+[0;37m
+[1;32m [2, 124]: czekam na recv[0;37m
+[1;36m [6, 121]: Akceptuję wycieczkę o wielkości 5 od procesu 3[0;37m
+[1;36m [6, 121]: CurrentCount przed: 61[0;37m
+[1;36m [6, 121]: CurrentCount po: 66[0;37m
+[1;36m [6, 122]: Wysyłam potwierdzenie do 3
+[0;37m
+[1;36m [6, 122]: czekam na recv[0;37m
+[1;31m [1, 117]: Stan InWant: 2[0;37m
+[1;31m [1, 117]: Czekam na wejście do podprzestrzeni[0;37m
+[1;31m [1, 117]: Mam niezbędne zgody, wchodzę![0;37m
+[1;33m [3, 134]: czekam na recv[0;37m
+[1;33m [3, 135]: Dostałem ACK od 5, mam już 6[0;37m
+[1;33m [3, 135]: czekam na recv[0;37m
+[1;33m [3, 136]: Dostałem ACK od 9, mam już 7[0;37m
+[1;33m [3, 136]: czekam na recv[0;37m
+[1;33m [3, 137]: Dostałem ACK od 8, mam już 8[0;37m
+[1;33m [3, 137]: czekam na recv[0;37m
+[1;33m [3, 138]: Dostałem ACK od 7, mam już 9[0;37m
+[1;33m [3, 138]: czekam na recv[0;37m
+[1;33m [3, 139]: Dostałem ACK od 11, mam już 10[0;37m
+[1;33m [3, 139]: czekam na recv[0;37m
+[0;31m [8, 125]: Stan InWant: 2[0;37m
+[0;31m [8, 125]: Czekam na wejście do podprzestrzeni[0;37m
+[0;31m [8, 125]: Mam niezbędne zgody, wchodzę![0;37m
+[0;33m [10, 119]: Dostałem RELEASE od 10, wycieczka miała rozmiar 19[0;37m
+[0;33m [10, 119]: CurrentCount przed: 89[0;37m
+[0;33m [10, 119]: CurrentCount po: 70[0;37m
+[0;33m [10, 119]: czekam na recv[0;37m
+[0;33m [10, 121]: Dostałem RELEASE od 2, wycieczka miała rozmiar 9[0;37m
+[0;33m [10, 121]: CurrentCount przed: 70[0;37m
+[0;33m [10, 121]: CurrentCount po: 61[0;37m
+[1;37m [0, 124]: Akceptuję wycieczkę o wielkości 14 od procesu 7[0;37m
+[0;33m [10, 121]: czekam na recv[0;37m
+[0;37m [7, 123]: Stan InRun: 0[0;37m
+[0;37m [7, 123]: tripSize: 14 currentCount: 66[0;37m
+[0;37m [7, 123]: Ubiegam się o wejsćie do podprzestrzeni[0;37m
+[0;37m [7, 123]: W podprzestrzeni jest 66 osób[0;37m
+[0;37m [7, 123]: Jest miejsce w podprzestrzeni, wysyłam pytania o zgody[0;37m
+[0;37m [7, 124]: Wysyłam prośbę o sekcję krytyczną do 0
+[0;37m
+[0;37m [7, 125]: Wysyłam prośbę o sekcję krytyczną do 1
+[0;37m
+[0;37m [7, 126]: Wysyłam prośbę o sekcję krytyczną do 2
+[0;37m
+[1;34m [4, 128]: Akceptuję wycieczkę o wielkości 14 od procesu 7[0;37m
+[1;34m [4, 128]: CurrentCount przed: 66[0;37m
+[1;34m [4, 128]: CurrentCount po: 80[0;37m
+[1;34m [4, 129]: Wysyłam potwierdzenie do 7
+[0;37m
+[1;34m [4, 129]: czekam na recv[0;37m
+[1;35m [5, 129]: Akceptuję wycieczkę o wielkości 14 od procesu 7[0;37m
+[1;35m [5, 129]: CurrentCount przed: 66[0;37m
+[1;35m [5, 129]: CurrentCount po: 80[0;37m
+[1;35m [5, 130]: Wysyłam potwierdzenie do 7
+[0;37m
+[1;35m [5, 130]: czekam na recv[0;37m
+[1;37m [0, 124]: CurrentCount przed: 66[0;37m
+[0;37m [7, 127]: Wysyłam prośbę o sekcję krytyczną do 3
+[0;37m
+[0;37m [7, 128]: Wysyłam prośbę o sekcję krytyczną do 4
+[0;37m
+[0;37m [7, 129]: Wysyłam prośbę o sekcję krytyczną do 5
+[0;37m
+[0;37m [7, 130]: Wysyłam prośbę o sekcję krytyczną do 6
+[0;37m
+[0;37m [7, 131]: Wysyłam prośbę o sekcję krytyczną do 7
+[0;37m
+[0;37m [7, 132]: Wysyłam prośbę o sekcję krytyczną do 8
+[0;37m
+[0;37m [7, 133]: Wysyłam prośbę o sekcję krytyczną do 9
+[0;37m
+[1;31m [1, 125]: Akceptuję wycieczkę o wielkości 14 od procesu 7[0;37m
+[1;31m [1, 125]: CurrentCount przed: 66[0;37m
+[1;31m [1, 125]: CurrentCount po: 80[0;37m
+[1;31m [1, 126]: Wysyłam potwierdzenie do 7
+[0;37m
+[1;31m [1, 126]: czekam na recv[0;37m
+[1;32m [2, 126]: Akceptuję wycieczkę o wielkości 14 od procesu 7[0;37m
+[1;32m [2, 126]: CurrentCount przed: 66[0;37m
+[1;32m [2, 126]: CurrentCount po: 80[0;37m
+[1;32m [2, 127]: Wysyłam potwierdzenie do 7
+[0;37m
+[1;32m [2, 127]: czekam na recv[0;37m
+[0;33m [10, 125]: Akceptuję wycieczkę o wielkości 5 od procesu 3[0;37m
+[0;33m [10, 125]: CurrentCount przed: 61[0;37m
+[0;33m [10, 125]: CurrentCount po: 66[0;37m
+[0;33m [10, 126]: Wysyłam potwierdzenie do 3
+[0;37m
+[0;33m [10, 126]: czekam na recv[0;37m
+[0;33m [10, 134]: Akceptuję wycieczkę o wielkości 14 od procesu 7[0;37m
+[0;33m [10, 134]: CurrentCount przed: 66[0;37m
+[0;33m [10, 134]: CurrentCount po: 80[0;37m
+[0;33m [10, 135]: Wysyłam potwierdzenie do 7
+[0;37m
+[0;33m [10, 135]: czekam na recv[0;37m
+[0;37m [7, 134]: Wysyłam prośbę o sekcję krytyczną do 10
+[0;37m
+[0;37m [7, 135]: Wysyłam prośbę o sekcję krytyczną do 11
+[0;37m
+[0;37m [7, 135]: Skończyłem myśleć[0;37m
+[0;37m [7, 136]: Akceptuję wycieczkę o wielkości 14 od procesu 7[0;37m
+[0;37m [7, 136]: CurrentCount przed: 66[0;37m
+[0;37m [7, 136]: CurrentCount po: 80[0;37m
+[0;37m [7, 137]: Wysyłam potwierdzenie do 7
+[0;37m
+[0;34m [11, 135]: Akceptuję wycieczkę o wielkości 14 od procesu 7[0;37m
+[0;34m [11, 135]: CurrentCount przed: 66[0;37m
+[0;34m [11, 135]: CurrentCount po: 80[0;37m
+[0;34m [11, 136]: Wysyłam potwierdzenie do 7
+[0;37m
+[0;34m [11, 136]: czekam na recv[0;37m
+[1;33m [3, 140]: Akceptuję wycieczkę o wielkości 14 od procesu 7[0;37m
+[1;36m [6, 130]: Akceptuję wycieczkę o wielkości 14 od procesu 7[0;37m
+[1;36m [6, 130]: CurrentCount przed: 66[0;37m
+[1;36m [6, 130]: CurrentCount po: 80[0;37m
+[1;36m [6, 131]: Wysyłam potwierdzenie do 7
+[0;37m
+[1;36m [6, 131]: czekam na recv[0;37m
+[1;37m [0, 124]: CurrentCount po: 80[0;37m
+[1;37m [0, 125]: Wysyłam potwierdzenie do 7
+[0;37m
+[1;37m [0, 125]: czekam na recv[0;37m
+[0;31m [8, 132]: Akceptuję wycieczkę o wielkości 14 od procesu 7[0;37m
+[0;31m [8, 132]: CurrentCount przed: 66[0;37m
+[0;31m [8, 132]: CurrentCount po: 80[0;37m
+[0;31m [8, 133]: Wysyłam potwierdzenie do 7
+[0;37m
+[0;31m [8, 133]: czekam na recv[0;37m
+[0;32m [9, 133]: Akceptuję wycieczkę o wielkości 14 od procesu 7[0;37m
+[0;32m [9, 133]: CurrentCount przed: 66[0;37m
+[0;32m [9, 133]: CurrentCount po: 80[0;37m
+[0;32m [9, 134]: Wysyłam potwierdzenie do 7
+[0;37m
+[0;32m [9, 134]: czekam na recv[0;37m
+[0;37m [7, 137]: czekam na recv[0;37m
+[0;37m [7, 138]: Dostałem ACK od 7, mam już 0[0;37m
+[0;37m [7, 138]: czekam na recv[0;37m
+[0;37m [7, 139]: Dostałem ACK od 1, mam już 1[0;37m
+[0;37m [7, 139]: czekam na recv[0;37m
+[0;37m [7, 140]: Dostałem ACK od 2, mam już 2[0;37m
+[0;37m [7, 140]: czekam na recv[0;37m
+[0;37m [7, 141]: Dostałem ACK od 4, mam już 3[0;37m
+[0;37m [7, 141]: czekam na recv[0;37m
+[0;37m [7, 142]: Dostałem ACK od 5, mam już 4[0;37m
+[0;37m [7, 142]: czekam na recv[0;37m
+[0;37m [7, 143]: Dostałem ACK od 0, mam już 5[0;37m
+[0;37m [7, 143]: czekam na recv[0;37m
+[0;37m [7, 144]: Dostałem ACK od 8, mam już 6[0;37m
+[0;37m [7, 144]: czekam na recv[0;37m
+[0;37m [7, 145]: Dostałem ACK od 9, mam już 7[0;37m
+[0;37m [7, 145]: czekam na recv[0;37m
+[0;37m [7, 146]: Dostałem ACK od 10, mam już 8[0;37m
+[0;37m [7, 146]: czekam na recv[0;37m
+[0;37m [7, 147]: Dostałem ACK od 11, mam już 9[0;37m
+[0;37m [7, 147]: czekam na recv[0;37m
+[0;37m [7, 148]: Dostałem ACK od 6, mam już 10[0;37m
+[0;37m [7, 148]: czekam na recv[0;37m
+[1;33m [3, 140]: CurrentCount przed: 66[0;37m
+[1;33m [3, 140]: CurrentCount po: 80[0;37m
+[1;33m [3, 141]: Wysyłam potwierdzenie do 7
+[0;37m
+[1;33m [3, 141]: czekam na recv[0;37m
+[0;37m [7, 149]: Dostałem ACK od 3, mam już 11[0;37m
+[0;37m [7, 149]: czekam na recv[0;37m
+[1;33m [3, 142]: Dostałem ACK od 10, mam już 11[0;37m
+[1;33m [3, 142]: czekam na recv[0;37m
+[0;33m [10, 135]: Stan InRun: 0[0;37m
+[0;33m [10, 135]: Skończyłem myśleć[0;37m
+[1;36m [6, 131]: Wychodzę z podprzestrzeni[0;37m
+[1;36m [6, 131]: Zmieniam stan na wysyłanie[0;37m
+[1;37m [0, 132]: Dostałem RELEASE od 6, wycieczka miała rozmiar 6[0;37m
+[1;37m [0, 132]: CurrentCount przed: 80[0;37m
+[1;37m [0, 132]: CurrentCount po: 74[0;37m
+[1;37m [0, 132]: czekam na recv[0;37m
+[1;35m [5, 130]: Wychodzę z podprzestrzeni[0;37m
+[1;36m [6, 132]: Wysyłam zwolnienie sekcji krytycznej do 0
+[0;37m
+[1;36m [6, 133]: Wysyłam zwolnienie sekcji krytycznej do 1
+[0;37m
+[1;36m [6, 134]: Wysyłam zwolnienie sekcji krytycznej do 2
+[0;37m
+[1;36m [6, 135]: Wysyłam zwolnienie sekcji krytycznej do 3
+[0;37m
+[1;36m [6, 136]: Wysyłam zwolnienie sekcji krytycznej do 4
+[0;37m
+[1;36m [6, 137]: Wysyłam zwolnienie sekcji krytycznej do 5
+[0;37m
+[1;36m [6, 138]: Wysyłam zwolnienie sekcji krytycznej do 6
+[0;37m
+[1;36m [6, 140]: Wysyłam zwolnienie sekcji krytycznej do 7
+[0;37m
+[1;36m [6, 141]: Wysyłam zwolnienie sekcji krytycznej do 8
+[0;37m
+[1;32m [2, 127]: Stan InRun: 0[0;37m
+[1;32m [2, 127]: Skończyłem myśleć[0;37m
+[1;33m [3, 143]: Dostałem RELEASE od 6, wycieczka miała rozmiar 6[0;37m
+[1;33m [3, 143]: CurrentCount przed: 80[0;37m
+[1;33m [3, 143]: CurrentCount po: 74[0;37m
+[1;33m [3, 143]: czekam na recv[0;37m
+[1;33m [3, 144]: Dostałem RELEASE od 5, wycieczka miała rozmiar 13[0;37m
+[1;33m [3, 144]: CurrentCount przed: 74[0;37m
+[1;33m [3, 144]: CurrentCount po: 61[0;37m
+[1;33m [3, 144]: czekam na recv[0;37m
+[1;31m [1, 133]: Dostałem RELEASE od 6, wycieczka miała rozmiar 6[0;37m
+[1;31m [1, 133]: CurrentCount przed: 80[0;37m
+[1;31m [1, 133]: CurrentCount po: 74[0;37m
+[1;31m [1, 133]: czekam na recv[0;37m
+[1;31m [1, 134]: Dostałem RELEASE od 5, wycieczka miała rozmiar 13[0;37m
+[1;31m [1, 134]: CurrentCount przed: 74[0;37m
+[1;31m [1, 134]: CurrentCount po: 61[0;37m
+[1;31m [1, 134]: czekam na recv[0;37m
+[0;34m [11, 136]: Stan InRun: 0[0;37m
+[0;34m [11, 136]: Skończyłem myśleć[0;37m
+[0;37m [7, 150]: Dostałem RELEASE od 6, wycieczka miała rozmiar 6[0;37m
+[0;37m [7, 150]: CurrentCount przed: 80[0;37m
+[0;37m [7, 150]: CurrentCount po: 74[0;37m
+[0;37m [7, 150]: czekam na recv[0;37m
+[0;37m [7, 151]: Dostałem RELEASE od 5, wycieczka miała rozmiar 13[0;37m
+[0;37m [7, 151]: CurrentCount przed: 74[0;37m
+[0;37m [7, 151]: CurrentCount po: 61[0;37m
+[0;37m [7, 151]: czekam na recv[0;37m
+[1;35m [5, 130]: Zmieniam stan na wysyłanie[0;37m
+[1;35m [5, 131]: Wysyłam zwolnienie sekcji krytycznej do 0
+[0;37m
+[1;35m [5, 132]: Wysyłam zwolnienie sekcji krytycznej do 1
+[0;37m
+[1;35m [5, 133]: Wysyłam zwolnienie sekcji krytycznej do 2
+[0;37m
+[1;35m [5, 134]: Wysyłam zwolnienie sekcji krytycznej do 3
+[0;37m
+[1;35m [5, 135]: Wysyłam zwolnienie sekcji krytycznej do 4
+[0;37m
+[1;35m [5, 136]: Wysyłam zwolnienie sekcji krytycznej do 5
+[0;37m
+[1;35m [5, 137]: Wysyłam zwolnienie sekcji krytycznej do 6
+[0;37m
+[1;35m [5, 138]: Wysyłam zwolnienie sekcji krytycznej do 7
+[0;37m
+[1;35m [5, 139]: Wysyłam zwolnienie sekcji krytycznej do 8
+[0;37m
+[1;35m [5, 140]: Wysyłam zwolnienie sekcji krytycznej do 9
+[0;37m
+[1;35m [5, 141]: Wysyłam zwolnienie sekcji krytycznej do 10
+[0;37m
+[1;35m [5, 142]: Wysyłam zwolnienie sekcji krytycznej do 11
+[0;37m
+[1;35m [5, 143]: Dostałem RELEASE od 5, wycieczka miała rozmiar 13[0;37m
+[0;31m [8, 141]: Dostałem RELEASE od 6, wycieczka miała rozmiar 6[0;37m
+[0;31m [8, 141]: CurrentCount przed: 80[0;37m
+[0;31m [8, 141]: CurrentCount po: 74[0;37m
+[0;31m [8, 141]: czekam na recv[0;37m
+[0;31m [8, 142]: Dostałem RELEASE od 5, wycieczka miała rozmiar 13[0;37m
+[0;31m [8, 142]: CurrentCount przed: 74[0;37m
+[0;31m [8, 142]: CurrentCount po: 61[0;37m
+[0;31m [8, 142]: czekam na recv[0;37m
+[1;34m [4, 136]: Dostałem RELEASE od 6, wycieczka miała rozmiar 6[0;37m
+[1;34m [4, 136]: Stan InRun: 0[0;37m
+[1;34m [4, 136]: Skończyłem myśleć[0;37m
+[1;34m [4, 136]: CurrentCount przed: 80[0;37m
+[1;34m [4, 136]: CurrentCount po: 74[0;37m
+[1;34m [4, 136]: czekam na recv[0;37m
+[1;34m [4, 137]: Dostałem RELEASE od 5, wycieczka miała rozmiar 13[0;37m
+[1;34m [4, 137]: CurrentCount przed: 74[0;37m
+[1;34m [4, 137]: CurrentCount po: 61[0;37m
+[1;34m [4, 137]: czekam na recv[0;37m
+[1;37m [0, 133]: Dostałem RELEASE od 5, wycieczka miała rozmiar 13[0;37m
+[1;37m [0, 133]: CurrentCount przed: 74[0;37m
+[1;37m [0, 133]: CurrentCount po: 61[0;37m
+[1;37m [0, 133]: czekam na recv[0;37m
+[1;35m [5, 143]: CurrentCount przed: 80[0;37m
+[1;35m [5, 143]: CurrentCount po: 67[0;37m
+[1;35m [5, 143]: czekam na recv[0;37m
+[1;35m [5, 144]: Dostałem RELEASE od 6, wycieczka miała rozmiar 6[0;37m
+[1;35m [5, 144]: CurrentCount przed: 67[0;37m
+[1;35m [5, 144]: CurrentCount po: 61[0;37m
+[1;35m [5, 144]: czekam na recv[0;37m
+[1;32m [2, 134]: Dostałem RELEASE od 6, wycieczka miała rozmiar 6[0;37m
+[1;36m [6, 142]: Wysyłam zwolnienie sekcji krytycznej do 9
+[0;37m
+[1;36m [6, 143]: Wysyłam zwolnienie sekcji krytycznej do 10
+[0;37m
+[1;36m [6, 144]: Wysyłam zwolnienie sekcji krytycznej do 11
+[0;37m
+[1;36m [6, 139]: Dostałem RELEASE od 6, wycieczka miała rozmiar 6[0;37m
+[1;36m [6, 144]: CurrentCount przed: 80[0;37m
+[0;34m [11, 142]: Dostałem RELEASE od 5, wycieczka miała rozmiar 13[0;37m
+[0;34m [11, 142]: CurrentCount przed: 80[0;37m
+[0;34m [11, 142]: CurrentCount po: 67[0;37m
+[0;34m [11, 142]: czekam na recv[0;37m
+[0;34m [11, 144]: Dostałem RELEASE od 6, wycieczka miała rozmiar 6[0;37m
+[0;34m [11, 144]: CurrentCount przed: 67[0;37m
+[0;34m [11, 144]: CurrentCount po: 61[0;37m
+[0;34m [11, 144]: czekam na recv[0;37m
+[0;33m [10, 141]: Dostałem RELEASE od 5, wycieczka miała rozmiar 13[0;37m
+[0;33m [10, 141]: CurrentCount przed: 80[0;37m
+[0;33m [10, 141]: CurrentCount po: 67[0;37m
+[0;33m [10, 141]: czekam na recv[0;37m
+[0;33m [10, 143]: Dostałem RELEASE od 6, wycieczka miała rozmiar 6[0;37m
+[0;33m [10, 143]: CurrentCount przed: 67[0;37m
+[0;33m [10, 143]: CurrentCount po: 61[0;37m
+[0;33m [10, 143]: czekam na recv[0;37m
+[1;32m [2, 134]: CurrentCount przed: 80[0;37m
+[1;36m [6, 144]: CurrentCount po: 74[0;37m
+[1;36m [6, 144]: czekam na recv[0;37m
+[1;36m [6, 145]: Dostałem RELEASE od 5, wycieczka miała rozmiar 13[0;37m
+[1;36m [6, 145]: CurrentCount przed: 74[0;37m
+[1;36m [6, 145]: CurrentCount po: 61[0;37m
+[1;36m [6, 145]: czekam na recv[0;37m
+[1;32m [2, 134]: CurrentCount po: 74[0;37m
+[1;32m [2, 134]: czekam na recv[0;37m
+[1;33m [3, 144]: Stan InWant: 2[0;37m
+[1;33m [3, 144]: Czekam na wejście do podprzestrzeni[0;37m
+[1;33m [3, 144]: Mam niezbędne zgody, wchodzę![0;37m
+[1;32m [2, 135]: Dostałem RELEASE od 5, wycieczka miała rozmiar 13[0;37m
+[1;32m [2, 135]: CurrentCount przed: 74[0;37m
+[1;32m [2, 135]: CurrentCount po: 61[0;37m
+[1;32m [2, 135]: czekam na recv[0;37m
+[0;32m [9, 134]: Stan InRun: 0[0;37m
+[0;32m [9, 134]: tripSize: 11 currentCount: 80[0;37m
+[0;32m [9, 134]: Ubiegam się o wejsćie do podprzestrzeni[0;37m
+[0;32m [9, 134]: W podprzestrzeni jest 80 osób[0;37m
+[0;32m [9, 134]: Jest miejsce w podprzestrzeni, wysyłam pytania o zgody[0;37m
+[1;34m [4, 139]: Akceptuję wycieczkę o wielkości 11 od procesu 9[0;37m
+[1;34m [4, 139]: CurrentCount przed: 61[0;37m
+[1;34m [4, 139]: CurrentCount po: 72[0;37m
+[1;34m [4, 140]: Wysyłam potwierdzenie do 9
+[0;37m
+[0;32m [9, 135]: Wysyłam prośbę o sekcję krytyczną do 0
+[0;37m
+[0;32m [9, 136]: Wysyłam prośbę o sekcję krytyczną do 1
+[0;37m
+[0;32m [9, 137]: Wysyłam prośbę o sekcję krytyczną do 2
+[0;37m
+[0;32m [9, 138]: Wysyłam prośbę o sekcję krytyczną do 3
+[0;37m
+[0;32m [9, 139]: Wysyłam prośbę o sekcję krytyczną do 4
+[0;37m
+[0;32m [9, 140]: Dostałem RELEASE od 5, wycieczka miała rozmiar 13[0;37m
+[0;32m [9, 141]: Wysyłam prośbę o sekcję krytyczną do 5
+[0;37m
+[0;32m [9, 142]: Wysyłam prośbę o sekcję krytyczną do 6
+[0;37m
+[0;32m [9, 143]: Wysyłam prośbę o sekcję krytyczną do 7
+[0;37m
+[1;37m [0, 135]: Akceptuję wycieczkę o wielkości 11 od procesu 9[0;37m
+[1;37m [0, 135]: CurrentCount przed: 61[0;37m
+[1;37m [0, 135]: CurrentCount po: 72[0;37m
+[1;37m [0, 136]: Wysyłam potwierdzenie do 9
+[0;37m
+[1;37m [0, 136]: czekam na recv[0;37m
+[1;35m [5, 145]: Akceptuję wycieczkę o wielkości 11 od procesu 9[0;37m
+[1;35m [5, 145]: CurrentCount przed: 61[0;37m
+[1;35m [5, 145]: CurrentCount po: 72[0;37m
+[1;35m [5, 146]: Wysyłam potwierdzenie do 9
+[0;37m
+[1;35m [5, 146]: czekam na recv[0;37m
+[1;33m [3, 145]: Akceptuję wycieczkę o wielkości 11 od procesu 9[0;37m
+[1;33m [3, 145]: CurrentCount przed: 61[0;37m
+[1;33m [3, 145]: CurrentCount po: 72[0;37m
+[1;33m [3, 146]: Wysyłam potwierdzenie do 9
+[0;37m
+[1;33m [3, 146]: czekam na recv[0;37m
+[0;33m [10, 146]: Akceptuję wycieczkę o wielkości 11 od procesu 9[0;37m
+[0;33m [10, 146]: CurrentCount przed: 61[0;37m
+[0;33m [10, 146]: CurrentCount po: 72[0;37m
+[0;33m [10, 147]: Wysyłam potwierdzenie do 9
+[0;37m
+[0;33m [10, 147]: czekam na recv[0;37m
+[1;31m [1, 136]: Akceptuję wycieczkę o wielkości 11 od procesu 9[0;37m
+[1;31m [1, 136]: CurrentCount przed: 61[0;37m
+[1;31m [1, 136]: CurrentCount po: 72[0;37m
+[1;31m [1, 136]: Stan InSection: 3[0;37m
+[1;31m [1, 137]: Przechodzę przez podprzestrzeń![0;37m
+[1;31m [1, 137]: Wysyłam potwierdzenie do 9
+[0;37m
+[1;31m [1, 137]: czekam na recv[0;37m
+[1;36m [6, 146]: Akceptuję wycieczkę o wielkości 11 od procesu 9[0;37m
+[1;36m [6, 146]: CurrentCount przed: 61[0;37m
+[1;36m [6, 146]: CurrentCount po: 72[0;37m
+[1;36m [6, 147]: Wysyłam potwierdzenie do 9
+[0;37m
+[1;36m [6, 147]: czekam na recv[0;37m
+[0;34m [11, 147]: Akceptuję wycieczkę o wielkości 11 od procesu 9[0;37m
+[0;34m [11, 147]: CurrentCount przed: 61[0;37m
+[0;34m [11, 147]: CurrentCount po: 72[0;37m
+[0;34m [11, 148]: Wysyłam potwierdzenie do 9
+[0;37m
+[0;34m [11, 148]: czekam na recv[0;37m
+[0;37m [7, 152]: Akceptuję wycieczkę o wielkości 11 od procesu 9[0;37m
+[0;37m [7, 152]: CurrentCount przed: 61[0;37m
+[0;37m [7, 152]: CurrentCount po: 72[0;37m
+[0;37m [7, 153]: Wysyłam potwierdzenie do 9
+[0;37m
+[0;37m [7, 153]: czekam na recv[0;37m
+[0;32m [9, 144]: Wysyłam prośbę o sekcję krytyczną do 8
+[0;37m
+[0;32m [9, 145]: Wysyłam prośbę o sekcję krytyczną do 9
+[0;37m
+[0;32m [9, 146]: Wysyłam prośbę o sekcję krytyczną do 10
+[0;37m
+[0;32m [9, 147]: Wysyłam prośbę o sekcję krytyczną do 11
+[0;37m
+[0;32m [9, 147]: Skończyłem myśleć[0;37m
+[0;32m [9, 147]: CurrentCount przed: 80[0;37m
+[0;32m [9, 147]: CurrentCount po: 67[0;37m
+[0;32m [9, 147]: czekam na recv[0;37m
+[0;32m [9, 148]: Akceptuję wycieczkę o wielkości 11 od procesu 9[0;37m
+[0;32m [9, 148]: CurrentCount przed: 67[0;37m
+[0;32m [9, 148]: CurrentCount po: 78[0;37m
+[0;31m [8, 144]: Akceptuję wycieczkę o wielkości 11 od procesu 9[0;37m
+[0;31m [8, 144]: CurrentCount przed: 61[0;37m
+[0;31m [8, 144]: CurrentCount po: 72[0;37m
+[0;31m [8, 145]: Wysyłam potwierdzenie do 9
+[0;37m
+[0;31m [8, 145]: czekam na recv[0;37m
+[1;34m [4, 140]: czekam na recv[0;37m
+[0;32m [9, 149]: Wysyłam potwierdzenie do 9
+[0;37m
+[0;32m [9, 149]: czekam na recv[0;37m
+[0;32m [9, 150]: Dostałem ACK od 9, mam już 0[0;37m
+[0;32m [9, 150]: czekam na recv[0;37m
+[0;32m [9, 151]: Dostałem RELEASE od 6, wycieczka miała rozmiar 6[0;37m
+[0;32m [9, 151]: CurrentCount przed: 78[0;37m
+[0;32m [9, 151]: CurrentCount po: 72[0;37m
+[0;32m [9, 151]: czekam na recv[0;37m
+[0;32m [9, 152]: Dostałem ACK od 0, mam już 1[0;37m
+[0;32m [9, 152]: czekam na recv[0;37m
+[0;32m [9, 153]: Dostałem ACK od 1, mam już 2[0;37m
+[0;32m [9, 153]: czekam na recv[0;37m
+[0;32m [9, 154]: Dostałem ACK od 3, mam już 3[0;37m
+[0;32m [9, 154]: czekam na recv[0;37m
+[0;32m [9, 155]: Dostałem ACK od 4, mam już 4[0;37m
+[0;32m [9, 155]: czekam na recv[0;37m
+[0;32m [9, 156]: Dostałem ACK od 5, mam już 5[0;37m
+[0;32m [9, 156]: czekam na recv[0;37m
+[0;32m [9, 157]: Dostałem ACK od 6, mam już 6[0;37m
+[0;32m [9, 157]: czekam na recv[0;37m
+[0;32m [9, 158]: Dostałem ACK od 7, mam już 7[0;37m
+[0;32m [9, 158]: czekam na recv[0;37m
+[0;32m [9, 159]: Dostałem ACK od 8, mam już 8[0;37m
+[0;32m [9, 159]: czekam na recv[0;37m
+[0;32m [9, 160]: Dostałem ACK od 10, mam już 9[0;37m
+[0;32m [9, 160]: czekam na recv[0;37m
+[0;32m [9, 161]: Dostałem ACK od 11, mam już 10[0;37m
+[0;32m [9, 161]: czekam na recv[0;37m
+[0;32m [9, 162]: Dostałem ACK od 2, mam już 11[0;37m
+[0;32m [9, 162]: czekam na recv[0;37m
+[1;32m [2, 137]: Akceptuję wycieczkę o wielkości 11 od procesu 9[0;37m
+[1;32m [2, 137]: CurrentCount przed: 61[0;37m
+[1;32m [2, 137]: CurrentCount po: 72[0;37m
+[1;32m [2, 138]: Wysyłam potwierdzenie do 9
+[0;37m
+[1;32m [2, 138]: czekam na recv[0;37m
+[0;31m [8, 145]: Stan InSection: 3[0;37m
+[0;31m [8, 145]: Przechodzę przez podprzestrzeń![0;37m
+[0;37m [7, 153]: Stan InWant: 2[0;37m
+[0;37m [7, 153]: Czekam na wejście do podprzestrzeni[0;37m
+[0;37m [7, 153]: Mam niezbędne zgody, wchodzę![0;37m
+[1;34m [4, 152]: Akceptuję wycieczkę o wielkości 18 od procesu 10[0;37m
+[1;34m [4, 152]: CurrentCount przed: 72[0;37m
+[1;34m [4, 152]: CurrentCount po: 90[0;37m
+[1;34m [4, 153]: Wysyłam potwierdzenie do 10
+[0;37m
+[1;34m [4, 153]: czekam na recv[0;37m
+[1;34m [4, 154]: Dostałem RELEASE od 0, wycieczka miała rozmiar 14[0;37m
+[1;34m [4, 154]: CurrentCount przed: 90[0;37m
+[1;34m [4, 154]: CurrentCount po: 76[0;37m
+[1;34m [4, 154]: czekam na recv[0;37m
+[1;34m [4, 154]: Stan InRun: 0[0;37m
+[1;34m [4, 154]: Skończyłem myśleć[0;37m
+[1;34m [4, 163]: Akceptuję wycieczkę o wielkości 6 od procesu 6[0;37m
+[1;34m [4, 163]: CurrentCount przed: 76[0;37m
+[1;34m [4, 163]: CurrentCount po: 82[0;37m
+[1;34m [4, 164]: Wysyłam potwierdzenie do 6
+[0;37m
+[1;34m [4, 164]: czekam na recv[0;37m
+[1;32m [2, 150]: Akceptuję wycieczkę o wielkości 18 od procesu 10[0;37m
+[1;32m [2, 150]: CurrentCount przed: 72[0;37m
+[1;32m [2, 150]: CurrentCount po: 90[0;37m
+[1;32m [2, 151]: Wysyłam potwierdzenie do 10
+[0;37m
+[1;32m [2, 151]: czekam na recv[0;37m
+[1;32m [2, 152]: Dostałem RELEASE od 0, wycieczka miała rozmiar 14[0;37m
+[1;32m [2, 152]: Stan InRun: 0[0;37m
+[1;32m [2, 152]: Skończyłem myśleć[0;37m
+[1;32m [2, 152]: CurrentCount przed: 90[0;37m
+[1;32m [2, 152]: CurrentCount po: 76[0;37m
+[1;32m [2, 152]: czekam na recv[0;37m
+[1;32m [2, 159]: Akceptuję wycieczkę o wielkości 6 od procesu 6[0;37m
+[1;32m [2, 159]: CurrentCount przed: 76[0;37m
+[1;32m [2, 159]: CurrentCount po: 82[0;37m
+[1;32m [2, 160]: Wysyłam potwierdzenie do 6
+[0;37m
+[1;32m [2, 160]: czekam na recv[0;37m
+[0;37m [7, 155]: Akceptuję wycieczkę o wielkości 18 od procesu 10[0;37m
+[0;37m [7, 155]: CurrentCount przed: 72[0;37m
+[0;37m [7, 155]: CurrentCount po: 90[0;37m
+[0;37m [7, 156]: Wysyłam potwierdzenie do 10
+[0;37m
+[0;37m [7, 156]: czekam na recv[0;37m
+[0;37m [7, 157]: Dostałem RELEASE od 0, wycieczka miała rozmiar 14[0;37m
+[0;37m [7, 157]: CurrentCount przed: 90[0;37m
+[0;37m [7, 157]: CurrentCount po: 76[0;37m
+[0;37m [7, 157]: czekam na recv[0;37m
+[0;37m [7, 166]: Akceptuję wycieczkę o wielkości 6 od procesu 6[0;37m
+[0;37m [7, 166]: CurrentCount przed: 76[0;37m
+[0;37m [7, 166]: CurrentCount po: 82[0;37m
+[0;37m [7, 167]: Wysyłam potwierdzenie do 6
+[0;37m
+[0;37m [7, 167]: czekam na recv[0;37m
+[0;37m [7, 167]: Stan InSection: 3[0;37m
+[0;37m [7, 167]: Przechodzę przez podprzestrzeń![0;37m
+[1;37m [0, 136]: Wychodzę z podprzestrzeni[0;37m
+[1;37m [0, 136]: Zmieniam stan na wysyłanie[0;37m
+[1;37m [0, 137]: Wysyłam zwolnienie sekcji krytycznej do 0
+[0;37m
+[1;37m [0, 138]: Dostałem RELEASE od 0, wycieczka miała rozmiar 14[0;37m
+[1;37m [0, 139]: CurrentCount przed: 72[0;37m
+[1;37m [0, 139]: CurrentCount po: 58[0;37m
+[1;37m [0, 139]: czekam na recv[0;37m
+[1;37m [0, 139]: Wysyłam zwolnienie sekcji krytycznej do 1
+[0;37m
+[1;37m [0, 149]: Wysyłam zwolnienie sekcji krytycznej do 2
+[0;37m
+[1;37m [0, 150]: Wysyłam zwolnienie sekcji krytycznej do 3
+[0;37m
+[1;37m [0, 148]: Akceptuję wycieczkę o wielkości 18 od procesu 10[0;37m
+[1;37m [0, 151]: CurrentCount przed: 58[0;37m
+[1;37m [0, 151]: CurrentCount po: 76[0;37m
+[1;37m [0, 152]: Wysyłam potwierdzenie do 10
+[0;37m
+[1;37m [0, 152]: czekam na recv[0;37m
+[1;37m [0, 151]: Wysyłam zwolnienie sekcji krytycznej do 4
+[0;37m
+[1;37m [0, 153]: Wysyłam zwolnienie sekcji krytycznej do 5
+[0;37m
+[1;37m [0, 154]: Wysyłam zwolnienie sekcji krytycznej do 6
+[0;37m
+[1;37m [0, 155]: Wysyłam zwolnienie sekcji krytycznej do 7
+[0;37m
+[1;37m [0, 156]: Wysyłam zwolnienie sekcji krytycznej do 8
+[0;37m
+[1;37m [0, 157]: Wysyłam zwolnienie sekcji krytycznej do 9
+[0;37m
+[1;37m [0, 158]: Wysyłam zwolnienie sekcji krytycznej do 10
+[0;37m
+[1;37m [0, 159]: Wysyłam zwolnienie sekcji krytycznej do 11
+[0;37m
+[1;37m [0, 160]: Akceptuję wycieczkę o wielkości 6 od procesu 6[0;37m
+[1;37m [0, 160]: CurrentCount przed: 76[0;37m
+[1;37m [0, 160]: CurrentCount po: 82[0;37m
+[1;37m [0, 161]: Wysyłam potwierdzenie do 6
+[0;37m
+[1;37m [0, 161]: czekam na recv[0;37m
+[0;32m [9, 163]: Akceptuję wycieczkę o wielkości 18 od procesu 10[0;37m
+[0;32m [9, 163]: CurrentCount przed: 72[0;37m
+[0;32m [9, 163]: CurrentCount po: 90[0;37m
+[0;32m [9, 164]: Wysyłam potwierdzenie do 10
+[0;37m
+[0;32m [9, 164]: czekam na recv[0;37m
+[0;32m [9, 165]: Dostałem RELEASE od 0, wycieczka miała rozmiar 14[0;37m
+[0;32m [9, 165]: CurrentCount przed: 90[0;37m
+[0;32m [9, 165]: CurrentCount po: 76[0;37m
+[0;32m [9, 165]: czekam na recv[0;37m
+[0;32m [9, 168]: Akceptuję wycieczkę o wielkości 6 od procesu 6[0;37m
+[0;32m [9, 168]: CurrentCount przed: 76[0;37m
+[0;32m [9, 168]: CurrentCount po: 82[0;37m
+[0;32m [9, 169]: Wysyłam potwierdzenie do 6
+[0;37m
+[0;32m [9, 169]: czekam na recv[0;37m
+[0;32m [9, 169]: Stan InWant: 2[0;37m
+[0;32m [9, 169]: Czekam na wejście do podprzestrzeni[0;37m
+[0;32m [9, 169]: Mam niezbędne zgody, wchodzę![0;37m
+[1;35m [5, 153]: Akceptuję wycieczkę o wielkości 18 od procesu 10[0;37m
+[1;35m [5, 153]: CurrentCount przed: 72[0;37m
+[1;35m [5, 153]: CurrentCount po: 90[0;37m
+[1;35m [5, 154]: Wysyłam potwierdzenie do 10
+[0;37m
+[1;35m [5, 154]: czekam na recv[0;37m
+[1;35m [5, 155]: Dostałem RELEASE od 0, wycieczka miała rozmiar 14[0;37m
+[1;35m [5, 155]: CurrentCount przed: 90[0;37m
+[1;35m [5, 155]: CurrentCount po: 76[0;37m
+[1;35m [5, 155]: Stan InRun: 0[0;37m
+[1;35m [5, 155]: Skończyłem myśleć[0;37m
+[1;35m [5, 155]: czekam na recv[0;37m
+[1;35m [5, 164]: Akceptuję wycieczkę o wielkości 6 od procesu 6[0;37m
+[1;35m [5, 164]: CurrentCount przed: 76[0;37m
+[1;35m [5, 164]: CurrentCount po: 82[0;37m
+[1;35m [5, 165]: Wysyłam potwierdzenie do 6
+[0;37m
+[1;35m [5, 165]: czekam na recv[0;37m
+[1;33m [3, 151]: Akceptuję wycieczkę o wielkości 18 od procesu 10[0;37m
+[1;33m [3, 151]: CurrentCount przed: 72[0;37m
+[1;33m [3, 151]: CurrentCount po: 90[0;37m
+[1;33m [3, 152]: Wysyłam potwierdzenie do 10
+[0;37m
+[1;33m [3, 152]: czekam na recv[0;37m
+[1;33m [3, 153]: Dostałem RELEASE od 0, wycieczka miała rozmiar 14[0;37m
+[1;33m [3, 153]: CurrentCount przed: 90[0;37m
+[1;33m [3, 153]: CurrentCount po: 76[0;37m
+[1;33m [3, 153]: czekam na recv[0;37m
+[1;33m [3, 153]: Stan InSection: 3[0;37m
+[1;33m [3, 153]: Przechodzę przez podprzestrzeń![0;37m
+[1;33m [3, 162]: Akceptuję wycieczkę o wielkości 6 od procesu 6[0;37m
+[1;33m [3, 162]: CurrentCount przed: 76[0;37m
+[1;33m [3, 162]: CurrentCount po: 82[0;37m
+[1;33m [3, 163]: Wysyłam potwierdzenie do 6
+[0;37m
+[1;33m [3, 163]: czekam na recv[0;37m
+[0;33m [10, 147]: Stan InRun: 0[0;37m
+[0;33m [10, 147]: tripSize: 18 currentCount: 72[0;37m
+[0;33m [10, 147]: Ubiegam się o wejsćie do podprzestrzeni[0;37m
+[0;33m [10, 147]: W podprzestrzeni jest 72 osób[0;37m
+[0;33m [10, 147]: Jest miejsce w podprzestrzeni, wysyłam pytania o zgody[0;37m
+[0;33m [10, 148]: Wysyłam prośbę o sekcję krytyczną do 0
+[0;37m
+[0;33m [10, 149]: Wysyłam prośbę o sekcję krytyczną do 1
+[0;37m
+[0;33m [10, 150]: Wysyłam prośbę o sekcję krytyczną do 2
+[0;37m
+[0;33m [10, 151]: Wysyłam prośbę o sekcję krytyczną do 3
+[0;37m
+[0;33m [10, 152]: Wysyłam prośbę o sekcję krytyczną do 4
+[0;37m
+[0;33m [10, 153]: Wysyłam prośbę o sekcję krytyczną do 5
+[0;37m
+[0;33m [10, 154]: Wysyłam prośbę o sekcję krytyczną do 6
+[0;37m
+[0;33m [10, 155]: Wysyłam prośbę o sekcję krytyczną do 7
+[0;37m
+[0;33m [10, 156]: Wysyłam prośbę o sekcję krytyczną do 8
+[0;37m
+[0;33m [10, 157]: Wysyłam prośbę o sekcję krytyczną do 9
+[0;37m
+[0;33m [10, 158]: Wysyłam prośbę o sekcję krytyczną do 10
+[0;37m
+[0;33m [10, 159]: Wysyłam prośbę o sekcję krytyczną do 11
+[0;37m
+[0;33m [10, 159]: Skończyłem myśleć[0;37m
+[0;33m [10, 160]: Akceptuję wycieczkę o wielkości 18 od procesu 10[0;37m
+[0;33m [10, 160]: CurrentCount przed: 72[0;37m
+[0;33m [10, 160]: CurrentCount po: 90[0;37m
+[0;33m [10, 161]: Wysyłam potwierdzenie do 10
+[0;37m
+[0;33m [10, 161]: czekam na recv[0;37m
+[0;33m [10, 162]: Dostałem ACK od 10, mam już 0[0;37m
+[0;33m [10, 162]: czekam na recv[0;37m
+[0;33m [10, 163]: Dostałem ACK od 1, mam już 1[0;37m
+[0;33m [10, 163]: czekam na recv[0;37m
+[0;33m [10, 164]: Dostałem ACK od 4, mam już 2[0;37m
+[0;33m [10, 164]: czekam na recv[0;37m
+[0;33m [10, 165]: Dostałem ACK od 5, mam już 3[0;37m
+[0;33m [10, 165]: czekam na recv[0;37m
+[0;33m [10, 166]: Dostałem ACK od 6, mam już 4[0;37m
+[0;33m [10, 166]: czekam na recv[0;37m
+[0;33m [10, 167]: Dostałem ACK od 2, mam już 5[0;37m
+[0;33m [10, 167]: czekam na recv[0;37m
+[0;33m [10, 168]: Dostałem ACK od 7, mam już 6[0;37m
+[0;33m [10, 168]: czekam na recv[0;37m
+[0;33m [10, 169]: Dostałem ACK od 8, mam już 7[0;37m
+[0;33m [10, 169]: czekam na recv[0;37m
+[0;33m [10, 170]: Dostałem ACK od 0, mam już 8[0;37m
+[0;33m [10, 170]: czekam na recv[0;37m
+[0;33m [10, 171]: Dostałem ACK od 11, mam już 9[0;37m
+[0;33m [10, 171]: czekam na recv[0;37m
+[0;33m [10, 172]: Dostałem ACK od 3, mam już 10[0;37m
+[0;33m [10, 172]: czekam na recv[0;37m
+[0;33m [10, 173]: Dostałem RELEASE od 0, wycieczka miała rozmiar 14[0;37m
+[0;33m [10, 173]: CurrentCount przed: 90[0;37m
+[0;33m [10, 173]: CurrentCount po: 76[0;37m
+[0;33m [10, 173]: czekam na recv[0;37m
+[0;33m [10, 174]: Dostałem ACK od 9, mam już 11[0;37m
+[0;33m [10, 174]: czekam na recv[0;37m
+[0;33m [10, 175]: Akceptuję wycieczkę o wielkości 6 od procesu 6[0;37m
+[0;33m [10, 175]: CurrentCount przed: 76[0;37m
+[0;33m [10, 175]: CurrentCount po: 82[0;37m
+[0;33m [10, 176]: Wysyłam potwierdzenie do 6
+[0;37m
+[0;33m [10, 176]: czekam na recv[0;37m
+[1;31m [1, 149]: Akceptuję wycieczkę o wielkości 18 od procesu 10[0;37m
+[1;31m [1, 149]: CurrentCount przed: 72[0;37m
+[1;31m [1, 149]: CurrentCount po: 90[0;37m
+[1;31m [1, 150]: Wysyłam potwierdzenie do 10
+[0;37m
+[1;31m [1, 150]: czekam na recv[0;37m
+[1;31m [1, 151]: Dostałem RELEASE od 0, wycieczka miała rozmiar 14[0;37m
+[1;31m [1, 151]: CurrentCount przed: 90[0;37m
+[1;31m [1, 151]: CurrentCount po: 76[0;37m
+[1;31m [1, 151]: czekam na recv[0;37m
+[1;31m [1, 158]: Akceptuję wycieczkę o wielkości 6 od procesu 6[0;37m
+[1;31m [1, 158]: CurrentCount przed: 76[0;37m
+[1;31m [1, 158]: CurrentCount po: 82[0;37m
+[1;31m [1, 159]: Wysyłam potwierdzenie do 6
+[0;37m
+[1;31m [1, 159]: czekam na recv[0;37m
+[1;36m [6, 154]: Akceptuję wycieczkę o wielkości 18 od procesu 10[0;37m
+[1;36m [6, 154]: CurrentCount przed: 72[0;37m
+[1;36m [6, 154]: CurrentCount po: 90[0;37m
+[1;36m [6, 155]: Wysyłam potwierdzenie do 10
+[0;37m
+[1;36m [6, 155]: czekam na recv[0;37m
+[1;36m [6, 156]: Dostałem RELEASE od 0, wycieczka miała rozmiar 14[0;37m
+[1;36m [6, 156]: CurrentCount przed: 90[0;37m
+[1;36m [6, 156]: CurrentCount po: 76[0;37m
+[1;36m [6, 156]: czekam na recv[0;37m
+[1;36m [6, 156]: Stan InRun: 0[0;37m
+[1;36m [6, 156]: tripSize: 6 currentCount: 76[0;37m
+[1;36m [6, 156]: Ubiegam się o wejsćie do podprzestrzeni[0;37m
+[1;36m [6, 156]: W podprzestrzeni jest 76 osób[0;37m
+[1;36m [6, 156]: Jest miejsce w podprzestrzeni, wysyłam pytania o zgody[0;37m
+[1;36m [6, 157]: Wysyłam prośbę o sekcję krytyczną do 0
+[0;37m
+[1;36m [6, 158]: Wysyłam prośbę o sekcję krytyczną do 1
+[0;37m
+[1;36m [6, 159]: Wysyłam prośbę o sekcję krytyczną do 2
+[0;37m
+[1;36m [6, 162]: Wysyłam prośbę o sekcję krytyczną do 3
+[0;37m
+[1;36m [6, 163]: Wysyłam prośbę o sekcję krytyczną do 4
+[0;37m
+[1;36m [6, 164]: Wysyłam prośbę o sekcję krytyczną do 5
+[0;37m
+[1;36m [6, 165]: Wysyłam prośbę o sekcję krytyczną do 6
+[0;37m
+[1;36m [6, 166]: Wysyłam prośbę o sekcję krytyczną do 7
+[0;37m
+[1;36m [6, 167]: Wysyłam prośbę o sekcję krytyczną do 8
+[0;37m
+[1;36m [6, 168]: Wysyłam prośbę o sekcję krytyczną do 9
+[0;37m
+[1;36m [6, 169]: Wysyłam prośbę o sekcję krytyczną do 10
+[0;37m
+[1;36m [6, 170]: Wysyłam prośbę o sekcję krytyczną do 11
+[0;37m
+[1;36m [6, 170]: Skończyłem myśleć[0;37m
+[1;36m [6, 161]: Dostałem ACK od 0, mam już 0[0;37m
+[1;36m [6, 170]: czekam na recv[0;37m
+[1;36m [6, 171]: Akceptuję wycieczkę o wielkości 6 od procesu 6[0;37m
+[1;36m [6, 171]: CurrentCount przed: 76[0;37m
+[1;36m [6, 171]: CurrentCount po: 82[0;37m
+[1;36m [6, 172]: Wysyłam potwierdzenie do 6
+[0;37m
+[1;36m [6, 172]: czekam na recv[0;37m
+[1;36m [6, 173]: Dostałem ACK od 6, mam już 1[0;37m
+[1;36m [6, 173]: czekam na recv[0;37m
+[1;36m [6, 174]: Dostałem ACK od 2, mam już 2[0;37m
+[1;36m [6, 174]: czekam na recv[0;37m
+[1;36m [6, 175]: Dostałem ACK od 4, mam już 3[0;37m
+[1;36m [6, 175]: czekam na recv[0;37m
+[1;36m [6, 176]: Dostałem ACK od 3, mam już 4[0;37m
+[1;36m [6, 176]: czekam na recv[0;37m
+[1;36m [6, 177]: Dostałem ACK od 1, mam już 5[0;37m
+[1;36m [6, 177]: czekam na recv[0;37m
+[1;36m [6, 178]: Dostałem ACK od 7, mam już 6[0;37m
+[1;36m [6, 178]: czekam na recv[0;37m
+[1;36m [6, 179]: Dostałem ACK od 5, mam już 7[0;37m
+[1;36m [6, 179]: czekam na recv[0;37m
+[1;36m [6, 180]: Dostałem ACK od 8, mam już 8[0;37m
+[1;36m [6, 180]: czekam na recv[0;37m
+[1;36m [6, 181]: Dostałem ACK od 9, mam już 9[0;37m
+[1;36m [6, 181]: czekam na recv[0;37m
+[1;36m [6, 182]: Dostałem ACK od 10, mam już 10[0;37m
+[1;36m [6, 182]: czekam na recv[0;37m
+[1;36m [6, 183]: Dostałem ACK od 11, mam już 11[0;37m
+[1;36m [6, 183]: czekam na recv[0;37m
+[0;34m [11, 159]: Akceptuję wycieczkę o wielkości 18 od procesu 10[0;37m
+[0;34m [11, 159]: CurrentCount przed: 72[0;37m
+[0;34m [11, 159]: CurrentCount po: 90[0;37m
+[0;34m [11, 160]: Wysyłam potwierdzenie do 10
+[0;37m
+[0;34m [11, 160]: czekam na recv[0;37m
+[0;34m [11, 161]: Dostałem RELEASE od 0, wycieczka miała rozmiar 14[0;37m
+[0;34m [11, 161]: CurrentCount przed: 90[0;37m
+[0;34m [11, 161]: Stan InRun: 0[0;37m
+[0;34m [11, 161]: tripSize: 16 currentCount: 90[0;37m
+[0;34m [11, 161]: Ubiegam się o wejsćie do podprzestrzeni[0;37m
+[0;34m [11, 161]: W podprzestrzeni jest 90 osób[0;37m
+[0;34m [11, 161]: Nie ma miejsca, czekamy[0;37m
+[0;34m [11, 161]: CurrentCount po: 76[0;37m
+[0;34m [11, 161]: czekam na recv[0;37m
+[0;34m [11, 170]: Akceptuję wycieczkę o wielkości 6 od procesu 6[0;37m
+[0;34m [11, 170]: CurrentCount przed: 76[0;37m
+[0;34m [11, 170]: CurrentCount po: 82[0;37m
+[0;34m [11, 171]: Wysyłam potwierdzenie do 6
+[0;37m
+[0;34m [11, 171]: czekam na recv[0;37m
+[0;31m [8, 156]: Akceptuję wycieczkę o wielkości 18 od procesu 10[0;37m
+[0;31m [8, 156]: CurrentCount przed: 72[0;37m
+[0;31m [8, 156]: CurrentCount po: 90[0;37m
+[0;31m [8, 157]: Wysyłam potwierdzenie do 10
+[0;37m
+[0;31m [8, 157]: czekam na recv[0;37m
+[0;31m [8, 158]: Dostałem RELEASE od 0, wycieczka miała rozmiar 14[0;37m
+[0;31m [8, 158]: CurrentCount przed: 90[0;37m
+[0;31m [8, 158]: CurrentCount po: 76[0;37m
+[0;31m [8, 158]: czekam na recv[0;37m
+[0;31m [8, 167]: Akceptuję wycieczkę o wielkości 6 od procesu 6[0;37m
+[0;31m [8, 167]: CurrentCount przed: 76[0;37m
+[0;31m [8, 167]: CurrentCount po: 82[0;37m
+[0;31m [8, 168]: Wysyłam potwierdzenie do 6
+[0;37m
+[0;31m [8, 168]: czekam na recv[0;37m

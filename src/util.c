@@ -64,9 +64,9 @@ void sendPacket(packet_t *pkt, int destination, int tag) {
     pkt->src = rank;
     pkt->ts = lamportClock;
     MPI_Send(pkt, 1, MPI_PAKIET_T, destination, tag, MPI_COMM_WORLD);
-    pthread_mutex_lock(&clockMut);
-    lamportClock++;
-    pthread_mutex_unlock(&clockMut);
+//    pthread_mutex_lock(&clockMut);
+//    lamportClock++;
+//    pthread_mutex_unlock(&clockMut);
     debug("Wysyłam %s do %d\n", tag2string(tag), destination);
     if (freepkt) free(pkt);
 }
