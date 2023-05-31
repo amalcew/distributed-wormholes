@@ -16,6 +16,7 @@
 #define STATE_CHANGE_PROB 10
 
 #define ROOT 0
+#define DEBUG
 
 /* tutaj TYLKO zapowiedzi - definicje w main.c */
 extern int rank;
@@ -24,8 +25,11 @@ extern int lamportClock;
 extern int ackCount;
 extern pthread_t threadKom;
 extern pthread_mutex_t clockMut;
+extern pthread_mutex_t counterMut;
 
-
+extern int tripSize;
+extern int maxCapacity;
+extern int currentCount;
 
 
 
