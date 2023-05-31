@@ -1,6 +1,8 @@
 #include "main.h"
 #include "watek_komunikacyjny.h"
 
+pthread_mutex_t counterMut = PTHREAD_MUTEX_INITIALIZER;
+
 /* wątek komunikacyjny; zajmuje się odbiorem i reakcją na komunikaty */
 void *startKomWatek(void *ptr) {
     MPI_Status status;
@@ -18,12 +20,25 @@ void *startKomWatek(void *ptr) {
         pthread_mutex_unlock(&clockMut);
         switch (status.MPI_TAG) {
             case REQUEST:
-                debug("Ktoś coś prosi. A niech ma!")
+                debug("Akceptuję wycieczkę o wielkości %d od procesu %d", pakiet.tripSize, status.MPI_SOURCE);
+                pthread_mutex_lock(&counterMut);
+                debug("CurrentCount przed: %d", currentCount);
+                currentCount += pakiet.tripSize;
+                debug("CurrentCount po: %d", currentCount);
+                pthread_mutex_unlock(&counterMut);
                 sendPacket(0, status.MPI_SOURCE, ACK);
                 break;
             case ACK:
                 debug("Dostałem ACK od %d, mam już %d", status.MPI_SOURCE, ackCount);
                 ackCount++; /* czy potrzeba tutaj muteksa? Będzie wyścig, czy nie będzie? Zastanówcie się. */
+                break;
+            case RELEASE:
+                debug("Dostałem RELEASE od %d, wycieczka miała rozmiar %d", status.MPI_SOURCE, pakiet.tripSize);
+                pthread_mutex_lock(&counterMut);
+                debug("CurrentCount przed: %d", currentCount);
+                currentCount -= pakiet.tripSize;
+                debug("CurrentCount po: %d", currentCount);
+                pthread_mutex_unlock(&counterMut);
                 break;
             default:
                 break;

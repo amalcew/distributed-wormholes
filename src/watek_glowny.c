@@ -14,9 +14,9 @@ void mainLoop() {
                 if (perc < 25) {
                     tripSize = random() % 20 + 1;
                     //debug("Perc: %d", perc);
-                    debug("tripSize: %d", tripSize);
-                    println("Ubiegam się o wejsćie do podprzestrzeni")
-
+                    debug("tripSize: %d currentCount: %d", tripSize, currentCount);
+                    println("Ubiegam się o wejsćie do podprzestrzeni");
+                    println("W podprzestrzeni jest %d osób", currentCount);
                     while (currentCount > maxCapacity - tripSize) {
                         // TODO: zastanwocić się, czy da się ulepszyć tą sekcję kody żeby wywalić sleepa
                         println("Nie ma miejsca, czekamy");
