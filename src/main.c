@@ -14,6 +14,7 @@
 int rank, size;
 int ackCount = 0;
 int lamportClock = 0;
+int priority = -1;
 int tripSize;
 int maxCapacity = 100;
 int currentCount = 0;
