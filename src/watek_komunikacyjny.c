@@ -20,7 +20,7 @@ void *startKomWatek(void *ptr) {
                 (priority < pakiet.ts) ||
                 (priority == pakiet.ts && rank < pakiet.src)
                 || (rank == status.MPI_SOURCE)
-                //|| (1)
+                || (1)
                 ) {
                     //if (currentCount + pakiet.tripSize < maxCapacity) {
                         if (rank == status.MPI_SOURCE) debug("Wysyłam ACK samemu sobie, piątka stary!");
