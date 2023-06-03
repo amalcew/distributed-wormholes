@@ -15,15 +15,15 @@ void *startKomWatek(void *ptr) {
 
         switch (status.MPI_TAG) {
             case REQUEST:
+                //debug("priority: %d\npakiet.ts: %d\nrank: %d\npakiet.src: %d", priority, pakiet.ts, rank, pakiet.src)
                 if (
-                (stan != InWant) ||
-                (priority < pakiet.ts) ||
-                (priority == pakiet.ts && rank < pakiet.src)
-                || (rank == status.MPI_SOURCE)
-                //|| (1)
+                    // jeśli nie ubiegasz się o sekcję, puszczaj wszystko
+                    (stan != InWant) ||
+                    // w innym wypadku puszczaj tylko wątki o wyższym priorytecie lub wyższym identyfikatorze
+                    ((stan = InWant) && ( priority < pakiet.ts || (priority == pakiet.ts && rank < pakiet.src) || rank == pakiet.src ))
+                    //|| (1)
                 ) {
                     //if (currentCount + pakiet.tripSize < maxCapacity) {
-                        if (rank == status.MPI_SOURCE) debug("Wysyłam ACK samemu sobie, piątka stary!");
                         debug("Akceptuję wycieczkę o wielkości %d od procesu %d", pakiet.tripSize, status.MPI_SOURCE);
                         pthread_mutex_lock(&counterMut);
                         debug("CurrentCount przed: %d", currentCount);
@@ -38,12 +38,6 @@ void *startKomWatek(void *ptr) {
                 break;
             case ACK:
                 debug("Dostałem ACK od %d, mam już %d", status.MPI_SOURCE, ackCount);
-                pthread_mutex_lock(&clockMut);
-                if (lamportClock < pakiet.ts) {
-                    lamportClock = pakiet.ts;
-                }
-                lamportClock++;
-                pthread_mutex_unlock(&clockMut);
                 ackCount++; /* czy potrzeba tutaj muteksa? Będzie wyścig, czy nie będzie? Zastanówcie się. */
                 break;
             case RELEASE:

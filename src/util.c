@@ -62,11 +62,8 @@ void sendPacket(packet_t *pkt, int destination, int tag) {
         freepkt = 1;
     }
     pkt->src = rank;
-    pkt->ts = lamportClock;
+    pkt->ts = priority;
     MPI_Send(pkt, 1, MPI_PAKIET_T, destination, tag, MPI_COMM_WORLD);
-//    pthread_mutex_lock(&clockMut);
-//    lamportClock++;
-//    pthread_mutex_unlock(&clockMut);
     debug("Wysyłam %s do %d\n", tag2string(tag), destination);
     if (freepkt) free(pkt);
 }
@@ -79,4 +76,14 @@ void changeState(state_t newState) {
     }
     stan = newState;
     pthread_mutex_unlock(&stateMut);
+}
+
+
+void updateClock() {
+    pthread_mutex_lock(&clockMut);
+    if (lamportClock < priority) {
+        lamportClock = priority;
+    }
+    lamportClock++;
+    pthread_mutex_unlock(&clockMut);
 }
