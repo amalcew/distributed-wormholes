@@ -34,7 +34,6 @@ void *startKomWatek(void *ptr) {
                     } else {
                         debug("Odrzucam prośbę od procesu %d", status.MPI_SOURCE);
                     //}
-                    }
                 }
                 break;
             case ACK:
