@@ -27,10 +27,11 @@ void mainLoop() {
                     packet_t *pkt = malloc(sizeof(packet_t));
                     pkt->tripSize = tripSize;
                     ackCount = 0;
-                    for (int i = 0; i <= size - 1; i++)
+                    for (int i = 0; i <= size - 1; i++) {
                         //if (i != rank)
+                        priority = lamportClock;
                         sendPacket(pkt, i, REQUEST);
-
+                    }
                     changeState(InWant);
                     free(pkt);
                 }
@@ -57,11 +58,12 @@ void mainLoop() {
                 debug("Zmieniam stan na wysyłanie");
                 packet_t *pkt = malloc(sizeof(packet_t));
                 pkt->tripSize = tripSize;
-                for (int i = 0; i <= size - 1; i++)
+                for (int i = 0; i <= size - 1; i++) {
                     //if (i != rank)
 //                        sendPacket(pkt, (rank + 1) % size, RELEASE);
+                    priority = -1;
                     sendPacket(pkt, i, RELEASE);
-
+                }
                 changeState(InRun);
                 free(pkt);
                 break;

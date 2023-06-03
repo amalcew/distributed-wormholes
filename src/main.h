@@ -22,6 +22,7 @@
 extern int rank;
 extern int size;
 extern int lamportClock;
+extern int priority;
 extern int ackCount;
 extern pthread_t threadKom;
 extern pthread_mutex_t clockMut;

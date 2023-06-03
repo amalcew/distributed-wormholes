@@ -15,9 +15,14 @@ void *startKomWatek(void *ptr) {
 
         switch (status.MPI_TAG) {
             case REQUEST:
-                if (1) {
-                // if (stan != InWant || lamportClock < pakiet.ts || (lamportClock == pakiet.ts && rank < status.MPI_SOURCE) || rank == status.MPI_SOURCE) {
-                    if (currentCount + pakiet.tripSize < maxCapacity) {
+                if (
+                (stan != InWant) ||
+                (priority < pakiet.ts) ||
+                (priority == pakiet.ts && rank < pakiet.src)
+                || (rank == status.MPI_SOURCE)
+                //|| (1)
+                ) {
+                    //if (currentCount + pakiet.tripSize < maxCapacity) {
                         if (rank == status.MPI_SOURCE) debug("Wysyłam ACK samemu sobie, piątka stary!");
                         debug("Akceptuję wycieczkę o wielkości %d od procesu %d", pakiet.tripSize, status.MPI_SOURCE);
                         pthread_mutex_lock(&counterMut);
