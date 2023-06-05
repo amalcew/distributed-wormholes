@@ -11,8 +11,9 @@ void mainLoop() {
                 debug("Stan InRun: %d", stan);
                 perc = random() % 100;
                 if (perc < 25) {
-                    tripSize = random() % 20 + 1;
-                    debug("tripSize: %d currentCount: %d", tripSize, currentCount);
+                    if (flagRepeat == 1) debug("Powtarzam prośbę o dopuszczenie do podprzestrzeni");
+                    if (flagRepeat == 0) tripSize = random() % 20 + 1;
+                    debug("tripSize: %d currentCount: %d flagRepeat: %d", tripSize, currentCount, flagRepeat);
                     println("Ubiegam się o wejsćie do podprzestrzeni");
                     println("W podprzestrzeni jest %d osób", currentCount);
                     while (currentCount > maxCapacity - tripSize) {
@@ -26,7 +27,7 @@ void mainLoop() {
                     pkt->tripSize = tripSize;
                     ackCount = 0;
                     for (int i = 0; i <= size - 1; i++) {
-                        priority = lamportClock;
+                        if (flagRepeat == 0) priority = lamportClock;
                         sendPacket(pkt, i, REQUEST);
                     }
                     changeState(InWant);
@@ -41,10 +42,13 @@ void mainLoop() {
                 // bo aktywne czekanie jest BUE
                 if (ackCount == size) {
                     println("Mam niezbędne zgody, wchodzę!")
+                    flagRepeat = 0;
                     changeState(InSection);
                 } else {
                     updateClock();
                     println("Nie dostałem wymaganej ilości zgód, czekam")
+                    flagRepeat = 1;
+                    changeState(InRun);
                 }
                 break;
             case InSection:
