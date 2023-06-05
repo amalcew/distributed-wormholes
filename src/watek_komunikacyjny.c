@@ -50,7 +50,7 @@ void *startKomWatek(void *ptr) {
                     // jeśli nie ubiegasz się o sekcję, puszczaj wszystko
                         (stan != InWant) ||
                         // w innym wypadku puszczaj tylko wątki o wyższym priorytecie lub wyższym identyfikatorze
-                        ((stan = InWant) && ( priority < pakiet.ts || (priority == pakiet.ts && rank < pakiet.src) || rank == pakiet.src ))
+                        ((stan = InWant) && ( priority > pakiet.ts || (priority == pakiet.ts && rank < pakiet.src) || rank == pakiet.src ))
                     //|| (1)
                         ) {
                     //if (currentCount + pakiet.tripSize < maxCapacity) {
