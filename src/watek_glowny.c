@@ -47,25 +47,43 @@ void mainLoop() {
                 } else {
                     updateClock();
                     println("Nie dostałem wymaganej ilości zgód, czekam")
-                    flagRepeat = 1;
-                    changeState(InRun);
+                    //flagRepeat = 1;
+                    // TODO [pytanie do Daniego]: czy niezgodnie z algorytmem możemy sobie tutaj odejmować od currentCounta?
+                    //changeState(InRun);
                 }
                 break;
             case InSection:
                 debug("Stan InSection: %d", stan);
-                // tutaj zapewne jakiś muteks albo zmienna warunkowa
-                println("Przechodzę przez podprzestrzeń!")
-                sleep(5);
-                println("Wychodzę z podprzestrzeni")
-                debug("Zmieniam stan na wysyłanie");
-                packet_t *pkt = malloc(sizeof(packet_t));
-                pkt->tripSize = tripSize;
-                for (int i = 0; i <= size - 1; i++) {
-                    priority = -1;
-                    sendPacket(pkt, i, RELEASE);
+                if (flagEscape == 0) {
+                    println("Przechodzę przez podprzestrzeń!");
+                    int sleepTime = (random() % 5) + 1;
+                    sleep(sleepTime);
+                    flagEscape = 1;
                 }
-                changeState(InRun);
-                free(pkt);
+                println("Czekam w kolejce do wyjścia");
+                // TODO [pytanie do Daniego]: jak rozwiązać problem pamiętania priorytetów, bez pamiętania całej historii komunikatów
+                int canGo = 1;
+                for (int i=0; i<size;i++) {
+                    //if (<cośtam>) {
+                    //    canGo = 0;
+                    //    break;
+                    //}
+                }
+
+                if (canGo == 1) {
+                    println("Wychodzę z podprzestrzeni");
+                    debug("Zmieniam stan na wysyłanie");
+                    packet_t *pkt = malloc(sizeof(packet_t));
+                    pkt->tripSize = tripSize;
+                    for (int i = 0; i <= size - 1; i++) {
+                        priority = -1;
+                        sendPacket(pkt, i, RELEASE);
+                    }
+                    changeState(InRun);
+                    free(pkt);
+                } else {
+                    printf("Nie wychodzę, ktoś ma wyższy priorytet");
+                }
                 break;
             default:
                 break;

@@ -29,6 +29,7 @@ extern pthread_mutex_t clockMut;
 extern pthread_mutex_t counterMut;
 
 extern int flagRepeat;
+extern int flagEscape;
 extern int tripSize;
 extern int maxCapacity;
 extern int currentCount;

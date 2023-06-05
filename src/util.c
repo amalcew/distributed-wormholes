@@ -78,7 +78,6 @@ void changeState(state_t newState) {
     pthread_mutex_unlock(&stateMut);
 }
 
-
 void updateClock() {
     pthread_mutex_lock(&clockMut);
     if (lamportClock < priority) {
